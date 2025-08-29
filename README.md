@@ -10,14 +10,16 @@ Este projeto irá desenvolver uma aplicação  com foco em otimizar as operaçõ
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Bruno Rodrigues dos Santos Primo 
+* Gustavo Henrique Ferreira
+* João Gabriel Moutinho dos Santos
+* Rhaniel Lucas Pinto
+* Talisson Vilaca Silva
+* Victoria Gabriella Maia Silva
 
 ## Orientador
 
-* Nome completo do professor 1
+* Cleia Marcia Gomes Amaral
 
 ## Instruções de utilização
 
