@@ -1,10 +1,10 @@
-# TÍTULO DO PROJETO
+# MARCA AÍ 
 
-`CURSO`
+`SISTEMAS DE INFORMAÇÃO`
 
-`DISCIPLINA`
+`TRABALHO INTERDISCIPLINAR: APLICAÇÕES PARA PROCESSOS DE NEGÓCIOS`
 
-`SEMESTRE`
+`2025/2`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
