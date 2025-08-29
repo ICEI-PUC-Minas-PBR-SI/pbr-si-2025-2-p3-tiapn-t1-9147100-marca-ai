@@ -12,40 +12,72 @@ No cenário atual, a transformação digital tem se consolidado como um pilar fu
 
 O mercado de barbearias tem experimentado um crescimento significativo nos últimos anos, impulsionado pela valorização da imagem pessoal e pela busca por serviços especializados. Contudo, muitas barbearias ainda operam com processos majoritariamente manuais para tarefas como agendamento de horários, controle de estoque de produtos e  gestão do relacionamento com o cliente. Pesquisas de mercado indicam que a automação de processos pode gerar uma redução de custos operacionais e um aumento da satisfação do cliente, devido à maior agilidade, precisão e personalização do atendimento. Este trabalho insere-se, portanto, no contexto da aplicação de soluções tecnológicas para aprimorar a gestão de negócios de serviço, partindo de um panorama geral de digitalização até a aplicação específica em uma barbearia.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+## 1.3 Objetivo Geral
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Propor e desenvolver um sistema de automação de processos para uma barbearia, visando otimizar a gestão de agendamentos, o relacionamento com o cliente e o controle operacional, promovendo maior eficiência e satisfação.
 
-## Objetivos
+## 1.3.1 Objetivos específicos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+. Analisar os fluxos de trabalho existentes em uma barbearia típica, identificando os gargalos e as oportunidades mais relevantes para a automação.  
+. Projetar funcionalidades-chave para o sistema, incluindo agendamento online intuitivo, registro de clientes e um processo de marketing direcionado.
+. Avaliar o potencial impacto da implementação do sistema na redução de erros, no aumento da produtividade e na melhoria da experiência geral para clientes e profissionais da barbearia.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+## 1.4 Justificativas
 
-## Justificativa
+O desenvolvimento deste sistema de automação para barbearias justifica-se por diversas razões. Primeiramente, a automação de agendamentos e a gestão de clientes proporcionarão maior conveniência aos usuários e reduzirão o tempo dedicado a tarefas administrativas, liberando os profissionais para se concentrarem no serviço principal. Em segundo lugar, um controle de estoque automatizado evitará perdas e garantirá a disponibilidade de produtos, otimizando o capital de giro. 
+Além disso, a coleta e análise de dados geradas pelo sistema permitirão à gerência da barbearia tomar decisões mais informadas, identificar tendências e personalizar ofertas, o que é crucial para a fidelização de clientes em um mercado competitivo. Academicamente, este projeto oferece uma oportunidade valiosa para aplicar conceitos de engenharia de software e gestão de processos em um cenário real, gerando uma contribuição prática que pode servir de modelo para outros negócios de pequeno e médio porte no setor de serviços.
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+## 2 Público-Alvo(Participantes do Processo)
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A definição clara dos perfis dos usuários-chave é essencial para garantir que o sistema de automação seja intuitivo, funcional e atenda às necessidades específicas de cada grupo. Para o sistema de automação de uma barbearia, foram identificados três perfis principais, cujas características e papéis no sistema são descritos a seguir. A caracterização desses perfis pode ser aprofundada por meio de pesquisa de mercado, utilizando entrevistas, questionários ou análise de dados demográficos, a fim de garantir que o sistema atenda às expectativas e necessidades reais de cada grupo.
 
-## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+## 2.1 Cliente (Usuário Final) 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Descrição: Indivíduo que busca serviços de barbearia (cortes de cabelo, barba, tratamentos, etc.). Variam em idade (de adolescentes a adultos maduros), com diferentes níveis de familiaridade com tecnologia, mas com alta expectativa por conveniência e agilidade no agendamento e atendimento. Buscam praticidade e uma experiência personalizada.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Papel no Sistema: Realizar agendamentos online de serviços, escolhendo barbeiro, data e horário.  
+Visualizar e gerenciar agendamentos futuros (cancelar, reagendar).
+Acessar histórico de serviços realizados..  
+Receber notificações sobre agendamentos e promoções.  
+Atualizar informações de perfil e preferências.
+
+## 2.2 Barbeiro / Profissional de Serviço
+
+Descrição: Profissional responsável pela execução dos serviços oferecidos pela barbearia. Geralmente focado na qualidade do atendimento e na gestão de sua própria agenda de clientes. Podem ter diferentes níveis de alfabetização digital, mas precisam de uma ferramenta que otimize seu tempo e minimize interrupções.
+
+Papel no sistema: Visualizar sua agenda diária e semanal de atendimentos.
+Marcar e cancelar agendamentos (inclusive para encaixes emergenciais). 
+Registrar serviços realizados após cada atendimento. 
+Gerenciar sua disponibilidade de horários.
+
+## 2.3 Administrador / Proprietário da Barbearia
+
+Descrição: Responsável pela gestão estratégica e operacional do negócio. Toma decisões sobre finanças, marketing, estoque, recursos humanos e desempenho geral. Necessita de uma visão consolidada e detalhada de todas as operações para otimizar a lucratividade e o crescimento.
+
+Papel no sistema: Gerenciar cadastros de clientes, barbeiros, serviços e preços.  
+Acessar relatórios detalhados sobre agendamentos, faturamento, serviços mais procurados e desempenho dos barbeiros.
+Configurar horários de funcionamento da barbearia e regras de agendamento.
+Enviar comunicados e campanhas de marketing para clientes.  
+Realizar ajustes gerais nas configurações do sistema.
+
+## 3 LISTAGEM DOS 5 PROCESSOS DE NEGÓCIO ESCOLHIDOS
+
+1. Agendamento e Cancelamento de Consultas: Processo central do sistema. Envolve a interação do cliente com a plataforma para encontrar, reservar, cancelar ou alterar um horário, oferecendo flexibilidade tanto para o cliente quanto para a barbearia e otimizando a gestão da agenda.
+   
+2. Processo de Marketing Direcionado: Processo de comunicação e engajamento. Garante que o cliente e o profissional recebam lembretes sobre os agendamentos, reduzindo a chance de faltas.
+
+3. Avaliação e Feedback: Processo de coleta de opiniões e experiências. Permite que o cliente avalie o atendimento e os serviços prestados, fornecendo insumos valiosos para a melhoria contínua da barbearia e aumentando a confiança de novos clientes.
+   
+4. Cadastro de Usuário/Barbearia: Processo de gerenciamento de dados. Define como novos clientes, profissionais e barbearias são registrados no sistema, garantindo a organização e integridade das informações.
+
+5.Escolha do profissional e Serviços Disponíveis: Processo de seleção e personalização. Permite ao cliente escolher o profissional de sua preferência e os serviços desejados, customizando a experiência de acordo com suas necessidades.
+
+
+
+
+
+
+
