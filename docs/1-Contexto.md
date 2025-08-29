@@ -1,11 +1,18 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Este relatório apresenta a análise inicial e o planejamento estratégico para odesenvolvimento de um sistema de automação de processos, com foco em otimizar as operações de uma barbearia.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+## 1.1 Problema 
+
+O principal problema que este trabalho busca endereçar é a ineficiência gerada pelos processos manuais e pela falta de integração na gestão de uma barbearia. A dependência de agendas de papel, planilhas desatualizadas e comunicação fragmentada resulta em uma série de desafios operacionais: conflitos de agendamento, dificuldade em acompanhar o histórico de serviços dos clientes, perda de oportunidades de reengajamento e uma visão limitada sobre o desempenho do negócio. Tais ineficiências impactam diretamente a produtividade dos barbeiros, a satisfação dos clientes e, consequentemente, a lucratividade e a capacidade competitiva da barbearia.
+
+## 1.2 Contextualização
+
+No cenário atual, a transformação digital tem se consolidado como um pilar fundamental para a sustentabilidade e crescimento de negócios em diversos setores. A busca por eficiência operacional, melhoria da experiência do cliente e otimização de recursos tem impulsionado a adoção de tecnologias de automação em empresas de todos os portes. No segmento de serviços de beleza e bem-estar, especificamente no setor de barbearias, essa tendência é cada vez mais evidente. 
+
+O mercado de barbearias tem experimentado um crescimento significativo nos últimos anos, impulsionado pela valorização da imagem pessoal e pela busca por serviços especializados. Contudo, muitas barbearias ainda operam com processos majoritariamente manuais para tarefas como agendamento de horários, controle de estoque de produtos e  gestão do relacionamento com o cliente. Pesquisas de mercado indicam que a automação de processos pode gerar uma redução de custos operacionais e um aumento da satisfação do cliente, devido à maior agilidade, precisão e personalização do atendimento. Este trabalho insere-se, portanto, no contexto da aplicação de soluções tecnológicas para aprimorar a gestão de negócios de serviço, partindo de um panorama geral de digitalização até a aplicação específica em uma barbearia.
 
 Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
