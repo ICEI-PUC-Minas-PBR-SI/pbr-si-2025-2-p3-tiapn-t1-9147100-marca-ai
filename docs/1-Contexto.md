@@ -72,7 +72,7 @@ Realizar ajustes gerais nas configurações do sistema.
 3. Avaliação e Feedback: Processo de coleta de opiniões e experiências. Permite que o cliente avalie o atendimento e os serviços prestados, fornecendo insumos valiosos para a melhoria contínua da barbearia e aumentando a confiança de novos clientes.
    
 4. Cadastro de Usuário/Barbearia: Processo de gerenciamento de dados. Define como novos clientes, profissionais e barbearias são registrados no sistema, garantindo a organização e integridade das informações.
-
+   
 5.Escolha do profissional e Serviços Disponíveis: Processo de seleção e personalização. Permite ao cliente escolher o profissional de sua preferência e os serviços desejados, customizando a experiência de acordo com suas necessidades.
 
 
