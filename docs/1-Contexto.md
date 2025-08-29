@@ -73,7 +73,7 @@ Realizar ajustes gerais nas configurações do sistema.
    
 4. Cadastro de Usuário/Barbearia: Processo de gerenciamento de dados. Define como novos clientes, profissionais e barbearias são registrados no sistema, garantindo a organização e integridade das informações.
    
-5.Escolha do profissional e Serviços Disponíveis: Processo de seleção e personalização. Permite ao cliente escolher o profissional de sua preferência e os serviços desejados, customizando a experiência de acordo com suas necessidades.
+5. Escolha do profissional e Serviços Disponíveis: Processo de seleção e personalização. Permite ao cliente escolher o profissional de sua preferência e os serviços desejados, customizando a experiência de acordo com suas necessidades.
 
 
 
