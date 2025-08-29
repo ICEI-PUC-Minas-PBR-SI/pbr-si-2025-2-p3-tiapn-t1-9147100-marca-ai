@@ -2,8 +2,6 @@
 
 Este relatório apresenta a análise inicial e o planejamento estratégico para odesenvolvimento de um sistema de automação de processos, com foco em otimizar as operações de uma barbearia.
 
-## Problema
-
 ## 1.1 Problema 
 
 O principal problema que este trabalho busca endereçar é a ineficiência gerada pelos processos manuais e pela falta de integração na gestão de uma barbearia. A dependência de agendas de papel, planilhas desatualizadas e comunicação fragmentada resulta em uma série de desafios operacionais: conflitos de agendamento, dificuldade em acompanhar o histórico de serviços dos clientes, perda de oportunidades de reengajamento e uma visão limitada sobre o desempenho do negócio. Tais ineficiências impactam diretamente a produtividade dos barbeiros, a satisfação dos clientes e, consequentemente, a lucratividade e a capacidade competitiva da barbearia.
