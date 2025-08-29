@@ -6,7 +6,7 @@
 
 `2025/2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Este projeto irá desenvolver uma aplicação  com foco em otimizar as operações de uma barbearia. Propondo e desenvolvendo um sistema de automação de processos, visando otimizar a gestão de agendamentos, o relacionamento com o cliente e o controle operacional, promovendo maior eficiência e satisfação.
 
 ## Integrantes
 
