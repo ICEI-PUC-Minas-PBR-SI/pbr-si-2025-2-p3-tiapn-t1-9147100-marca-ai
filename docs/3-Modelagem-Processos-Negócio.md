@@ -7,10 +7,10 @@
 
 ### 3.1. Modelagem da situação atual (Modelagem AS IS)
 
-_Apresente uma descrição textual de como os sistemas atuais resolvem o problema que se propõe a resolver.  Caso sua proposta seja inovadora e não existam processos claramente definidos, **apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente**, mesmo que não se utilize tecnologia computacional._
+Atualmente, grande parte das barbearias não utilizam ferramentas digitais de gestão. Na maioria dos casos único canal digital usado nos dias de hoje é o WhatsApp, que serve apenas para comunicação 
+básica com os clientes como agendar um atendimento. Não há site, redes sociais ativas, um sistema de agendamento online automatizado ou marketing digital.
 
-Com o tema do projeto definido, escolham alguns processos neste contexto de negócios. Para ilustrar potenciais ganhos com a automatização, imaginem processos manuais, ineficientes e/ou com muitas idas e vindas, gerando, assim, retrabalho.
-Colem aqui os modelos dos processos atuais (modelo AS-IS), elaborados com o apoio da ferramenta baseada em BPMN utilizada na disciplina.
+No momento atual, o cliente vai até a porta da barbearia, pega o número do WhatsApp que está no outdoor e envia mensagem para agendar um atendimento, porém não é possível escolher um profissional e nem ver os horários que estão disponíveis na agenda da barbearia, visto que, a barbearia não possui uma aplicação para tal e também tem uma demanda muito alta. Após a mensagem ser enviada, é verificado com todos os profissionais da barbearia qual tem um horário disponível que seja o solicitado pelo cliente, só assim é agendado o atendimento e o secretário envia a confirmação via WhatsApp para o cliente. Da forma como este processo é feito possibilita grandes margens de erro para cancelamento e reagendamento visto que é um processo todo manual. 
 
 ### 3.2. Descrição geral da proposta (Modelagem TO BE)
 
