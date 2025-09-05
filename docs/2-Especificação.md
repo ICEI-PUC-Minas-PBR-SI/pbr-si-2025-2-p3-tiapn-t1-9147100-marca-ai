@@ -8,7 +8,13 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Carlos tem 40 anos, atua como barbeiro há 20 anos e é dono da barbearia Marca ai há 10 anos. Gosta de processos práticos e rápidos. Com o aumento do número de clientes ao longo dos anos, está buscando uma forma de agilizar a marcação de horários dos seus clientes sem ser por telefone ou whatsapp, visto que, estas formas ocupam muito do seu tempo e não é nada prático. 
+
+André tem 21 anos, tem apenas 1 ano de experiência como barbeiro, é adaptado ao uso de tecnologia, visto que, desde criança teve contato com computadores, videogames e celulares. Se popôs a auxiliar Carlos a usar essas novas tecnologias, seu objetivo principal é conquistar o máximo de clientes possíveis para futuramente abrir sua própria barbearia. 
+
+Pedro tem 35 anos, cliente fiel da barbearia Marca ai, é dono de uma empresa de tecnologia e vive uma rotina muito corrida cheia de reuniões e contratempos. Ele gosta de processos rápidos que facilitem no seu dia a dia, como por exemplo: pedir comida online e agendamentos rápidos.  
+
+Arthur tem 17 anos e está no último ano do ensino médio, Arthur gosta de mudanças, tem o costume de experimentar coisas novas, tal qual cortar o cabelo cada mês com um barbeiro diferente. Arthur também é amante da tecnologia e é muito fan de futebol.  
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
