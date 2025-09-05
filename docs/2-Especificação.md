@@ -44,14 +44,19 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
+As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. 
 
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o cliente realize agendamento | ALTA | 
+|RF-002| Possibilitar cancelamento e reagendamento de serviços | ALTA |
+|RF-003| Cadastrar clientes, barbeiros e serviços | ALTA | 
+|RF-004| Permitir gerenciamento da agenda pelo barbeiro | ALTA | 
+|RF-005| Permitir que o administrador configure preços e horários | MÉDIA | 
+|RF-006| Enviar notificações automáticas (confirmação, lembrete, promoções) | MÉDIA | 
+|RF-007| Registrar histórico de serviços do cliente | BAIXA | 
 
 ### Requisitos não Funcionais
 
