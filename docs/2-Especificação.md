@@ -74,8 +74,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O sistema será compatível apenas com navegadores modernos e dispositivos móveis comuns |
+|02| A segurança será básica, sem criptografia avançada ou autenticação complexa        |
+|03| O escopo será limitado às funcionalidades essenciais: agendamento, cadastro, gerenciamento de agenda, envio de notificações e registro de histórico de serviços        |
+|04| O tempo de resposta poderá variar devido à ausência de backend        |
+|05| O sistema terá interface funcional e simples, sem elementos decorativos avançados, devido ao prazo de entrega        |
+|06| Não será possível cadastrar um número exorbitante de usuários ou implementar gerenciamento profissional de usuários, pois o projeto é acadêmico        |
+|07| A aplicação não será publicada online; funcionará apenas em ambiente local para testes        |
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
