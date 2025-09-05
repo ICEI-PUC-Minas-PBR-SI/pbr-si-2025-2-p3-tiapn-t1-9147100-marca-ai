@@ -14,11 +14,11 @@ No momento atual, o cliente vai até a porta da barbearia, pega o número do Wha
 
 ### 3.2. Descrição geral da proposta (Modelagem TO BE)
 
-Tendo identificado os gargalos dos modelos AS IS, apresentem uma descrição da proposta de solução, buscando maior eficiência com a introdução da tecnologia. Abordem também os limites dessa solução e o seu alinhamento com as estratégias e objetivos do contexto de negócio escolhido. 
-Colem aqui os modelos da solução proposta (modelo TO BE) elaborados com o apoio da ferramenta baseada em BPMN utilizada na disciplina.
-Cada processo identificado deve ter seu modelo TO-BE específico. Descrevam as oportunidades de melhoria de cada processo da solução proposta.
+O cliente, em vez de enviar uma mensagem por WhatsApp, acessa a plataforma digital "Marca Aí". Nela, ele poderá escolher a barbearia do seu gosto, após essa etapa, o cliente tem a possibilidade de personalizar o seu agendamento. Em seguida, o sistema exibe uma lista de barbeiros disponíveis no estabelecimento, escolhendo o funcionário desejado, a aplicação exibirá os horários disponíveis do profissional para a realizar do agendamento. Com essa etapa concluída, o cliente seleciona o serviço desejado.
 
-_Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias._
+Após fazer as escolhas, o cliente finaliza o processo e o sistema cuida do resto, minimizando erros e otimizando a comunicação. O próprio sistema enviará uma confirmação do agendamento ao usuário e um lembrete do serviço agendado em algum momento antes do atendimento, reduzindo a taxa de não comparecimento. Também será possível ao cliente remarcar ou cancelar de forma autônoma o agendamento. A barbearia e o profissional também ficam cientes do serviço agendado, através de notificações geradas pelo sistema e pelo horário agendado pelo cliente que é atualizado em tempo real.
+
+O sistema armazena o histórico de serviços de cada cliente, permitindo uma experiência mais personalizada no futuro. E através de um sistema de avaliações de profissinais e estabelcimentos, será possível implementar estratégias de marketing digital, como enviar promoções personalizadas ou comunicar-se com clientes que não agendam há um tempo.
 
 ### 3.3. Modelagem dos processos
 
