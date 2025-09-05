@@ -14,7 +14,7 @@ Este projeto irá desenvolver uma aplicação  com foco em otimizar as operaçõ
 * Gustavo Henrique Ferreira
 * João Gabriel Moutinho dos Santos
 * Rhaniel Lucas Pinto
-* Talisson Vilaca Silva
+* Talisson Vilaça Silva
 * Victoria Gabriella Maia Silva
 
 ## Orientador
