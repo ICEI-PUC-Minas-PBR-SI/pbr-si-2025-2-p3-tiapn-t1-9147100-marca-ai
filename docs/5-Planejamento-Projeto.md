@@ -26,9 +26,9 @@ Atualizado em: 05/09/2025
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | João Gabriel      | Introdução | 01/08/2025     | 08/08/2025 | ✔️    | 08/08/2005      |
 | João Gabriel       | Objetivos    | 01/08/2025     | 08/08/2025  | ✔️    |  08/08/2005   |
-| Gustavo Ferreira       | Histórias de usuário  | 05/09/2025  | 12/09/2025 | 📝 |  |            
-| Gustavo Ferreira       | Personas 1  |    05/08/2025  | 12/09/2025 | 📝 | |       
-| Victoria Gabriella    | Requisitos | 05/09/2025  | 12/09/2025 | 📝 |  |     
+| Gustavo Ferreira       | Histórias de usuário  | 05/09/2025  | 12/09/2025 | ✔️ |  |            
+| Gustavo Ferreira       | Personas 1  |    05/08/2025  | 12/09/2025 | ✔️ | |       
+| Victoria Gabriella    | Requisitos | 05/09/2025  | 12/09/2025 | ✔️ |  |     
 | Bruno Primo     | Restrições | 05/09/2025  | 12/09/2025 | 📝 |  |  
 
 ## Sprint 2
