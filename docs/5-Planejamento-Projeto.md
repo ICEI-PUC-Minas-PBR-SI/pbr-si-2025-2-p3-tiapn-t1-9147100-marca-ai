@@ -41,8 +41,8 @@ Atualizado em: 05/09/2024
 | Gustavo Ferreira       | Atualizar template   | 29/08/2025     | 29/08/2025 | ✔️   |   29/08/2025              |
 | Gustavo Ferreira       | Planejamento Sprint 1/2  | 05/09/2025     | 05/09/2025  | ✔️    |   05/09/2025               |
 | Rhaniel       | Descrição AS IS |  29/08/2025    | 29/08/2025 | ✔️         | 29/08/2025  |
-| Talisson      | Descrição proposta de solução |  05/09/2025    | 12/09/2025 | 📝        |   |
-| Rhaniel      | Modelagem e modelo BPMN |  05/09/2025    | 12/09/2025 | ✔️        |  05/09/2025 |
+| Talisson      | Descrição proposta de solução |  05/09/2025    | 12/09/2025 | ✔️       |  05/09/2025 |
+| Rhaniel      | Modelagem e modelo BPMN |  05/09/2025    | 12/09/2025 | 📝        |   |
 
 Legenda:
 - ✔️: terminado
