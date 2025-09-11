@@ -1,4 +1,4 @@
-# Introdução
+# 1. Introdução
 
 Este relatório apresenta a análise inicial e o planejamento estratégico para odesenvolvimento de um sistema de automação de processos, com foco em otimizar as operações de uma barbearia.
 
@@ -29,7 +29,7 @@ O desenvolvimento deste sistema de automação para barbearias justifica-se por 
 Além disso, a coleta e análise de dados geradas pelo sistema permitirão à gerência da barbearia tomar decisões mais informadas, identificar tendências e personalizar ofertas, o que é crucial para a fidelização de clientes em um mercado competitivo. Academicamente, este projeto oferece uma oportunidade valiosa para aplicar conceitos de engenharia de software e gestão de processos em um cenário real, gerando uma contribuição prática que pode servir de modelo para outros negócios de pequeno e médio porte no setor de serviços.
 
 
-## 2 Público-Alvo(Participantes do Processo)
+## 2. Público-Alvo(Participantes do Processo)
 
 A definição clara dos perfis dos usuários-chave é essencial para garantir que o sistema de automação seja intuitivo, funcional e atenda às necessidades específicas de cada grupo. Para o sistema de automação de uma barbearia, foram identificados três perfis principais, cujas características e papéis no sistema são descritos a seguir. A caracterização desses perfis pode ser aprofundada por meio de pesquisa de mercado, utilizando entrevistas, questionários ou análise de dados demográficos, a fim de garantir que o sistema atenda às expectativas e necessidades reais de cada grupo.
 
