@@ -16,7 +16,7 @@ O mercado de barbearias tem experimentado um crescimento significativo nos últi
 
 Propor e desenvolver um sistema de automação de processos para uma barbearia, visando otimizar a gestão de agendamentos, o relacionamento com o cliente e o controle operacional, promovendo maior eficiência e satisfação.
 
-## 1.3.1 Objetivos específicos
+### 1.3.1 Objetivos específicos
 
 . Analisar os fluxos de trabalho existentes em uma barbearia típica, identificando os gargalos e as oportunidades mais relevantes para a automação.  
 . Projetar funcionalidades-chave para o sistema, incluindo agendamento online intuitivo, registro de clientes e um processo de marketing direcionado.
