@@ -1,7 +1,7 @@
 # 5. Planejamento do Projeto
 
 > Aqui será feito o gerenciamento das tarefas de implementação do projeto.
-
+/
 ## 5.1. Divisão de Papéis
 
 > Apresente a divisão de papéis entre os membros do grupo em cada sprint. O desejável é que, em cada sprint, o aluno assuma papéis diferentes na disciplina. Siga o modelo do exemplo abaixo:
@@ -29,7 +29,7 @@ Atualizado em: 05/09/2025
 | Gustavo Ferreira       | Histórias de usuário  | 05/09/2025  | 12/09/2025 | ✔️ | 05/09/2025 |            
 | Gustavo Ferreira       | Personas 1  |    05/09/2025  | 12/09/2025 | ✔️ |05/09/2025  |       
 | Victoria Gabriella    | Requisitos | 05/09/2025  | 12/09/2025 | ✔️ | 05/09/2025 |     
-| Bruno Primo     | Restrições | 05/09/2025  | 12/09/2025 | 📝 |  |  
+| Bruno Primo     | Restrições | 05/09/2025  | 12/09/2025 | ✔️  | 05/09/2025 |  
 
 ## Sprint 2
 
