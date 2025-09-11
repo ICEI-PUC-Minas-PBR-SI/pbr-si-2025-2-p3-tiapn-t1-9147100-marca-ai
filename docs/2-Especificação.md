@@ -68,9 +68,3 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |05| O sistema terá interface funcional e simples, sem elementos decorativos avançados, devido ao prazo de entrega        |
 |06| Não será possível cadastrar um número exorbitante de usuários ou implementar gerenciamento profissional de usuários, pois o projeto é acadêmico        |
 |07| A aplicação não será publicada online; funcionará apenas em ambiente local para testes        |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
