@@ -1,10 +1,6 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="01-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A seguir, serão apresentadas as especificações do projeto, contemplando a definição das personas, a descrição das histórias de usuários, os requisitos funcionais e não funcionais, além das restrições que orientam o desenvolvimento da solução.
 
 ## Personas
 
@@ -37,13 +33,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o cliente realize agendamento | ALTA | 
+|RF-001| Cadastrar clientes, barbeiros e serviços | ALTA | 
 |RF-002| Possibilitar cancelamento e reagendamento de serviços | ALTA |
-|RF-003| Cadastrar clientes, barbeiros e serviços | ALTA | 
+|RF-003| Permitir que o cliente realize agendamento | ALTA | 
 |RF-004| Permitir gerenciamento da agenda pelo barbeiro | ALTA | 
 |RF-005| Permitir que o administrador configure preços e horários | MÉDIA | 
 |RF-006| Enviar notificações automáticas (confirmação, lembrete, promoções) | MÉDIA | 
-|RF-007| Registrar histórico de serviços do cliente | BAIXA | 
+|RF-007| Permitir interação entre cliente e profissional | MÉDIA | 
+|RF-008| Registrar histórico de serviços do cliente | BAIXA | 
 
 ### Requisitos não Funcionais
 
