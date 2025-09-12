@@ -1,67 +1,124 @@
-### 3.3.1 Processo 1 – NOME DO PROCESSO
+### 3.3.1 Processo 1 – Agendamento de Tarefas
 
-_Apresente aqui o nome e as oportunidades de melhoria para o processo 1. 
-Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN._
+**Agendamento de Serviços na Barbearia**
 
-![Exemplo de um Modelo BPMN do PROCESSO 1](../images/process.png "Modelo BPMN do Processo 1.")
+Esse processo concentra, em um único sistema, as opções de agendamento, reagendamento e cancelamento de atendimentos em tempo real. Dessa forma, oferece maior comodidade aos clientes e garante à barbearia e seus profissionais um controle mais eficiente da agenda. Além disso, possibilita uma melhor distribuição das atividades e horários, reduzindo falhas manuais e evitando conflitos na marcação de serviços.
+
+<img width="1678" height="383" alt="image" src="https://github.com/user-attachments/assets/998b5668-345e-4e01-8f26-557f116421d8" />
+
 
 #### Detalhamento das atividades
 
-_Descreva aqui cada uma das propriedades das atividades do processo 1. 
-Devem estar relacionadas com o modelo de processo apresentado anteriormente._
+**Realizar Cadastro**
 
-_Os tipos de dados a serem utilizados são:_
-
-_* **Área de texto** - campo texto de múltiplas linhas_
-
-_* **Caixa de texto** - campo texto de uma linha_
-
-_* **Número** - campo numérico_
-
-_* **Data** - campo do tipo data (dd-mm-aaaa)_
-
-_* **Hora** - campo do tipo hora (hh:mm:ss)_
-
-_* **Data e Hora** - campo do tipo data e hora (dd-mm-aaaa, hh:mm:ss)_
-
-_* **Imagem** - campo contendo uma imagem_
-
-_* **Seleção única** - campo com várias opções de valores que são mutuamente exclusivas (tradicional radio button ou combobox)_
-
-_* **Seleção múltipla** - campo com várias opções que podem ser selecionadas mutuamente (tradicional checkbox ou listbox)_
-
-_* **Arquivo** - campo de upload de documento_
-
-_* **Link** - campo que armazena uma URL_
-
-_* **Tabela** - campo formado por uma matriz de valores_
-
-
-**Nome da atividade 1**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-| ***Exemplo:***  |                  |                |                   |
-| login           | Caixa de Texto   | formato de e-mail |                |
-| senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
+| ---             | ---              | ---               | ---            |
+| Nome            | Caixa De Texto   | Obrigatório; Somente Letras        |      _    |
+| E-Mail | Caixa de Texto  |  Obrigatório; Formato de e-mail              |         _          |
+| Celular             | Número              | Obrigatório; De 9 a 11 Dígitos            |      _       |
+| Usuário | Caixa de Texto  |  Obrigatório;               |         _          |
+| Senha             | Caixa De Texto             | Obrigatório; Mínimo 8 caractéres            |      _       |
+
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-| ***Exemplo:***       |                                |                   |
-| entrar               | Fim do Processo 1              | default           |
-| cadastrar            | Início do proceso de cadastro  |                   |
+| cadastrar               | Escolher Atividade              | default           |
+| cancelar            | Término  | cancel               |
 
 
-**Nome da atividade 2**
+
+
+
+**Escolher Atividades**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-|                 |                  |                |                   |
+| Tipo De Atividade | Seleção Única  | Obrigátorio; Opções Agendar, Reagendar e Cancelar               |  Agendar                 |
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-|                      |                                |                   |
+| Continuar                  | Decisão "Agendar Horário                            | default               |
+
+
+
+
+
+**Procurar Barbearia**
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---            | ---               |
+| Localização | Caixa De Texto  | Obrigátorio; |  -                 |
+| Distância                | Número                 | Valor em Km               |  5Km                 |
+| Nome Da Barbearia               | Caixa De Texto                | Opcional               |     -             |
+
+| **Comandos**         |  **Destino**                   | **Tipo**          |
+| ---                  | ---                            | ---               |
+| Buscar                | Escolher Horário Disponível                            | default               |
+| Cancelar            | Término  | cancel               |
+
+
+
+
+
+**Escolher Horário Disponível**
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---            | ---               |
+| Data | Data  | Obrigátorio; Não pode ser passado |  Data Atual                 |
+| Horário                | Hora                 | Dentro dos horários livres na agenda               |  -                |          
+
+| **Comandos**         |  **Destino**                   | **Tipo**          |
+| ---                  | ---                            | ---               |
+| Confirmar Horário                | Escolher Serviço Desejado                            | default               |
+| Voltar            | Procurar Barbearia  | cancel               |
+
+
+
+
+
+**Escolher Serviço Desejado**
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---            | ---               |
+| Serviço | Seleção Única  | Obrigátorio; |  -                 |
+| Observações                | Área de Texto                 | Opcional              |  -                 |
+
+
+| **Comandos**         |  **Destino**                   | **Tipo**          |
+| ---                  | ---                            | ---               |
+| Confirmar                | Término                            | default               |
+| Voltar           | Escolher Horário Disponível  | cancel               |
+
+
+
+
+**Cancelar Horário**
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---            | ---               |
+| Motivo | Área De Texto  | Obrigátorio; |  -                 |
+
+| **Comandos**         |  **Destino**                   | **Tipo**          |
+| ---                  | ---                            | ---               |
+| Confirmar Cancelamento               | Término                           | default               |
+| Voltar            | Escolher Atividade  | cancel               |
+
+
+
+
+
+**Selecionar Horário Marcado (Reagendamento)**
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---            | ---               |
+| Motivo | Área De Texto  | Obrigátorio; |  -                 |
+
+| **Comandos**         |  **Destino**                   | **Tipo**          |
+| ---                  | ---                            | ---               |
+| Confirmar               | Escolher Horário Disponível                           | default               |
+| Voltar            | Escolher Atividade  | cancel               |
+
+
+
+
