@@ -22,6 +22,6 @@ O sistema armazena o histórico de serviços de cada cliente, permitindo uma exp
 
 ### 3.3. Modelagem dos processos
 
-[PROCESSO 1 - Agendamento De Tarefas](".docs/processos/processo-1-AgendamentoDeTarefas.md")
+[PROCESSO 1 - Agendamento De Tarefas](./processos/processo-1-AgendamentoDeTarefas.md)
 
 [PROCESSO 2 - Nome do Processo](./processos/processo-2-nome-do-processo.md "Detalhamento do Processo 2.")
