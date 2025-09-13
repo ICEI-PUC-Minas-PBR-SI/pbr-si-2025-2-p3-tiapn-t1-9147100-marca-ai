@@ -10,7 +10,7 @@ O principal problema que este trabalho busca endereçar é a ineficiência gerad
 
 No cenário atual, a transformação digital tem se consolidado como um pilar fundamental para a sustentabilidade e crescimento de negócios em diversos setores. A busca por eficiência operacional, melhoria da experiência do cliente e otimização de recursos tem impulsionado a adoção de tecnologias de automação em empresas de todos os portes. No segmento de serviços de beleza e bem-estar, especificamente no setor de barbearias, essa tendência é cada vez mais evidente. 
 
-O mercado de barbearias tem experimentado um crescimento significativo nos últimos anos, impulsionado pela valorização da imagem pessoal e pela busca por serviços especializados. Contudo, muitas barbearias ainda operam com processos majoritariamente manuais para tarefas como agendamento de horários, controle de estoque de produtos e  gestão do relacionamento com o cliente. Pesquisas de mercado indicam que a automação de processos pode gerar uma redução de custos operacionais e um aumento da satisfação do cliente, devido à maior agilidade, precisão e personalização do atendimento. Este trabalho insere-se, portanto, no contexto da aplicação de soluções tecnológicas para aprimorar a gestão de negócios de serviço, partindo de um panorama geral de digitalização até a aplicação específica em uma barbearia.
+O mercado de barbearias tem experimentado um crescimento significativo nos últimos anos, impulsionado pela valorização da imagem pessoal e pela busca por serviços especializados. Contudo, muitas barbearias ainda operam com processos majoritariamente manuais para tarefas como agendamento de horários, controle de estoque de produtos e gestão do relacionamento com o cliente. Pesquisas de mercado indicam que a automação de processos pode gerar uma redução de custos operacionais e um aumento da satisfação do cliente, devido à maior agilidade, precisão e personalização do atendimento. Este trabalho insere-se, portanto, no contexto da aplicação de soluções tecnológicas para aprimorar a gestão de negócios de serviço, partindo de um panorama geral de digitalização até a aplicação específica em uma barbearia.
 
 ## 1.3 Objetivo Geral
 
@@ -42,7 +42,7 @@ Descrição: Indivíduo que busca serviços de barbearia (cortes de cabelo, barb
 
 Papel no Sistema: Realizar agendamentos online de serviços, escolhendo barbeiro, data e horário.  
 Visualizar e gerenciar agendamentos futuros (cancelar, reagendar).
-Acessar histórico de serviços realizados..  
+Acessar histórico de serviços realizados.  
 Receber notificações sobre agendamentos e promoções.  
 Atualizar informações de perfil e preferências.
 
