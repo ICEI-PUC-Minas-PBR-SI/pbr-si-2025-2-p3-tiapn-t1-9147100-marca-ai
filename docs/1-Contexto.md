@@ -19,7 +19,9 @@ Propor e desenvolver um sistema de automação de processos para uma barbearia, 
 ### 1.3.1 Objetivos específicos
 
 . Analisar os fluxos de trabalho existentes em uma barbearia típica, identificando os gargalos e as oportunidades mais relevantes para a automação.  
+
 . Projetar funcionalidades-chave para o sistema, incluindo agendamento online intuitivo, registro de clientes e um processo de marketing direcionado.
+
 . Avaliar o potencial impacto da implementação do sistema na redução de erros, no aumento da produtividade e na melhoria da experiência geral para clientes e profissionais da barbearia.
 
  
