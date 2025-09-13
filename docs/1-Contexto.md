@@ -1,6 +1,6 @@
 # 1. Introdução
 
-Este relatório apresenta a análise inicial e o planejamento estratégico para odesenvolvimento de um sistema de automação de processos, com foco em otimizar as operações de uma barbearia.
+Este relatório apresenta a análise inicial e o planejamento estratégico para o desenvolvimento de um sistema de automação de processos, com foco em otimizar as operações de uma barbearia.
 
 ## 1.1 Problema 
 
