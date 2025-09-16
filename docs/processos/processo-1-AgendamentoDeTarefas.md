@@ -2,9 +2,36 @@
 
 **Agendamento de Serviços na Barbearia**
 
-Esse processo concentra, em um único sistema, as opções de agendamento, reagendamento e cancelamento de atendimentos em tempo real. Dessa forma, oferece maior comodidade aos clientes e garante à barbearia e seus profissionais um controle mais eficiente da agenda. Além disso, possibilita uma melhor distribuição das atividades e horários, reduzindo falhas manuais e evitando conflitos na marcação de serviços.
+**Etapas do Processo**
+01. Início
+O cliente inicia o processo.
 
-<img width="1678" height="383" alt="image" src="https://github.com/user-attachments/assets/998b5668-345e-4e01-8f26-557f116421d8" />
+02. Fazer Login
+O cliente acessa o sistema com suas credenciais.
+
+03. Escolher Atividade
+O cliente seleciona a atividade que deseja realizar.
+
+04. Decisão: Agendar Horário?
+Se Sim → procurar barbearia.
+Se Não → verificar se deseja cancelar ou reagendar:
+Cancelamento → Cancelar horário → Término.
+Reagendamento → Selecionar horário já marcado → voltar para Escolher Horário Disponível.
+
+6. Procurar Barbearia
+O cliente busca a barbearia onde deseja ser atendido.
+
+7. Escolher Horário Disponível
+O cliente seleciona um horário livre.
+
+8. Escolher Serviço Desejado
+O cliente escolhe o serviço que deseja realizar (exemplo: corte de cabelo, barba, combo etc.).
+
+9. Término
+O processo se encerra.
+
+<img width="1440" height="331" alt="image" src="https://github.com/user-attachments/assets/91a44464-f673-4299-a5e5-7d27d6078a02" />
+
 
 
 #### Detalhamento das atividades
