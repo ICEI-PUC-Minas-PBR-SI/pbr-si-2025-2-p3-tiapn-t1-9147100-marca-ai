@@ -1,10 +1,5 @@
 ## 3. Modelagem dos Processos de Negócio
 
-
-> **Links Úteis**:
-> - [Modelagem de Processos AS-IS x TO-BE](https://dheka.com.br/modelagem-as-is-to-be/)
-> - [20 Dicas Práticas de Modelagem de Processos](https://dheka.com.br/20-dicas-praticas-de-modelagem-de-processos/)
-
 ### 3.1. Modelagem da situação atual (Modelagem AS IS)
 
 Atualmente, grande parte das barbearias não utilizam ferramentas digitais de gestão. Na maioria dos casos único canal digital usado nos dias de hoje é o WhatsApp, que serve apenas para comunicação 
@@ -22,6 +17,8 @@ O sistema armazena o histórico de serviços de cada cliente, permitindo uma exp
 
 ### 3.3. Modelagem dos processos
 
-[PROCESSO 1 - Agendamento De Tarefas](./processos/processo-1-AgendamentoDeTarefas.md)
+[PROCESSO 1 - Cadastro de Usuário](./processos/processo-1-CadastroDeUsuários.md")
 
-[PROCESSO 2 - Nome do Processo](./processos/processo-2-nome-do-processo.md "Detalhamento do Processo 2.")
+[PROCESSO 2 - Agendamento De Tarefas](./processos/processo-2-AgendamentoDeTarefas.md)
+
+
