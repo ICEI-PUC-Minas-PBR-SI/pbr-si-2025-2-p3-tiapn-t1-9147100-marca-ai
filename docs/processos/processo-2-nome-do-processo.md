@@ -1,67 +1,46 @@
 ### 3.3.2 Processo 2 – NOME DO PROCESSO
 
-_Apresente aqui o nome e as oportunidades de melhoria para o processo 2. 
-Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN._
+**Etapas do Processo**
+01. Iniciar Cadastro na Plataforma
+O cliente seleciona a opção de realizar um novo cadastro.
+02. Preencher Dados do Cadastro
+O cliente insere as informações solicitadas (nome, e-mail, senha, etc.).
+03. Verificar Dados Informados
+O sistema valida os dados fornecidos.
+Decisão: Dados Corretos?
+Não → o sistema retorna mensagem de dados incorretos e o cliente deve corrigir as informações.
+Sim → o sistema retorna a confirmação de cadastro.
+04. Armazenar na Base de Dados
+Os dados corretos são registrados no banco de dados.
+05. Retornar Confirmação de Cadastro
+O sistema envia a confirmação ao cliente.
+06. Término
+O processo de cadastro é finalizado.
 
-![Exemplo de um Modelo BPMN do PROCESSO 2](../images/process.png "Modelo BPMN do Processo 2.")
+<img width="1020" height="313" alt="image" src="https://github.com/user-attachments/assets/93faf312-8aae-42c0-a7a3-6411cd4e7a67" />
+
 
 
 #### Detalhamento das atividades
-
-_Descreva aqui cada uma das propriedades das atividades do processo 2. 
-Devem estar relacionadas com o modelo de processo apresentado anteriormente._
-
-_Os tipos de dados a serem utilizados são:_
-
-_* **Área de texto** - campo texto de múltiplas linhas_
-
-_* **Caixa de texto** - campo texto de uma linha_
-
-_* **Número** - campo numérico_
-
-_* **Data** - campo do tipo data (dd-mm-aaaa)_
-
-_* **Hora** - campo do tipo hora (hh:mm:ss)_
-
-_* **Data e Hora** - campo do tipo data e hora (dd-mm-aaaa, hh:mm:ss)_
-
-_* **Imagem** - campo contendo uma imagem_
-
-_* **Seleção única** - campo com várias opções de valores que são mutuamente exclusivas (tradicional radio button ou combobox)_
-
-_* **Seleção múltipla** - campo com várias opções que podem ser selecionadas mutuamente (tradicional checkbox ou listbox)_
-
-_* **Arquivo** - campo de upload de documento_
-
-_* **Link** - campo que armazena uma URL_
-
-_* **Tabela** - campo formado por uma matriz de valores_
-
-**Nome da atividade 1**
+**Iniciar Cadastro na Plataforma**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-| ***Exemplo:***  |                  |                |                   |
-| login           | Caixa de Texto   | formato de e-mail |                |
-| senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
+| botãoCadastro | Botão/Link  |   Obrigatório             |        -           |
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-| ***Exemplo:***       |                                |                   |
-| entrar               | Fim do Processo 1              | default           |
-| cadastrar            | Início do proceso de cadastro  |                   |
+| iniciar | Preencher Dados do Cadastro  | default |
+| cancelar       |            Término                    |        cancel           |
 
 
-**Nome da atividade 2**
+**Preencher Dados do Cadastro**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-|                 |                  |                |                   |
+| botãoCadastro | Botão/Link  |   Obrigatório             |        -           |
 
-| **Comandos**         |  **Destino**                   | **Tipo**          |
+| **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-|                      |                                |                   |
+| iniciar | Preencher Dados do Cadastro  | default |
+| cancelar       |            Término                    |        cancel           |
