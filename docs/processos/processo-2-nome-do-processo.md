@@ -1,4 +1,4 @@
-### 3.3.2 Processo 2 – NOME DO PROCESSO
+### 3.3.2 Processo 2 – CADASTRO DE USUÁRIOS
 
 **Etapas do Processo**
 01. Iniciar Cadastro na Plataforma
@@ -34,13 +34,29 @@ O processo de cadastro é finalizado.
 | cancelar       |            Término                    |        cancel           |
 
 
-**Preencher Dados do Cadastro**
+**Preencher Dados No Cadastro**
+
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| botãoCadastro | Botão/Link  |   Obrigatório             |        -           |
+| ---             | ---              | ---               | ---            |
+| Nome            | Caixa De Texto   | Obrigatório; Somente Letras        |      _    |
+| E-Mail | Caixa de Texto  |  Obrigatório; Formato de e-mail              |         _          |
+| Celular             | Número              | Obrigatório; De 9 a 11 Dígitos            |      _       |
+| Usuário | Caixa de Texto  |  Obrigatório;               |         _          |
+| Senha             | Caixa De Texto             | Obrigatório; Mínimo 8 caractéres            |      _       |
+
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
-| iniciar | Preencher Dados do Cadastro  | default |
-| cancelar       |            Término                    |        cancel           |
+| Enviar               | Verificar Dados Informados             | default           |
+| cancelar            | Término  | cancel               |
+
+
+**Verificar Dados Informados**
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---            | ---               |
+
+| **Comandos**         |  **Destino**                   | **Tipo** |
+| ---                  | ---                            | ---               |
+
