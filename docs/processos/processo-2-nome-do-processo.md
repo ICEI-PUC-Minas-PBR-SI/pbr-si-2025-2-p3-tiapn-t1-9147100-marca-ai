@@ -56,7 +56,31 @@ O processo de cadastro é finalizado.
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
+| - | -  |  -                |         -         |
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
+| validar                | Decisão “Dados Corretos?”                         | default               |
+
+
+**Verificar Dados Informados**
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---            | ---               |
+| - | -  |  -  |         -         |
+
+| **Comandos**         |  **Destino**                   | **Tipo** |
+| ---                  | ---                            | ---               |
+| Retornar Erros                | Preencher Dados do Cadastro                         | default               |
+
+
+**Retornar Confirmação Do Cadastro**
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---            | ---               |
+| - | -  |  -                |         -         |
+
+| **Comandos**         |  **Destino**                   | **Tipo** |
+| ---                  | ---                            | ---               |
+| Enviar Mensagem de Confirmação               | Término                        | default               |
 
