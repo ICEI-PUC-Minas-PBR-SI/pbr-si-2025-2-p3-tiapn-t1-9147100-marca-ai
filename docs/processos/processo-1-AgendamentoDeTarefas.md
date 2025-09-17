@@ -36,21 +36,18 @@ O processo se encerra.
 
 #### Detalhamento das atividades
 
-**Realizar Cadastro**
+**Fazer Login**
 
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---               | ---            |
-| Nome            | Caixa De Texto   | Obrigatório; Somente Letras        |      _    |
-| E-Mail | Caixa de Texto  |  Obrigatório; Formato de e-mail              |         _          |
-| Celular             | Número              | Obrigatório; De 9 a 11 Dígitos            |      _       |
 | Usuário | Caixa de Texto  |  Obrigatório;               |         _          |
 | Senha             | Caixa De Texto             | Obrigatório; Mínimo 8 caractéres            |      _       |
 
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
-| cadastrar               | Escolher Atividade              | default           |
+| Login               | Escolher Atividade              | default           |
 | cancelar            | Término  | cancel               |
 
 
