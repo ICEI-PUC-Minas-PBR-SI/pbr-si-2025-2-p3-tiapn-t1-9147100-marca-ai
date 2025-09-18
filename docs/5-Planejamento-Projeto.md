@@ -1,7 +1,7 @@
 # 5. Planejamento do Projeto
 
 > Gerenciamento das tarefas de implementação do projeto.
-/
+
 ## 5.1. Divisão de Papéis
 
 > Divisão de papéis entre os membros do grupo em cada sprint. 
