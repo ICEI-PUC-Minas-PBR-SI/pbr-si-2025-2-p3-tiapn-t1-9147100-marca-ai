@@ -1,10 +1,10 @@
 # 5. Planejamento do Projeto
 
-> Aqui será feito o gerenciamento das tarefas de implementação do projeto.
+> Gerenciamento das tarefas de implementação do projeto.
 /
 ## 5.1. Divisão de Papéis
 
-> Apresente a divisão de papéis entre os membros do grupo em cada sprint. O desejável é que, em cada sprint, o aluno assuma papéis diferentes na disciplina. Siga o modelo do exemplo abaixo:
+> Divisão de papéis entre os membros do grupo em cada sprint. 
 
 ### Sprint 1
 - _Scrum master_: João Gabriel
@@ -14,9 +14,13 @@
 - _Scrum master_: Gustavo Ferreira 
 - Documentação: Gustavo Ferreira
 
+### Sprint 3
+- _Scrum master_: 
+- Documentação: 
+
 ## 5.1. Quadro de tarefas
 
-> Apresente a divisão de tarefas entre os membros do grupo e o acompanhamento da execução, conforme exemplo abaixo.
+> Divisão de tarefas entre os membros do grupo e o acompanhamento da execução.
 
 ## Sprint 1
 
@@ -43,6 +47,12 @@ Atualizado em: 05/09/2024
 | Rhaniel       | Descrição AS IS |  29/08/2025    | 29/08/2025 | ✔️         | 29/08/2025  |
 | Talisson      | Descrição proposta de solução |  05/09/2025    | 12/09/2025 | ✔️       |  05/09/2025 |
 | Rhaniel      | Modelagem e modelo BPMN |  05/09/2025    | 12/09/2025 | ✔️       | 05/09/2025  |
+
+## Sprint 3
+
+Atualizado em: 
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 
 Legenda:
 - ✔️: terminado
