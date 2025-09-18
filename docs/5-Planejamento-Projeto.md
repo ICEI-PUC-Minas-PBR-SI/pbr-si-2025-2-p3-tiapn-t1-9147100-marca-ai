@@ -15,8 +15,8 @@
 - Documentação: Gustavo Ferreira
 
 ### Sprint 3
-- _Scrum master_: 
-- Documentação: 
+- _Scrum master_: Victoria Maia
+- Documentação: Victoria Maia
 
 ## 5.1. Quadro de tarefas
 
