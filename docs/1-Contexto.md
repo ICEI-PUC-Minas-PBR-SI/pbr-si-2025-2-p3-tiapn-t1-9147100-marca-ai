@@ -71,11 +71,11 @@ Realizar ajustes gerais nas configurações do sistema.
    
 2. Agendamento e Cancelamento de Consultas: Processo central do sistema. Envolve a interação do cliente com a plataforma para encontrar, reservar, cancelar ou alterar um horário, oferecendo flexibilidade tanto para o cliente quanto para a barbearia e otimizando a gestão da agenda.
 
-3. Escolha do profissional e Serviços Disponíveis: Processo de seleção e personalização. Permite ao cliente escolher o profissional de sua preferência e os serviços desejados, customizando a experiência de acordo com suas necessidades.
+3. Cadastro do profissional e Serviços Disponíveis: Processo de cadastro e personalização. Permite à barbearia cadastrar os profissionais empregados em seu estabelecimento e os serviços por eles oferecidos, customizando a experiência do cliente e organizando o catálogo do seu perfil na plataforma.
    
-4. Avaliação e Feedback: Processo de coleta de opiniões e experiências. Permite que o cliente avalie o atendimento e os serviços prestados, fornecendo insumos valiosos para a melhoria contínua da barbearia e aumentando a confiança de novos clientes.
+4. Processo de Marketing Direcionado: Processo de comunicação e engajamento. Garante que o cliente e o profissional recebam lembretes sobre os agendamentos, reduzindo a chance de faltas.
    
-5. Processo de Marketing Direcionado: Processo de comunicação e engajamento. Garante que o cliente e o profissional recebam lembretes sobre os agendamentos, reduzindo a chance de faltas. 
+5. Avaliação e Feedback: Processo de coleta de opiniões e experiências. Permite que o cliente avalie o atendimento e os serviços prestados, fornecendo insumos valiosos para a melhoria contínua da barbearia e aumentando a confiança de novos clientes.
 
 
 
