@@ -19,10 +19,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Carlos | Aplicação que automatize a marcação de cortes          | Melhorar cada vez mais a marcação de agendamentos da sua barbearia visto que o número de clientes subiu drasticamente nos ultimos anos           |
-|André       | Sistema de avaliação de barbeiro                 | Melhorar cada dia mais suas avaliações para um dia pegar os clientes que o avaliaram bem para convidá-los para sua própria barbearia |
-|Pedro     | Uma barbearia que tenha agendamento rápido               | Agendar seus cortes rápidos para economizar tempo de sua rotina corrida |
-|Arthur    | Uma barbearia que permita escolher o barbeiro             | Escolher o barbeiro para ter um corte diferente por mês |
+|Carlos | Aplicação que automatize a marcação de cortes          | Melhorar cada vez mais a marcação de agendamentos da sua barbearia, visto que o número de clientes subiu drasticamente nos últimos anos.          |
+|André       | Sistema de avaliação de barbeiro                 | Aprimorar constantemente suas avaliações com o objetivo de, no futuro, atrair os clientes satisfeitos para conhecerem sua própria barbearia. |
+|Pedro     | Uma barbearia que tenha agendamento rápido               | Agendar seus cortes rápidos para economizar tempo de sua rotina corrida. |
+|Arthur    | Uma barbearia que permita escolher o barbeiro             | Escolher o barbeiro para ter um corte diferente por mês. |
 
 
 ## Requisitos
