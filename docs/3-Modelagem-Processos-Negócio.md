@@ -2,18 +2,21 @@
 
 ### 3.1. Modelagem da situação atual (Modelagem AS IS)
 
-Atualmente, grande parte das barbearias não utilizam ferramentas digitais de gestão. Na maioria dos casos único canal digital usado nos dias de hoje é o WhatsApp, que serve apenas para comunicação 
-básica com os clientes como agendar um atendimento. Não há site, redes sociais ativas, um sistema de agendamento online automatizado ou marketing digital.
+Atualmente, grande parte das barbearias não utiliza ferramentas digitais de gestão. Na maioria dos casos, o único canal digital usado é o WhatsApp, que serve apenas para uma comunicação básica com os clientes, como o agendamento de atendimentos. Não há site, redes sociais ativas, sistema de agendamento online automatizado nem estratégias de marketing digital.
 
-No momento atual, o cliente vai até a porta da barbearia, pega o número do WhatsApp que está no outdoor e envia mensagem para agendar um atendimento, porém não é possível escolher um profissional e nem ver os horários que estão disponíveis na agenda da barbearia, visto que, a barbearia não possui uma aplicação para tal e também tem uma demanda muito alta. Após a mensagem ser enviada, é verificado com todos os profissionais da barbearia qual tem um horário disponível que seja o solicitado pelo cliente, só assim é agendado o atendimento e o secretário envia a confirmação via WhatsApp para o cliente. Da forma como este processo é feito possibilita grandes margens de erro para cancelamento e reagendamento visto que é um processo todo manual. 
+Hoje, o cliente vai até a porta da barbearia, anota o número do WhatsApp e envia uma mensagem para agendar um horário. No entanto, não é possível escolher um profissional nem visualizar os horários disponíveis, já que a barbearia não possui uma aplicação para isso e também enfrenta uma alta demanda.
+
+Após o envio da mensagem, é necessário verificar com todos os profissionais da barbearia quem tem um horário disponível conforme a solicitação do cliente. Só então o atendimento é agendado, e a confirmação é enviada via WhatsApp. Esse processo manual abre margem para erros, cancelamentos e necessidade de reagendamentos, tornando o atendimento menos eficiente e mais suscetível a falhas.
 
 ### 3.2. Descrição geral da proposta (Modelagem TO BE)
 
-O cliente, em vez de enviar uma mensagem por WhatsApp, acessa a plataforma digital "Marca Aí". Nela, ele poderá escolher a barbearia do seu gosto, após essa etapa, o cliente tem a possibilidade de personalizar o seu agendamento. Em seguida, o sistema exibe uma lista de barbeiros disponíveis no estabelecimento, escolhendo o funcionário desejado, a aplicação exibirá os horários disponíveis do profissional para a realizar do agendamento. Com essa etapa concluída, o cliente seleciona o serviço desejado.
+O cliente, em vez de enviar uma mensagem pelo WhatsApp, acessa a plataforma digital "Marca Aí". Nela, poderá escolher a barbearia de sua preferência e, após essa etapa, personalizar o agendamento conforme suas necessidades.
 
-Após fazer as escolhas, o cliente finaliza o processo e o sistema cuida do resto, minimizando erros e otimizando a comunicação. O próprio sistema enviará uma confirmação do agendamento ao usuário e um lembrete do serviço agendado em algum momento antes do atendimento, reduzindo a taxa de não comparecimento. Também será possível ao cliente remarcar ou cancelar de forma autônoma o agendamento. A barbearia e o profissional também ficam cientes do serviço agendado, através de notificações geradas pelo sistema e pelo horário agendado pelo cliente que é atualizado em tempo real.
+Em seguida, o sistema exibe uma lista de barbeiros disponíveis no estabelecimento. Ao escolher o profissional desejado, a aplicação mostra os horários disponíveis para a realização do atendimento. Com essa etapa concluída, o cliente seleciona o serviço desejado.
 
-O sistema armazena o histórico de serviços de cada cliente, permitindo uma experiência mais personalizada no futuro. E através de um sistema de avaliações de profissinais e estabelcimentos, será possível implementar estratégias de marketing digital, como enviar promoções personalizadas ou comunicar-se com clientes que não agendam há um tempo.
+Após fazer todas as escolhas, o cliente finaliza o processo e o sistema cuida do restante, minimizando erros e otimizando a comunicação. A própria plataforma envia uma confirmação do agendamento ao usuário, além de um lembrete do serviço marcado, reduzindo a taxa de não comparecimento. O cliente também poderá remarcar ou cancelar o agendamento de forma autônoma.
+
+Além disso, por meio de um sistema de avaliações de profissionais e estabelecimentos, será possível implementar estratégias de marketing digital, como o envio de promoções personalizadas ou o reengajamento de clientes inativos.
 
 ### 3.3. Modelagem dos processos
 
