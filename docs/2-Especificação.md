@@ -4,13 +4,13 @@ A seguir, serão apresentadas as especificações do projeto, contemplando a def
 
 ## Personas
 
-Carlos tem 40 anos, atua como barbeiro há 20 anos e é dono da barbearia Marca ai há 10 anos. Gosta de processos práticos e rápidos. Com o aumento do número de clientes ao longo dos anos, está buscando uma forma de agilizar a marcação de horários dos seus clientes sem ser por telefone ou whatsapp, visto que, estas formas ocupam muito do seu tempo e não é nada prático. 
+- Carlos tem 40 anos, atua como barbeiro há 20 anos e é dono da barbearia "Reino do Corte" há 10 anos. Gosta de processos práticos e rápidos. Com o aumento do número de clientes ao longo dos anos, está buscando uma forma de agilizar a marcação de horários sem depender de telefone ou WhatsApp, visto que essas formas ocupam muito do seu tempo e não são nada práticas.
 
-André tem 21 anos, tem apenas 1 ano de experiência como barbeiro, é adaptado ao uso de tecnologia, visto que, desde criança teve contato com computadores, videogames e celulares. Se popôs a auxiliar Carlos a usar essas novas tecnologias, seu objetivo principal é conquistar o máximo de clientes possíveis para futuramente abrir sua própria barbearia. 
+- André tem 21 anos e possui apenas 1 ano de experiência como barbeiro. Está adaptado ao uso de tecnologia, já que, desde criança, teve contato com computadores, videogames e celulares. Seu principal objetivo é conquistar o máximo de clientes possível para, futuramente, abrir sua própria barbearia. Ele busca constantemente formas modernas de melhorar o atendimento.
 
-Pedro tem 35 anos, cliente fiel da barbearia Marca ai, é dono de uma empresa de tecnologia e vive uma rotina muito corrida cheia de reuniões e contratempos. Ele gosta de processos rápidos que facilitem no seu dia a dia, como por exemplo: pedir comida online e agendamentos rápidos.  
+- Pedro tem 35 anos, é cliente fiel da barbearia "Vinícius Cortes", dono de uma empresa de tecnologia e vive uma rotina corrida, cheia de reuniões e imprevistos. Valoriza processos ágeis que facilitem seu dia a dia, como, por exemplo, pedir comida online e agendar serviços com rapidez.
 
-Arthur tem 17 anos e está no último ano do ensino médio, Arthur gosta de mudanças, tem o costume de experimentar coisas novas, tal qual cortar o cabelo cada mês com um barbeiro diferente. Arthur também é amante da tecnologia e é muito fan de futebol.  
+- Arthur tem 17 anos e está no último ano do ensino médio. Gosta de mudanças e tem o hábito de experimentar coisas novas, inclusive cortar o cabelo com barbeiros diferentes a cada mês. É apaixonado por tecnologia e fã de futebol.
 
 
 ## Histórias de Usuários
