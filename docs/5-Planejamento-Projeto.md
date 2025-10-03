@@ -52,8 +52,16 @@ Atualizado em: 12/09/2025
 Atualizado em: 
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Victoria Maia  | Planejamento Sprint 3  | 26/09/2025     | 03/10/2025  | ✔️    |   03/10/2025               |
+| Rhaniel Lucas  | Modelagem Processo 3 |  26/09/2025    | 03/10/2025 | 📝       | 03/10/2025  |
+| Rhaniel Lucas  | Modelagem Processo 4 |  26/09/2025    | 03/10/2025 | 📝       | 03/10/2025  |
+| João Gabriel | Wireframe Processo 1 e 2|  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
+|  | Wireframe Processo 3|  26/09/2025    | 03/10/2025 | 📝       | 03/10/2025  |
+|  | Wireframe Processo 4|  26/09/2025    | 03/10/2025 | 📝       | 03/10/2025  |
 
-### Legenda:
+
+#### Legenda:
 - ✔️: terminado
 - 📝: em execução
 - ⌛: atrasado
