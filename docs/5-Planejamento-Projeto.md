@@ -38,14 +38,14 @@ Atualizado em: 05/09/2025
 
 ## Sprint 2
 
-Atualizado em: 05/09/2025
+Atualizado em: 12/09/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Gustavo Ferreira       | Planejamento Sprint 2  | 05/09/2025     | 12/09/2025  | ✔️    |   05/09/2025               |
 | Rhaniel Lucas       | Modelagem AS IS |  05/09/2025    | 12/09/2025 | ✔️         | 12/09/2025  |
 | Talisson Vilaça   | Modelagem TO BE |  05/09/2025    | 12/09/2025 | ✔️       |  05/09/2025 |
-| Rhaniel Lucas      | Modelagem BPMN Processo 1 e 2|  05/09/2025    | 12/09/2025 | ✔️       | 12/09/2025  |
+| Rhaniel Lucas      | Modelagem Processo 1 e 2|  05/09/2025    | 12/09/2025 | ✔️       | 12/09/2025  |
 
 ## Sprint 3
 
