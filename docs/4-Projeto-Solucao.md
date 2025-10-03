@@ -28,7 +28,7 @@
   
 
 ![Wireframe](images/Wireframe1.jpg)
-![Wireframe](images/iWireframe2.jpg)
+![Wireframe](images/Wireframe2.jpg)
 
 
 ## Diagrama de Classes
