@@ -15,7 +15,7 @@
  ![Exemplo de Arquitetura](./images/arquitetura-exemplo.png)
  
 
-### 4.2. Protótipos de telas 
+## 4.2. Protótipos de telas 
 
 - **Tela inicial/login**: acesso às opções `Log in` e `Sign up`.  
 - **Lista de barbearias**: exibe barbearias cadastradas com barra de busca.  
