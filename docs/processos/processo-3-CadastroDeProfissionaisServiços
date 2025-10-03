@@ -1,6 +1,8 @@
-3.3.1 Processo 3 – REGISTRO DE PROFISSIONAIS E SERVIÇOS
-Etapas do Processo
+### 3.3.3 Processo 3 – REGISTRO DE PROFISSIONAIS E SERVIÇOS
 
+**Agendamento de Serviços na Barbearia**
+
+**Etapas do Processo**
 01 - Realizar Login Na Plataforma
 02 - Realizar Cadastro Na Barbearia 
 03 - Verificar Dados Informados O sistema valida os dados fornecidos. Decisão: Dados Corretos? Não → o sistema retorna mensagem de dados incorretos e o cliente deve corrigir as informações. Sim → Próxima Etapa.
