@@ -57,11 +57,10 @@ Atualizado em:
 | Victoria Maia  | Planejamento Sprint 3  | 26/09/2025     | 03/10/2025  | ✔️    |   03/10/2025               |
 | João Gabriel  | Atualização Project  | 26/09/2025     | 03/10/2025  |  ✔️    |   03/10/2025               |
 | Rhaniel Lucas  | Modelagem Processo 3 |  26/09/2025    | 03/10/2025 | 📝       | 03/10/2025  |
-| Rhaniel Lucas  | Modelagem Processo 4 |  26/09/2025    | 03/10/2025 | 📝       | 03/10/2025  |
 | João Gabriel | Wireframe Login|  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
 | Bruno Primo | Wireframe Processo 1 e 2|  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
 | Bruno Primo | Wireframe Processo 3|  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
-|  | Wireframe Processo 4|  26/09/2025    | 03/10/2025 | 📝       | 10/10/2025  |
+
 
 
 #### Legenda:
