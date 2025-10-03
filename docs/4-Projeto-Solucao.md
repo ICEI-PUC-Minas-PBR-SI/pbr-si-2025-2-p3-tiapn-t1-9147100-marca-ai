@@ -24,7 +24,7 @@
   - **Informações** → dados gerais e horários de funcionamento.  
   - **Profissionais** → lista barbeiros, com detalhes e opção de seleção.  
   - **Avaliações** → feedback de clientes em formato de estrelas.  
-- **Fluxo de agendamento**: seleção de serviço → escolha da data → definição do profissional.
+
   
 
 ![Wireframe](images/img001.jpg)
