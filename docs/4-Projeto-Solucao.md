@@ -27,8 +27,8 @@ O wireframe representa a estrutura inicial do aplicativo de agendamento para bar
   - **Avaliações** → feedback de clientes em formato de estrelas.  
 - **Fluxo de agendamento**: seleção de serviço → escolha da data → definição do profissional.  
 
-![Wireframe](images/img001.jpg)
-![Wireframe](images/img002.jpg)
+![Wireframe](images/Wireframe1.jpg)
+![Wireframe](images/iWireframe2.jpg)
 
 
 ## Diagrama de Classes
