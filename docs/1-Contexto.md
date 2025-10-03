@@ -67,19 +67,18 @@ Realizar ajustes gerais nas configurações do sistema.
 
 # 3. Processos de Negócios 
 
-1. Cadastro de Usuário/Barbearia: Processo de gerenciamento de dados. Define como novos clientes, profissionais e barbearias são registrados no sistema, garantindo a organização e integridade das informações.
-   
-2. Agendamento e Cancelamento de Consultas: Processo central do sistema. Envolve a interação do cliente com a plataforma para encontrar, reservar, cancelar ou alterar um horário, oferecendo flexibilidade tanto para o cliente quanto para a barbearia e otimizando a gestão da agenda.
+#### 1. Cadastro de Usuário e Barbearia
+Processo de gerenciamento de dados que inicia o uso da plataforma. Nele, clientes, profissionais e barbearias são registrados no sistema, garantindo a organização, segurança e integridade das informações inseridas.
 
-3. Cadastro do Profissional e Serviços Disponíveis: Processo de cadastro e personalização. Permite à barbearia cadastrar os profissionais empregados em seu estabelecimento e os serviços por eles oferecidos, customizando a experiência do cliente e organizando o catálogo do seu perfil na plataforma.
-   
-4. Processo de Marketing Direcionado: Processo de comunicação e engajamento. Garante que o cliente e o profissional recebam lembretes sobre os agendamentos, reduzindo a chance de faltas.
-   
-5. Avaliação e Feedback: Processo de coleta de opiniões e experiências. Permite que o cliente avalie o atendimento e os serviços prestados, fornecendo insumos valiosos para a melhoria contínua da barbearia e aumentando a confiança de novos clientes.
+#### 2. Cadastro de Profissionais e Serviços Disponíveis
+Após o registro da barbearia, este processo permite o cadastro dos profissionais que atuam no estabelecimento e a definição dos serviços oferecidos. Isso personaliza o perfil da barbearia na plataforma e facilita a navegação dos clientes, organizando o catálogo de serviços de forma clara e acessível.
 
+#### 3. Agendamento e Cancelamento de Atendimentos
+Processo central da plataforma. Permite que o cliente escolha a barbearia, selecione o profissional desejado e visualize os horários disponíveis para agendar um serviço. Também oferece a opção de alterar ou cancelar atendimentos com facilidade, proporcionando flexibilidade tanto para o cliente quanto para o estabelecimento e otimizando a gestão da agenda.
 
+#### 4. Marketing Direcionado e Lembretes Automatizados
+Processo de comunicação e engajamento. A plataforma envia lembretes automáticos sobre os agendamentos aos clientes e profissionais, reduzindo a taxa de não comparecimento. Além disso, permite a criação de campanhas personalizadas com base no histórico e comportamento dos usuários, ajudando a fidelizar clientes e aumentar a recorrência de atendimentos.
 
-
-
-
+#### 5. Avaliação e Feedback
+Processo de coleta de opiniões e experiências após a realização do serviço. Os clientes podem avaliar o atendimento e os profissionais, fornecendo informações valiosas para a melhoria contínua da barbearia e aumentando a confiança de novos usuários na plataforma.
 
