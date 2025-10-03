@@ -15,8 +15,7 @@
  ![Exemplo de Arquitetura](./images/arquitetura-exemplo.png)
  
 
-### 4.2. Protótipos de telas
-O wireframe representa a estrutura inicial do aplicativo de agendamento para barbearias.  
+## 4.2. Protótipos de telas 
 
 - **Tela inicial/login**: acesso às opções `Log in` e `Sign up`.  
 - **Lista de barbearias**: exibe barbearias cadastradas com barra de busca.  
@@ -25,7 +24,8 @@ O wireframe representa a estrutura inicial do aplicativo de agendamento para bar
   - **Informações** → dados gerais e horários de funcionamento.  
   - **Profissionais** → lista barbeiros, com detalhes e opção de seleção.  
   - **Avaliações** → feedback de clientes em formato de estrelas.  
-- **Fluxo de agendamento**: seleção de serviço → escolha da data → definição do profissional.  
+
+  
 
 ![Wireframe](images/Wireframe1.jpg)
 ![Wireframe](images/iWireframe2.jpg)
