@@ -1,4 +1,4 @@
-### 3.3.2 Processo 2 – CADASTRO DE USUÁRIOS
+### 3.3.1 Processo 1 – CADASTRO DE USUÁRIOS
 
 **Etapas do Processo**
 01. Iniciar Cadastro na Plataforma
