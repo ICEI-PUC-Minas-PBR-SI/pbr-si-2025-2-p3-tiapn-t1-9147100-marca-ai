@@ -42,7 +42,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-007| Permitir interação entre cliente e profissional | MÉDIA | 
 |RF-008| Registrar histórico de serviços do cliente | BAIXA | 
 
-### Requisitos não Funcionais
+### Requisitos Não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
