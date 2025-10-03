@@ -53,7 +53,7 @@ Atualizado em:
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 
-Legenda:
+### Legenda:
 - ✔️: terminado
 - 📝: em execução
 - ⌛: atrasado
