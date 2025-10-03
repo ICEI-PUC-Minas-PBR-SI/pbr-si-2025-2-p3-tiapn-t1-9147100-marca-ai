@@ -8,15 +8,15 @@
 
 ### Sprint 1
 - _Scrum master_: João Gabriel
-- Documentação: João Gabriel 
+- Documentação: Victoria Maia
 
 ### Sprint 2
-- _Scrum master_: Gustavo Ferreira 
-- Documentação: Gustavo Ferreira
+- _Scrum master_: Gustavo Ferreira
+- Documentação: Rhaniel Lucas 
 
 ### Sprint 3
-- _Scrum master_: 
-- Documentação: 
+- _Scrum master_: Bruno Primo
+- Documentação: Talisson Vilaça
 
 ## 5.1. Quadro de tarefas
 
@@ -28,22 +28,21 @@ Atualizado em: 05/09/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| João Gabriel      | Introdução | 01/08/2025     | 08/08/2025 | ✔️    | 08/08/2005      |
-| João Gabriel       | Objetivos    | 01/08/2025     | 08/08/2025  | ✔️    |  08/08/2005   |
-| Gustavo Ferreira       | Histórias de usuário  | 05/09/2025  | 12/09/2025 | ✔️ | 05/09/2025 |            
-| Gustavo Ferreira       | Personas 1  |    05/09/2025  | 12/09/2025 | ✔️ |05/09/2025  |       
-| Victoria Gabriella    | Requisitos | 05/09/2025  | 12/09/2025 | ✔️ | 05/09/2025 |     
+| João Gabriel      | Planejamento Sprint 1 | 01/08/2025     | 08/08/2025 | ✔️    | 08/08/2005      |
+| João Gabriel      | Contexto | 01/08/2025     | 08/08/2025 | ✔️    | 08/08/2005      |
+| Gustavo Ferreira       | Personas  | 05/09/2025  | 12/09/2025 | ✔️ | 05/09/2025 |            
+| Gustavo Ferreira       | História de Usuários  |    05/09/2025  | 12/09/2025 | ✔️ |05/09/2025  |       
+| Victoria Gabriella    | Requisitos Funcionais | 05/09/2025  | 12/09/2025 | ✔️ | 05/09/2025 |  
+| Victoria Gabriella    | Requisitos Não Funcionais | 05/09/2025  | 12/09/2025 | ✔️ | 05/09/2025 |  
 | Bruno Primo     | Restrições | 05/09/2025  | 12/09/2025 | ✔️  | 05/09/2025 |  
 
 ## Sprint 2
 
-Atualizado em: 05/09/2024
+Atualizado em: 05/09/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| Rhaniel       | Criar grupo       | 29/08/2025     | 29/08/2025  | ✔️    | 29/08/2025      |
-| Gustavo Ferreira       | Atualizar template   | 29/08/2025     | 29/08/2025 | ✔️   |   29/08/2025              |
-| Gustavo Ferreira       | Planejamento Sprint 1/2  | 05/09/2025     | 05/09/2025  | ✔️    |   05/09/2025               |
+| Gustavo Ferreira       | Planejamento Sprint 2  | 05/09/2025     | 05/09/2025  | ✔️    |   05/09/2025               |
 | Rhaniel       | Descrição AS IS |  29/08/2025    | 29/08/2025 | ✔️         | 29/08/2025  |
 | Talisson      | Descrição proposta de solução |  05/09/2025    | 12/09/2025 | ✔️       |  05/09/2025 |
 | Rhaniel      | Modelagem e modelo BPMN |  05/09/2025    | 12/09/2025 | ✔️       | 05/09/2025  |
