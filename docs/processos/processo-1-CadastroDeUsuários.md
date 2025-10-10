@@ -57,7 +57,7 @@ O processo de cadastro é finalizado.
 ![Wireframe](../images/Wireframe001.jpg)
 
 **Requisitos Atendidos:**
-- RF-001	Cadastrar clientes e barbeiros 
+- RF-001	Cadastrar clientes
 - RNF-001	O sistema deve ser responsivo, com adaptação automática da interface
 
 
