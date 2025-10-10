@@ -3,6 +3,7 @@
 **Agendamento de Serviços na Barbearia**
 
 **Etapas do Processo**
+
 01 - Realizar Login Na Plataforma
 
 02 - Realizar Cadastro Na Barbearia 
@@ -11,11 +12,9 @@
 
 04 - Associar Barbeiros. Decisão: Usuário Existe? Não → Associar Usuário / Sim → Próxima Etapa
 
-05 - Verificar Usuário Existente
+05 - Registrar Novo Serviço
 
-06 - Registrar Novo Serviço
-
-07 - Retornar Confirmação De Cadastro
+06 - Retornar Confirmação De Cadastro
 
 
 <img width="1451" height="407" alt="image" src="https://github.com/user-attachments/assets/65dd7538-14ca-49d7-a39b-2df2fd2ab8b9" />
