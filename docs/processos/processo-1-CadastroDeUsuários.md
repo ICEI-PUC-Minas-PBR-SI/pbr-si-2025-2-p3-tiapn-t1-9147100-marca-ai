@@ -17,7 +17,8 @@ O sistema envia a confirmação ao cliente.
 06. Término
 O processo de cadastro é finalizado.
 
-<img width="1113" height="438" alt="image" src="https://github.com/user-attachments/assets/94f99d59-cff4-45a5-a85e-34aa32f25d88" />
+<img width="1453" height="620" alt="image" src="https://github.com/user-attachments/assets/851ee06c-3dba-4bb2-b955-231f4c291426" />
+
 
 
 
