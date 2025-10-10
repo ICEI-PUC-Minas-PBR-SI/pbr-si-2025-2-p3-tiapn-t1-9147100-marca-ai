@@ -49,7 +49,7 @@ O processo de cadastro é finalizado.
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
-| Enviar               | Verificar Dados Informados             | default           |
+| Concluir               | Verificar Dados Informados             | default           |
 | cancelar            | Término  | cancel               |
 
 ### Wireframe
