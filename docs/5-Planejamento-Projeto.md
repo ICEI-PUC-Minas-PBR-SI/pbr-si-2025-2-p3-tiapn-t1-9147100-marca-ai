@@ -60,7 +60,7 @@ Atualizado em:
 | João Gabriel | Wireframe Login|  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
 | Bruno Primo | Wireframe Processo 1 e 2|  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
 | Bruno Primo | Wireframe Processo 3|  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
-
+| Gustavo Ferreira| Tabelas dos processos|  10/10/2025    | 17/10/2025 | 📝       | 17/10/2025  |
 
 
 #### Legenda:
