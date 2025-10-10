@@ -54,5 +54,4 @@ O processo de cadastro é finalizado.
 
 ### Wireframe
 
-![Wireframe](images/Wireframe-Processo1.jpg)
-
+![Wireframe](images/wireframe-1.jpg)
