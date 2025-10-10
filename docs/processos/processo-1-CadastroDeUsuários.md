@@ -54,5 +54,11 @@ O processo de cadastro é finalizado.
 
 ### Wireframe
 
-![Wireframe](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-marca-ai/blob/main/images/wireframe-1.jpg?raw=true)
+![Wireframe](../images/wireframe-1.jpg)
+
+**Requisitos Atendidos:**
+- RF-001	Cadastrar clientes e barbeiros 
+- RNF-001	O sistema deve ser responsivo, com adaptação automática da interface
+
+
 
