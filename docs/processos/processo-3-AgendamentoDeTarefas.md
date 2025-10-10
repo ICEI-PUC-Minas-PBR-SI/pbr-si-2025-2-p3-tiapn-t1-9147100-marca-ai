@@ -38,7 +38,7 @@ O processo se encerra.
 
 
 
-<img width="1662" height="605" alt="image" src="https://github.com/user-attachments/assets/02265b41-a686-403a-801f-7c2bd65cdbac" />
+<img width="1591" height="592" alt="image" src="https://github.com/user-attachments/assets/38056e8a-b3a4-4f99-aa9e-514fb11a503e" />
 
 
 
