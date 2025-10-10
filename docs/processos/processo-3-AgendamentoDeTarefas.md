@@ -82,7 +82,6 @@ O processo se encerra.
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
 | Localização | Caixa De Texto  | Obrigátorio; |  -                 |
-| Distância                | Número                 | Valor em Km               |  5Km                 |
 | Nome Da Barbearia               | Caixa De Texto                | Opcional               |     -             |
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
