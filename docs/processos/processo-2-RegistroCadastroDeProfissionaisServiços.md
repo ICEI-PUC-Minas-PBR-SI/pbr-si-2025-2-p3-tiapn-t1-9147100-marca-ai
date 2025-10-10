@@ -1,4 +1,4 @@
-### 3.3.3 Processo 3 – REGISTRO DE PROFISSIONAIS E SERVIÇOS
+### 3.3.3 Processo 2 – REGISTRO DE PROFISSIONAIS E SERVIÇOS
 
 **Agendamento de Serviços na Barbearia**
 
