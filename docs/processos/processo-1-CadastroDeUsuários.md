@@ -46,6 +46,7 @@ O processo de cadastro é finalizado.
 | E-Mail | Caixa de Texto  |  Obrigatório; Formato de e-mail              |         _          |
 | Telefone            | Número              | Obrigatório; De 9 a 11 Dígitos            |      _       |
 | Senha             | Caixa De Texto             | Obrigatório; Mínimo 8 caractéres            |      _       |
+| Tipo de cadastro       | Checkbox             | Obrigatório; Cliente/Barbeiro            |      _       |
 
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
