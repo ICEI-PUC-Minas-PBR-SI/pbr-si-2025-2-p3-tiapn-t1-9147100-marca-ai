@@ -27,12 +27,13 @@ O processo de cadastro é finalizado.
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
+| botãoIniciar | Botão/Link  |   Obrigatório             |        -           |
 | botãoCadastro | Botão/Link  |   Obrigatório             |        -           |
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
-| iniciar | Preencher Dados do Cadastro  | default |
-| cancelar       |            Término                    |        cancel           |
+| Iniciar | Preencher dados do login caso já seja cadastrado  | default |
+| Cadastro      |             Redireciona para a tela de cadastro                   |        default          |
 
 
 **02 - Preencher Dados No Cadastro**
@@ -42,8 +43,7 @@ O processo de cadastro é finalizado.
 | ---             | ---              | ---               | ---            |
 | Nome            | Caixa De Texto   | Obrigatório; Somente Letras        |      _    |
 | E-Mail | Caixa de Texto  |  Obrigatório; Formato de e-mail              |         _          |
-| Celular             | Número              | Obrigatório; De 9 a 11 Dígitos            |      _       |
-| Usuário | Caixa de Texto  |  Obrigatório;               |         _          |
+| Telefone            | Número              | Obrigatório; De 9 a 11 Dígitos            |      _       |
 | Senha             | Caixa De Texto             | Obrigatório; Mínimo 8 caractéres            |      _       |
 
 
@@ -57,7 +57,7 @@ O processo de cadastro é finalizado.
 ![Wireframe](../images/Wireframe001.jpg)
 
 **Requisitos Atendidos:**
-- RF-001	Cadastrar clientes e barbeiros 
+- RF-001	Cadastrar clientes
 - RNF-001	O sistema deve ser responsivo, com adaptação automática da interface
 
 
