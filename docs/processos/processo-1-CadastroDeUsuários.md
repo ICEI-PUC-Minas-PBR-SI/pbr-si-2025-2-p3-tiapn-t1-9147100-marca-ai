@@ -28,14 +28,11 @@ O processo de cadastro é finalizado.
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
 | botãoIniciar | Botão/Link  |   Obrigatório             |        -           |
-
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
 | botãoCadastro | Botão/Link  |   Obrigatório             |        -           |
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
-| iniciar | Preencher Dados do Cadastro  | default |
+| iniciar | Preencher Dados do Cadastro caso já tenha cadastro  | default |
 | cancelar       |            Término                    |        cancel           |
 
 
