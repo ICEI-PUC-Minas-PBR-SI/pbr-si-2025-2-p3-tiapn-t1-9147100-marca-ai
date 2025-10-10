@@ -52,4 +52,7 @@ O processo de cadastro é finalizado.
 | Enviar               | Verificar Dados Informados             | default           |
 | cancelar            | Término  | cancel               |
 
+### Wireframe
+
+![Wireframe](images/Wireframe-Processo1.jpg)
 
