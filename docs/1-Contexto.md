@@ -67,11 +67,11 @@ Realizar ajustes gerais nas configurações do sistema.
 
 # 3. Processos de Negócios 
 
-#### 1. Cadastro de Usuário e Barbearia
-Processo de gerenciamento de dados que inicia o uso da plataforma. Nele, clientes, profissionais e barbearias são registrados no sistema, garantindo a organização, segurança e integridade das informações inseridas.
+#### 1. Cadastro de Usuário
+Processo de gerenciamento de dados que inicia o uso da plataforma. Nele todos usuários são registrados no sistema, garantindo a organização, segurança e integridade das informações inseridas.
 
-#### 2. Cadastro de Profissionais e Serviços Disponíveis
-Após o registro da barbearia, este processo permite o cadastro dos profissionais que atuam no estabelecimento e a definição dos serviços oferecidos. Isso personaliza o perfil da barbearia na plataforma e facilita a navegação dos clientes, organizando o catálogo de serviços de forma clara e acessível.
+#### 2. Cadastro de Barbeiros, Profissionais e Serviços Disponíveis
+Essa etapa possui o registro da barbearia, este processo permite o cadastro dos profissionais que atuam no estabelecimento e a definição dos serviços oferecidos. Isso personaliza o perfil da barbearia na plataforma e facilita a navegação dos clientes, organizando o catálogo de serviços de forma clara e acessível.
 
 #### 3. Agendamento e Cancelamento de Atendimentos
 Processo central da plataforma. Permite que o cliente escolha a barbearia, selecione o profissional desejado e visualize os horários disponíveis para agendar um serviço. Também oferece a opção de alterar ou cancelar atendimentos com facilidade, proporcionando flexibilidade tanto para o cliente quanto para o estabelecimento e otimizando a gestão da agenda.
