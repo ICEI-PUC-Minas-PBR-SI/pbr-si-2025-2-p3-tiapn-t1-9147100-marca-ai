@@ -32,7 +32,7 @@ O processo de cadastro é finalizado.
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
-| iniciar | Preencher Dados do Cadastro caso já tenha cadastro  | default |
+| iniciar | preencher Dados do login caso já seja cadastrado  | default |
 | cancelar       |            Término                    |        cancel           |
 
 
