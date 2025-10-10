@@ -54,4 +54,5 @@ O processo de cadastro é finalizado.
 
 ### Wireframe
 
-![Wireframe](images/processos/wireframe-1.jpg)
+![Wireframe](https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-marca-ai/blob/main/images/wireframe-1.jpg?raw=true)
+
