@@ -17,12 +17,13 @@ O sistema envia a confirmação ao cliente.
 06. Término
 O processo de cadastro é finalizado.
 
-<img width="1020" height="313" alt="image" src="https://github.com/user-attachments/assets/93faf312-8aae-42c0-a7a3-6411cd4e7a67" />
+<img width="1113" height="438" alt="image" src="https://github.com/user-attachments/assets/94f99d59-cff4-45a5-a85e-34aa32f25d88" />
+
 
 
 
 #### Detalhamento das atividades
-**Iniciar Cadastro na Plataforma**
+**01 - Iniciar Cadastro na Plataforma**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
@@ -34,7 +35,7 @@ O processo de cadastro é finalizado.
 | cancelar       |            Término                    |        cancel           |
 
 
-**Preencher Dados No Cadastro**
+**02 - Preencher Dados No Cadastro**
 
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
@@ -51,36 +52,4 @@ O processo de cadastro é finalizado.
 | Enviar               | Verificar Dados Informados             | default           |
 | cancelar            | Término  | cancel               |
 
-
-**Verificar Dados Informados**
-
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| - | -  |  -                |         -         |
-
-| **Comandos**         |  **Destino**                   | **Tipo** |
-| ---                  | ---                            | ---               |
-| validar                | Decisão “Dados Corretos?”                         | default               |
-
-
-**Verificar Dados Informados**
-
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| - | -  |  -  |         -         |
-
-| **Comandos**         |  **Destino**                   | **Tipo** |
-| ---                  | ---                            | ---               |
-| Retornar Erros                | Preencher Dados do Cadastro                         | default               |
-
-
-**Retornar Confirmação Do Cadastro**
-
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| - | -  |  -                |         -         |
-
-| **Comandos**         |  **Destino**                   | **Tipo** |
-| ---                  | ---                            | ---               |
-| Enviar Mensagem de Confirmação               | Término                        | default               |
 
