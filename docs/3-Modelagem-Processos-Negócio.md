@@ -22,6 +22,8 @@ Além disso, por meio de um sistema de avaliações de profissionais e estabelec
 
 [PROCESSO 1 - Cadastro de Usuário](./processos/processo-1-CadastroDeUsuários.md)
 
-[PROCESSO 2 - Agendamento De Tarefas](./processos/processo-2-AgendamentoDeTarefas.md)
+[PROCESSO 2 - RegistroCadastroDeProfissionaisServiços](./processos/processo-2-RegistroCadastroDeProfissionaisServiços.md)
+
+[PROCESSO 3 - Agendamento De Tarefas](./processos/processo-3-AgendamentoDeTarefas.md)
 
 
