@@ -3,34 +3,43 @@
 **Agendamento de Serviços na Barbearia**
 
 **Etapas do Processo**
-01. Início
-O cliente inicia o processo.
-
-02. Fazer Login
+01. Fazer Login
 O cliente acessa o sistema com suas credenciais.
 
-03. Escolher Atividade
+02. Escolher Atividade
 O cliente seleciona a atividade que deseja realizar.
 
-04. Decisão: Agendar Horário?
+03. Decisão: Agendar Horário?
 Se Sim → procurar barbearia.
-Se Não → verificar se deseja cancelar ou reagendar:
-Cancelamento → Cancelar horário → Término.
-Reagendamento → Selecionar horário já marcado → voltar para Escolher Horário Disponível.
+Se Não → Verificar Se possui Horário Disponível
 
-6. Procurar Barbearia
+04. Procurar Barbearia
 O cliente busca a barbearia onde deseja ser atendido.
 
-7. Escolher Horário Disponível
+05. Escolher Horário Disponível
 O cliente seleciona um horário livre.
 
-8. Escolher Serviço Desejado
+06. Escolher Serviço Desejado
 O cliente escolhe o serviço que deseja realizar (exemplo: corte de cabelo, barba, combo etc.).
 
-9. Término
+07. Decisão: Possui Horário Marcado?
+Se Sim → Cancelar Horário.
+Se Não → Retornar Erro Sem horário
+
+08. Cancelar Horário.
+O cliente cancela horário e decide se deseja remarcar.
+
+09. Decisão: Deseja Remarcar:?
+Se Sim → Procurar Barbearia.
+Se Não → Término
+
+10. Término
 O processo se encerra.
 
-<img width="1440" height="331" alt="image" src="https://github.com/user-attachments/assets/91a44464-f673-4299-a5e5-7d27d6078a02" />
+
+
+<img width="1430" height="573" alt="image" src="https://github.com/user-attachments/assets/95d91d5c-1a76-4f60-b109-34f6b10da56e" />
+
 
 
 
@@ -41,13 +50,13 @@ O processo se encerra.
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---               | ---            |
-| Usuário | Caixa de Texto  |  Obrigatório;               |         _          |
+| Email | Caixa de Texto  |  Obrigatório;               |         _          |
 | Senha             | Caixa De Texto             | Obrigatório; Mínimo 8 caractéres            |      _       |
 
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
-| Login               | Escolher Atividade              | default           |
+| Entrar            | Escolher Atividade              | default           |
 | cancelar            | Término  | cancel               |
 
 
@@ -58,7 +67,7 @@ O processo se encerra.
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| Tipo De Atividade | Seleção Única  | Obrigátorio; Opções Agendar, Reagendar e Cancelar               |  Agendar                 |
+| Tipo De Atividade | Seleção Única  | Obrigátorio; Opções Agendar e Cancelar              |  Agendar                 |
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
@@ -122,25 +131,12 @@ O processo se encerra.
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
 | Motivo | Área De Texto  | Obrigátorio; |  -                 |
+| Remarcar | Seleção Única  | Obrigátorio; |  -                 |
+
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
 | Confirmar Cancelamento               | Término                           | default               |
-| Voltar            | Escolher Atividade  | cancel               |
-
-
-
-
-
-**Selecionar Horário Marcado (Reagendamento)**
-
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| Motivo | Área De Texto  | Obrigátorio; |  -                 |
-
-| **Comandos**         |  **Destino**                   | **Tipo**          |
-| ---                  | ---                            | ---               |
-| Confirmar               | Escolher Horário Disponível                           | default               |
 | Voltar            | Escolher Atividade  | cancel               |
 
 
