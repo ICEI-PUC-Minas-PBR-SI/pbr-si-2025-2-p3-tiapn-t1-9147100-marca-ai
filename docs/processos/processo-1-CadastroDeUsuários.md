@@ -32,8 +32,8 @@ O processo de cadastro é finalizado.
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
-| iniciar | Preencher dados do login caso já seja cadastrado  | default |
-| cadastro      |             Redireciona para a tela de cadastro                   |        default          |
+| Iniciar | Preencher dados do login caso já seja cadastrado  | default |
+| Cadastro      |             Redireciona para a tela de cadastro                   |        default          |
 
 
 **02 - Preencher Dados No Cadastro**
