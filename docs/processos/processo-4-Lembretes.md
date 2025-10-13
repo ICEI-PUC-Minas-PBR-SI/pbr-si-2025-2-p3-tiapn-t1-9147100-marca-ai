@@ -35,5 +35,31 @@
 | ---                  | ---                            | ---               |
 | VerDetalhes | Mostra exemplo do agendamento(Ex: cabelo ou barba)  | default |
 
+**02 - Enviar pedido de confirmação**
+
+| **Campo**               | **Tipo** | **Restrições** | **Valor default**                               |
+| ----------------------- | -------- | -------------- | ----------------------------------------------- |
+| Mensagem de confirmação | Texto    | Automático            | “Você confirma o agendamento para data/hora?” |
+| botãoEnviar                | Botão             | Obrigatório    | -                                               |
+| botãoCancelarEnvio      | Botão    |         Opcional                            | -                                               |
+
+| **Comandos**  | **Destino**                            | **Tipo** |
+| ------------- | -------------------------------------- | -------- |
+| Enviar              | Envia pedido de confirmação ao usuário     | default  |
+| CancelarEnvio     | Retorna a tela de agendamentos                | default  |
+
+**03 - Receber pedido de confirmação**
+
+| **Campo**               | **Tipo** | **Restrições**          | **Valor default**                            |
+| ----------------------- | -------- | ----------------------- | -------------------------------------------- |
+| Mensagem de confirmação | Texto                |       Exibido automaticamente |       Confirma sua presença no horário agendado? |
+| botãoConfirmar          | Botão    | Obrigatório                   | -                                            |
+| botãoCancelar           | Botão    | Obrigatório                | -                                            |
+
+| **Comandos** | **Destino**                                 | **Tipo** |
+| ------------ | ------------------------------------------- | -------- |
+| Confirmar      | Envia confirmação e ativa lembrete 1h antes       | default  |
+| Cancelar         | Redireciona para cancelamento do horário                     | default  |
+
 
 
