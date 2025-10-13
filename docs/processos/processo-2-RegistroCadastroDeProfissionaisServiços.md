@@ -21,9 +21,9 @@
 
 
 #### Detalhamento das atividades
-**01 - Iniciar Cadastro na Plataforma**
+**01 - Iniciar Login na Plataforma**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| botãoIniciar | Botão/Link  |   Obrigatório             |        -           |
-| botãoCadastro | Botão/Link  |   Obrigatório             |        -           |
+| E-mail | Campo  |   Obrigatório             |        -           |
+| Senha | Campo  |   Obrigatório             |        -           |
