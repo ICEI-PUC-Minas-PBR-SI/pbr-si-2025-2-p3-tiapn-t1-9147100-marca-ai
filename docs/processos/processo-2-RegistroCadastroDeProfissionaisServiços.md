@@ -62,3 +62,19 @@
 | Adicionar | Avança para retornar usuário existente ou registrar novo serviço  | default |
 | Voltar      |             Retorna para criar barbearia                 |        default          |
 
+
+**04 - Registrar novo serviço**
+
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---               | ---            |
+| Nome do Serviço         | Caixa De Texto   | Obrigatório       |      _    |
+| Descrição | Caixa De Texto   |  Obrigatório            |         _          |
+| Valor | Número Decimal  |  Obrigatório            |         _          |
+| botãoSalvar | Botão   |  Obrigatório            |         _          |
+| Cancelar | Botão   |  Obrigatório            |         _          |
+
+| **Comandos**         |  **Destino**                   | **Tipo** |
+| ---                  | ---                            | ---               |
+| Salvar | Gera confirmação de cadastro  | default |
+| Voltar      |             Retorna à tela anterior                |        default          |
