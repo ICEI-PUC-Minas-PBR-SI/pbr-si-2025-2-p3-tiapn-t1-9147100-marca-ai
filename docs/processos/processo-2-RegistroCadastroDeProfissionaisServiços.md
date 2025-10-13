@@ -15,7 +15,7 @@ Sim → Condicional Criar Serviço? Não → Próxima Etapa (Associar barbeiros)
 
 05 - Retornar Confirmação De Cadastro
 
-06. Término
+06 - Término
 
 
 <img width="1348" height="768" alt="image" src="https://github.com/user-attachments/assets/80910059-be9d-4e9f-afe9-62530601d515" />
