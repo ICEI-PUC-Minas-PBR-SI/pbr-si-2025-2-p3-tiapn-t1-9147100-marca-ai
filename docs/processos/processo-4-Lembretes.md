@@ -61,5 +61,53 @@
 | Confirmar      | Envia confirmação e ativa lembrete 1h antes       | default  |
 | Cancelar         | Redireciona para cancelamento do horário                     | default  |
 
+**04 - Cancelar agendamento**
+
+| **Campo**                  | **Tipo**       | **Restrições** | **Valor default** |
+| -------------------------- | -------------- | -------------- | ----------------- |
+| Motivo do cancelamento           | Caixa de Texto       | Opcional       | _                 |
+| botãoConfirmarCancelamento  | Botão                   | Obrigatório    | -                 |
+| botãoVoltar                  | Botão          |   Opcional       | -                                         |
+
+| **Comandos**          | **Destino**                           | **Tipo** |
+| --------------------- | ------------------------------------- | -------- |
+| ConfirmarCancelamento          | Finaliza o agendamento como cancelado           | default  |
+| Voltar                | Retorna à tela de confirmação               | default  |
+
+**05 - Enviar Lembrete do Serviço Agendado**
+
+| **Campo**            | **Tipo** | **Restrições** | **Valor default**                                                   |
+| -------------------- | -------- | -------------- | ------------------------------------------------------------------- |
+| Mensagem de Lembrete          | Texto            | Automático     | “Seu serviço está agendado para data/hora. Compareça no horário.” |
+| botãoEnviar          |    Botão        | Obrigatório          | -                                                                   |
+
+| **Comandos** | **Destino**                 | **Tipo** |
+| ------------ | --------------------------- | -------- |
+| Enviar              | Envia o lembrete ao usuário        | default  |
+
+**06 - Enviar Lembrete do Serviço Agendado**
+
+| **Campo**            | **Tipo** | **Restrições**          | **Valor default**                                        |
+| -------------------- | -------- | ----------------------- | -------------------------------------------------------- |
+| Mensagem de Lembrete     | Texto    | Exibido automaticamente          | “Lembrete: você possui um agendamento para data/hora.” |
+| botãoOk                         | Botão          | Obrigatório                   | -                                                        |
+| botãoVerDetalhes               | Botão    | Opcional                | -                                                        |
+
+| **Comandos** | **Destino**                                | **Tipo** |
+| ------------ | ------------------------------------------ | -------- |
+| Ok                   | Finaliza a notificação                         | default       |
+| VerDetalhes      | Exibe informações completas do agendamento(Tipo/Dia/Horário        | default     |
+
+**07 - Término**
+
+| **Campo**      | **Tipo** | **Restrições**          | **Valor default**                 |
+| -------------- | -------- | ----------------------- | --------------------------------- |
+| Mensagem Final       | Texto          | Exibido automaticamente     | “Processo finalizado.” |
+
+
+
+
+
+
 
 
