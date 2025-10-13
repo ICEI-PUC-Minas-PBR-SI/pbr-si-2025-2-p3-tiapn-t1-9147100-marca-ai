@@ -17,7 +17,8 @@
 06 - Retornar Confirmação De Cadastro
 
 
-<img width="1591" height="592" alt="image" src="https://github.com/user-attachments/assets/38056e8a-b3a4-4f99-aa9e-514fb11a503e" />
+<img width="1348" height="768" alt="image" src="https://github.com/user-attachments/assets/80910059-be9d-4e9f-afe9-62530601d515" />
+
 
 
 #### Detalhamento das atividades
