@@ -19,3 +19,21 @@
 07 - Término
 
 <img width="1642" height="624" alt="image" src="https://github.com/user-attachments/assets/6ddce3ea-2b9e-458e-bd70-fb6c3c2f7ff8" />
+
+#### Detalhamento das atividades
+**01 - Receber confirmação do agendamento**
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---            | ---               |
+| ID do Agendamento | Texto  |   Obrigatório             |        -           |
+| Data e Hora do Agendamento | Texto/Data  |   Obrigatório             |        -           |
+| Status | Texto  |   Automático          |        Pendente          |
+| botãoVerDetalhes | Botão  |   Opcional          |        -        |
+
+
+| **Comandos**         |  **Destino**                   | **Tipo** |
+| ---                  | ---                            | ---               |
+| VerDetalhes | Mostra exemplo do agendamento(Ex: cabelo ou barba)  | default |
+
+
+
