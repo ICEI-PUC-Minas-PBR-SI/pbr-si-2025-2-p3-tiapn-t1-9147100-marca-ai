@@ -4,7 +4,8 @@
 
 **Etapas do Processo**
 
-01 - Realizar Login Na Plataforma
+01 - Realizar Login Na Plataforma. Decisão: Barbearia Existe? Não → Próxima Etapa (Cadastrar Barbearia) / 
+Sim → Condicional Criar Serviço? Não → Próxima Etapa (Associar barbeiros) / Sim → Próxima Etapa (Registrar Novo Serviço). 
 
 02 - Realizar Cadastro Da Barbearia 
 
@@ -12,9 +13,9 @@
 
 04 - Registrar Novo Serviço
 
-05 - Verificar Dados Informados O sistema valida os dados fornecidos. Decisão: Dados Corretos? Não → o sistema retorna mensagem de dados incorretos e o cliente deve corrigir as informações. Sim → Próxima Etapa (Associar Barbeiras).
+05 - Retornar Confirmação De Cadastro
 
-06 - Retornar Confirmação De Cadastro
+06. Término
 
 
 <img width="1348" height="768" alt="image" src="https://github.com/user-attachments/assets/80910059-be9d-4e9f-afe9-62530601d515" />
