@@ -39,8 +39,12 @@
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---               | ---            |
-| Nome            | Caixa De Texto   | Obrigatório; Somente Letras        |      _    |
-| E-Mail | Caixa de Texto  |  Obrigatório; Formato de e-mail              |         _          |
-| Telefone            | Número              | Obrigatório; De 9 a 11 Dígitos            |      _       |
-| Senha             | Caixa De Texto             | Obrigatório; Mínimo 8 caractéres            |      _       |
-| Tipo de cadastro       | Checkbox             | Obrigatório; Cliente/Barbeiro            |      _       |
+| Nome da Barbearia            | Caixa De Texto   | Obrigatório       |      _    |
+| Endereço | Caixa de Texto  |  Obrigatório            |         _          |
+| Telefone            | Número             | Obrigatório; De 9 a 11 dígitos          |      _       |
+
+| **Comandos**         |  **Destino**                   | **Tipo** |
+| ---                  | ---                            | ---               |
+| Salvar | Avança para associar os barbeiros  | default |
+| Cancelar      |             Redireciona para o menu inicial                 |        default          |
+
