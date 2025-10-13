@@ -27,3 +27,8 @@
 | ---             | ---              | ---            | ---               |
 | E-mail | Campo  |   Obrigatório             |        -           |
 | Senha | Campo  |   Obrigatório             |        -           |
+
+| **Botão**         |  **Destino**                   | **Tipo** |
+| ---                  | ---                            | ---               |
+| Iniciar | Faz o login após digitar usuário e senha  | default |
+| Cancelar      |             Redireciona para a tela de cadastro                   |        default          |
