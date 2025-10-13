@@ -48,3 +48,17 @@
 | Salvar | Avança para associar os barbeiros  | default |
 | Cancelar      |             Redireciona para o menu inicial                 |        default          |
 
+
+**03 - Associar Barbeiros**
+
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---               | ---            |
+| Nome do Barbeiro          | Caixa De Texto   | Obrigatório       |      _    |
+| botãoAdicionarBarbeiro | Botão  |  Obrigatório            |         _          |
+
+| **Comandos**         |  **Destino**                   | **Tipo** |
+| ---                  | ---                            | ---               |
+| Adicionar | Avança para retornar usuário existente ou registrar novo serviço  | default |
+| Voltar      |             Retorna para criar barbearia                 |        default          |
+
