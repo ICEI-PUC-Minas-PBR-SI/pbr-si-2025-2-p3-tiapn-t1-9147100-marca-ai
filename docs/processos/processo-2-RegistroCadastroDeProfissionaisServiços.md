@@ -91,3 +91,19 @@
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
 | Cadastrar | Redireciona à associar barbeiros | default |
+
+
+**06 - Retornar confirmação de cadastro**
+
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---               | ---            |
+| Mensagem de confirmação       | Texto   | Exibido automaticamente       |     “Cadastro realizado com sucesso!”   |
+| botãoConcluir | Botão   |  Obrigatório          |         _          |
+| botãoVoltarLogin | Botão   |  Opicional          |         _          |
+
+| **Comandos**         |  **Destino**                   | **Tipo** |
+| ---                  | ---                            | ---               |
+| Concluir | Finaliza o processo | default |
+| Voltar Login | Volta para a tela de login | default |
+
