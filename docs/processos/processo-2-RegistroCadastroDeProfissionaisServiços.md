@@ -28,7 +28,19 @@
 | E-mail | Campo  |   Obrigatório             |        -           |
 | Senha | Campo  |   Obrigatório             |        -           |
 
-| **Botão**         |  **Destino**                   | **Tipo** |
+| **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
 | Iniciar | Faz o login após digitar usuário e senha  | default |
 | Cancelar      |             Redireciona para a tela de cadastro                   |        default          |
+
+
+**02 - Criar Barbearia**
+
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---               | ---            |
+| Nome            | Caixa De Texto   | Obrigatório; Somente Letras        |      _    |
+| E-Mail | Caixa de Texto  |  Obrigatório; Formato de e-mail              |         _          |
+| Telefone            | Número              | Obrigatório; De 9 a 11 Dígitos            |      _       |
+| Senha             | Caixa De Texto             | Obrigatório; Mínimo 8 caractéres            |      _       |
+| Tipo de cadastro       | Checkbox             | Obrigatório; Cliente/Barbeiro            |      _       |
