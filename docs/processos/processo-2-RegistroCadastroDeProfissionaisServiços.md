@@ -71,10 +71,23 @@
 | Nome do Serviço         | Caixa De Texto   | Obrigatório       |      _    |
 | Descrição | Caixa De Texto   |  Obrigatório            |         _          |
 | Valor | Número Decimal  |  Obrigatório            |         _          |
-| botãoSalvar | Botão   |  Obrigatório            |         _          |
-| Cancelar | Botão   |  Obrigatório            |         _          |
+| botãoSalvar | Botão   |  Opcional            |         _          |
+| Cancelar | Botão   |  Opcional            |         _          |
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
 | Salvar | Gera confirmação de cadastro  | default |
 | Voltar      |             Retorna à tela anterior                |        default          |
+
+
+**05 - Retornar usuário existente**
+
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---               | ---            |
+| Mensagem de erro        | Texto   | Exibido automaticamente       |     “Usuário não encontrado. Verifique seus dados.”   |
+| botãoCadastrar | Botão   |  Opcional          |         _          |
+
+| **Comandos**         |  **Destino**                   | **Tipo** |
+| ---                  | ---                            | ---               |
+| Cadastrar | Redireciona à associar barbeiros | default |
