@@ -20,3 +20,10 @@
 <img width="1591" height="592" alt="image" src="https://github.com/user-attachments/assets/38056e8a-b3a4-4f99-aa9e-514fb11a503e" />
 
 
+#### Detalhamento das atividades
+**01 - Iniciar Cadastro na Plataforma**
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---            | ---               |
+| botãoIniciar | Botão/Link  |   Obrigatório             |        -           |
+| botãoCadastro | Botão/Link  |   Obrigatório             |        -           |
