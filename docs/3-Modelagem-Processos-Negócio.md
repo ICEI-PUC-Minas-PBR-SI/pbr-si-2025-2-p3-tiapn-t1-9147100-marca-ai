@@ -26,4 +26,6 @@ Além disso, por meio de um sistema de avaliações de profissionais e estabelec
 
 [PROCESSO 3 - Agendamento De Tarefas](./processos/processo-3-AgendamentoDeTarefas.md)
 
+[PROCESSO 4 - Lembretes](./processos/processo-4-Lembretes.md)
+
 
