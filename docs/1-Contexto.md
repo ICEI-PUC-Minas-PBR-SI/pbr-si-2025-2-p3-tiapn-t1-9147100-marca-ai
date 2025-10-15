@@ -70,7 +70,7 @@ Realizar ajustes gerais nas configurações do sistema.
 #### 1. Cadastro de Usuário
 Processo de gerenciamento de dados que inicia o uso da plataforma. Nele todos usuários são registrados no sistema, garantindo a organização, segurança e integridade das informações inseridas.
 
-#### 2. Cadastro de Barbeiros, Profissionais e Serviços Disponíveis
+#### 2. Cadastro de Barbearia, Profissionais e Serviços Disponíveis
 Essa etapa possui o registro da barbearia, este processo permite o cadastro dos profissionais que atuam no estabelecimento e a definição dos serviços oferecidos. Isso personaliza o perfil da barbearia na plataforma e facilita a navegação dos clientes, organizando o catálogo de serviços de forma clara e acessível.
 
 #### 3. Agendamento e Cancelamento de Atendimentos
