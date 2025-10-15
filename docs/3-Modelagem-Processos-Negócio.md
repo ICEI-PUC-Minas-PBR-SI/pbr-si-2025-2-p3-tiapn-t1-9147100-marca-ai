@@ -25,6 +25,6 @@ Após fazer todas as escolhas, o cliente finaliza o processo e o sistema cuida d
 
 [PROCESSO 3 - Agendamento e Cancelamento de Atendimentos](./processos/processo-3-AgendamentoeCancelamentodeAtendimentos.md)
 
-[PROCESSO 4 - Lembretes Automatizados](./processos/processo-4-Lembretes.md)
+[PROCESSO 4 - Lembretes Automatizados](./processos/processo-4-LembretesAutomatizados.md)
 
 
