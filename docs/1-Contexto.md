@@ -76,7 +76,7 @@ Essa etapa possui o registro da barbearia, este processo permite o cadastro dos 
 #### 3. Agendamento e Cancelamento de Atendimentos
 Processo central da plataforma. Permite que o cliente escolha a barbearia, selecione o profissional desejado e visualize os horários disponíveis para agendar um serviço. Também oferece a opção de alterar ou cancelar atendimentos com facilidade, proporcionando flexibilidade tanto para o cliente quanto para o estabelecimento e otimizando a gestão da agenda.
 
-#### 4. Marketing Direcionado e Lembretes Automatizados
+#### 4. Lembretes Automatizados
 Processo de comunicação e engajamento. A plataforma envia lembretes automáticos sobre os agendamentos aos clientes e profissionais, reduzindo a taxa de não comparecimento. Além disso, permite a criação de campanhas personalizadas com base no histórico e comportamento dos usuários, ajudando a fidelizar clientes e aumentar a recorrência de atendimentos.
 
 #### 5. Avaliação e Feedback
