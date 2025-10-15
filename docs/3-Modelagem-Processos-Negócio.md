@@ -21,7 +21,7 @@ Após fazer todas as escolhas, o cliente finaliza o processo e o sistema cuida d
 
 [PROCESSO 1 - Cadastro de Usuário](./processos/processo-1-CadastroDeUsuários.md)
 
-[PROCESSO 2 - Cadastro de Barbeiros, Profissionais e Serviços Disponíveis](./processos/processo-2-RegistroCadastroDeProfissionaisServiços.md)
+[PROCESSO 2 - Cadastro de Barbearia, Profissionais e Serviços Disponíveis](./processos/processo-2-RegistroCadastroDeProfissionaisServiços.md)
 
 [PROCESSO 3 - Agendamento De Tarefas](./processos/processo-3-AgendamentoDeTarefas.md)
 
