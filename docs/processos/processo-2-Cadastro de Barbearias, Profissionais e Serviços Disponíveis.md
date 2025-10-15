@@ -1,5 +1,4 @@
-### 3.3.2 Processo 2 – REGISTRO DE PROFISSIONAIS E SERVIÇOS
-
+### 3.3.2 Processo 2 – CADASTRO DE BARBEARIAS, PROFISSIONAIS E SERVIÇOS DISPONÍVEIS
 **Agendamento de Serviços na Barbearia**
 
 **Etapas do Processo**
