@@ -1,6 +1,5 @@
-### 3.3.3 Processo 3 – Agendamento de Tarefas
+### 3.3.3 Processo 3 – AGENDAMENTO E CANCELAMENTO DE ATENDIMENTOS 
 
-**Agendamento de Serviços na Barbearia**
 
 **Etapas do Processo**
 01. Fazer Login
