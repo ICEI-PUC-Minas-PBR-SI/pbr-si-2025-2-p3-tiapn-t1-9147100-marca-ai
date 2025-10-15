@@ -105,7 +105,9 @@
 | Mensagem Final       | Texto          | Exibido automaticamente     | “Processo finalizado.” |
 
 
+### Wireframe
 
+![Wireframe]
 
 
 

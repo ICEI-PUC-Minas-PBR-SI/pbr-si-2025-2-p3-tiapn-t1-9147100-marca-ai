@@ -140,6 +140,8 @@ O processo se encerra.
 | Confirmar Cancelamento               | Término                           | default               |
 | Voltar            | Escolher Atividade  | cancel               |
 
+### Wireframe
 
+![Wireframe](../images/Wireframe-3.jpg)
 
 

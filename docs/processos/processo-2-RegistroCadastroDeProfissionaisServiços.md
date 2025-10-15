@@ -109,3 +109,6 @@ Sim → Condicional Criar Serviço? Não → Próxima Etapa (Associar barbeiros)
 | Concluir | Finaliza o processo | default |
 | Voltar Login | Volta para a tela de login | default |
 
+### Wireframe
+
+![Wireframe]
