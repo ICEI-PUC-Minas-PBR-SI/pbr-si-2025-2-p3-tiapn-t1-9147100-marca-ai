@@ -1,7 +1,5 @@
 ### 3.3.4 Processo 4 – LEMBRETES
 
-**Lembretes**
-
 **Etapas do Processo**
 
 01 - Recebimento de uma confirmação de agendamento. Decisão: Agendado no mesmo dia? Não → Evento Timer de 1 Dia antes do horário / Sim → Evento Timer de 1 Hora Antes do horário.
