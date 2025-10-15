@@ -16,7 +16,6 @@ Em seguida, o sistema exibe uma lista de barbeiros disponíveis no estabelecimen
 
 Após fazer todas as escolhas, o cliente finaliza o processo e o sistema cuida do restante, minimizando erros e otimizando a comunicação. A própria plataforma envia uma confirmação do agendamento ao usuário, além de um lembrete do serviço marcado, reduzindo a taxa de não comparecimento. O cliente também poderá remarcar ou cancelar o agendamento de forma autônoma.
 
-Além disso, por meio de um sistema de avaliações de profissionais e estabelecimentos, será possível implementar estratégias de marketing digital, como o envio de promoções personalizadas ou o reengajamento de clientes inativos.
 
 ### 3.3. Modelagem dos processos
 
