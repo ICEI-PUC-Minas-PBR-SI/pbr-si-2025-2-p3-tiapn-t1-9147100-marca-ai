@@ -143,6 +143,3 @@ O processo se encerra.
 
 ![Wireframe](../images/Wireframe-3.jpg)
 
-**Requisitos Atendidos:**
-- RF-003	Permitir que o cliente realize agendamento
-- RF-002	Possibilitar cancelamento e reagendamento de serviços
