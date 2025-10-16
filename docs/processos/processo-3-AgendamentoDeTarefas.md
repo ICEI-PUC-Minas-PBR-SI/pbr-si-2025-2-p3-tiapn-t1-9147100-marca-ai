@@ -142,7 +142,7 @@ O processo se encerra.
 
 ### Wireframe
 
-![Wireframe](../images/Wireframe-3.jpg)
+![Wireframe](../images/wireframe/Wireframe-03.jpg)
 
 **Requisitos Atendidos:**
 - RF-003	Permitir que o cliente realize agendamento

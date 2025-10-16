@@ -56,7 +56,7 @@ O processo de cadastro é finalizado.
 
 ### Wireframe
 
-![Wireframe](../images/Wireframe001.jpg)
+![Wireframe](../images/wireframe/Wireframe-01.jpg)
 
 **Requisitos Atendidos:**
 - RF-001	Cadastrar clientes e Barbearias

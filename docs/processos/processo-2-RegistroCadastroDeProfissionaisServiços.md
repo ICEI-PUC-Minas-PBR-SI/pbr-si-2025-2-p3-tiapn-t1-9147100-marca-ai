@@ -111,4 +111,4 @@ Sim → Condicional Criar Serviço? Não → Próxima Etapa (Associar barbeiros)
 
 ### Wireframe
 
-![Wireframe](../images/Wireframe-2.jpg)
+![Wireframe](../images/wireframe/Wireframe-02.jpg)
