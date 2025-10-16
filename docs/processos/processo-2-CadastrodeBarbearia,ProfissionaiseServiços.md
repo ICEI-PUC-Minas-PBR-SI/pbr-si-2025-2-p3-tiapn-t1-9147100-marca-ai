@@ -113,4 +113,4 @@ Sim → Condicional Criar Serviço? Não → Próxima Etapa (Associar barbeiros)
 ![Wireframe](../images/wireframe/Wireframe-02.jpg)
 =======
 ![Wireframe](../images/Wireframe-2.jpg)
->>>>>>> 0ba8ee29cca24c7b9958b19577053a0f983a96ee:docs/processos/processo-2-CadastrodeBarbearias,ProfissionaiseServiçosDisponíveis.md
+
