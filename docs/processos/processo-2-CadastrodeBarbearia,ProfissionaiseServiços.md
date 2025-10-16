@@ -111,6 +111,3 @@ Sim → Condicional Criar Serviço? Não → Próxima Etapa (Associar barbeiros)
 ### Wireframe
 
 ![Wireframe](../images/wireframe/Wireframe-02.jpg)
-=======
-![Wireframe](../images/Wireframe-2.jpg)
-
