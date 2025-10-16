@@ -62,7 +62,7 @@ Atualizado em: 17/10/2025
 | Victoria Maia | BPMN Processo 3 |  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
 | Bruno Primo | Wireframe Processo 3|  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
 | Talisson Vilaça | BPMN Processo 4 |  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
-| Bruno Primo | Wireframe Processo 4|  26/09/2025    | 03/10/2025 | 📝       | 03/10/2025  |
+| Bruno Primo | Wireframe Processo 4|  26/09/2025    | 03/10/2025 | ✔️      | 03/10/2025  |
 | Gustavo Ferreira | Detalhamento dos Processos |  10/10/2025    | 17/10/2025 | ✔️       | 17/10/2025  |
 
 
