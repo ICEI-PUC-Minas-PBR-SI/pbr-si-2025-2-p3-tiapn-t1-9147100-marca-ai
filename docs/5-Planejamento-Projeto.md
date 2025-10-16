@@ -54,7 +54,7 @@ Atualizado em: 17/10/2025
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Victoria Maia  | Planejamento Sprint 3  | 26/09/2025     | 03/10/2025  | ✔️    |   03/10/2025               |
-| Rhaniel Lucas  | Apoio na coordenação e organização das tarefas | 26/09/2025     | 03/10/2025  | ✔️    |   03/10/2025               |
+| Rhaniel Lucas  | Coordenação e Organização das Tarefas | 26/09/2025     | 03/10/2025  | ✔️    |   03/10/2025               |
 | Victoria Maia | BPMN Processo 1 |  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
 | João Gabriel | Wireframe Processo 1 |  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
 | Talisson Vilaça | BPMN Processo 2 |  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
