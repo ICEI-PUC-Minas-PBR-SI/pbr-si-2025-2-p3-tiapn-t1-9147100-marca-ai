@@ -16,16 +16,15 @@ Em seguida, o sistema exibe uma lista de barbeiros disponíveis no estabelecimen
 
 Após fazer todas as escolhas, o cliente finaliza o processo e o sistema cuida do restante, minimizando erros e otimizando a comunicação. A própria plataforma envia uma confirmação do agendamento ao usuário, além de um lembrete do serviço marcado, reduzindo a taxa de não comparecimento. O cliente também poderá remarcar ou cancelar o agendamento de forma autônoma.
 
-Além disso, por meio de um sistema de avaliações de profissionais e estabelecimentos, será possível implementar estratégias de marketing digital, como o envio de promoções personalizadas ou o reengajamento de clientes inativos.
 
 ### 3.3. Modelagem dos processos
 
 [PROCESSO 1 - Cadastro de Usuário](./processos/processo-1-CadastroDeUsuários.md)
 
-[PROCESSO 2 - Registro Cadastro De Profissionais Serviços](./processos/processo-2-RegistroCadastroDeProfissionaisServiços.md)
+[PROCESSO 2 - Cadastro de Barbearia, Profissionais e Serviços Disponíveis](./processos/processo-2-CadastrodeBarbearias,ProfissionaiseServiçosDisponíveis.md)
 
-[PROCESSO 3 - Agendamento De Tarefas](./processos/processo-3-AgendamentoDeTarefas.md)
+[PROCESSO 3 - Agendamento e Cancelamento de Atendimentos](./processos/processo-3-AgendamentoeCancelamentodeAtendimentos.md)
 
-[PROCESSO 4 - Lembretes](./processos/processo-4-Lembretes.md)
+[PROCESSO 4 - Lembretes Automatizados](./processos/processo-4-LembretesAutomatizados.md)
 
 

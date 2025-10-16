@@ -46,21 +46,24 @@ Atualizado em: 12/09/2025
 | Victoria Maia      | Criação Project | 05/09/2025     | 12/09/2025  | ✔️    |   05/09/2025               |
 | Rhaniel Lucas       | Modelagem AS IS |  05/09/2025    | 12/09/2025 | ✔️         | 12/09/2025  |
 | Talisson Vilaça   | Modelagem TO BE |  05/09/2025    | 12/09/2025 | ✔️       |  05/09/2025 |
-| Rhaniel Lucas      | Modelagem Processo 1 e 2|  05/09/2025    | 12/09/2025 | ✔️       | 12/09/2025  |
 
 ## Sprint 3
 
-Atualizado em: 
+Atualizado em: 17/10/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Victoria Maia  | Planejamento Sprint 3  | 26/09/2025     | 03/10/2025  | ✔️    |   03/10/2025               |
-| João Gabriel  | Atualização Project  | 26/09/2025     | 03/10/2025  |  ✔️    |   03/10/2025               |
-| Rhaniel Lucas  | Modelagem Processo 3 |  26/09/2025    | 03/10/2025 | 📝       | 03/10/2025  |
-| João Gabriel | Wireframe Login|  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
-| Bruno Primo | Wireframe Processo 1 e 2|  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
+| Rhaniel Lucas  | Coordenação e Organização das Tarefas | 26/09/2025     | 03/10/2025  | ✔️    |   03/10/2025               |
+| Victoria Maia | BPMN Processo 1 |  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
+| João Gabriel | Wireframe Processo 1 |  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
+| Talisson Vilaça | BPMN Processo 2 |  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
+| João Gabriel | Wireframe Processo 2 |  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
+| Victoria Maia | BPMN Processo 3 |  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
 | Bruno Primo | Wireframe Processo 3|  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
-| Gustavo Ferreira| Tabelas dos processos|  10/10/2025    | 17/10/2025 | 📝       | 17/10/2025  |
+| Talisson Vilaça | BPMN Processo 4 |  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
+| Bruno Primo | Wireframe Processo 4|  26/09/2025    | 03/10/2025 | 📝       | 03/10/2025  |
+| Gustavo Ferreira | Detalhamento dos Processos |  10/10/2025    | 17/10/2025 | ✔️       | 17/10/2025  |
 
 
 #### Legenda:

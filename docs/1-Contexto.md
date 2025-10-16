@@ -70,14 +70,14 @@ Realizar ajustes gerais nas configurações do sistema.
 #### 1. Cadastro de Usuário
 Processo de gerenciamento de dados que inicia o uso da plataforma. Nele todos usuários são registrados no sistema, garantindo a organização, segurança e integridade das informações inseridas.
 
-#### 2. Cadastro de Barbeiros, Profissionais e Serviços Disponíveis
+#### 2. Cadastro de Barbearia, Profissionais e Serviços Disponíveis
 Essa etapa possui o registro da barbearia, este processo permite o cadastro dos profissionais que atuam no estabelecimento e a definição dos serviços oferecidos. Isso personaliza o perfil da barbearia na plataforma e facilita a navegação dos clientes, organizando o catálogo de serviços de forma clara e acessível.
 
 #### 3. Agendamento e Cancelamento de Atendimentos
 Processo central da plataforma. Permite que o cliente escolha a barbearia, selecione o profissional desejado e visualize os horários disponíveis para agendar um serviço. Também oferece a opção de alterar ou cancelar atendimentos com facilidade, proporcionando flexibilidade tanto para o cliente quanto para o estabelecimento e otimizando a gestão da agenda.
 
-#### 4. Marketing Direcionado e Lembretes Automatizados
-Processo de comunicação e engajamento. A plataforma envia lembretes automáticos sobre os agendamentos aos clientes e profissionais, reduzindo a taxa de não comparecimento. Além disso, permite a criação de campanhas personalizadas com base no histórico e comportamento dos usuários, ajudando a fidelizar clientes e aumentar a recorrência de atendimentos.
+#### 4. Lembretes Automatizados
+Processo de comunicação e engajamento. A plataforma envia lembretes automáticos sobre os agendamentos aos clientes e profissionais, reduzindo a taxa de não comparecimento. 
 
 #### 5. Avaliação e Feedback
 Processo de coleta de opiniões e experiências após a realização do serviço. Os clientes podem avaliar o atendimento e os profissionais, fornecendo informações valiosas para a melhoria contínua da barbearia e aumentando a confiança de novos usuários na plataforma.

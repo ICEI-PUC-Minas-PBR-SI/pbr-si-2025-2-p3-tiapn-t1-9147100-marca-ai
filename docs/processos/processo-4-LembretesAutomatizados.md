@@ -1,6 +1,4 @@
-### 3.3.4 Processo 4 – LEMBRETES
-
-**Lembretes**
+### 3.3.4 Processo 4 – LEMBRETES AUTOMATIZADOS
 
 **Etapas do Processo**
 
