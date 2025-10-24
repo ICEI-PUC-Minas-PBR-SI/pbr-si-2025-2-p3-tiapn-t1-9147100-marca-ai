@@ -3,37 +3,37 @@
 
 **Etapas do Processo**
 
-01. Fazer Login
+01 - Fazer Login
 O cliente acessa o sistema com suas credenciais.
 
-02. Escolher Atividade
+02 - Escolher Atividade
 O cliente seleciona a atividade que deseja realizar.
 
-03. Decisão: Agendar Horário?
+03 - Decisão: Agendar Horário?
 Se Sim → procurar barbearia.
 Se Não → Verificar Se possui Horário Disponível
 
-04. Procurar Barbearia
+04 - Procurar Barbearia
 O cliente busca a barbearia onde deseja ser atendido.
 
-05. Escolher Horário Disponível
+05 - Escolher Horário Disponível
 O cliente seleciona um horário livre.
 
-06. Escolher Serviço Desejado
+06 - Escolher Serviço Desejado
 O cliente escolhe o serviço que deseja realizar (exemplo: corte de cabelo, barba, combo etc.).
 
-07. Decisão: Possui Horário Marcado?
+07 - Decisão: Possui Horário Marcado?
 Se Sim → Cancelar Horário.
 Se Não → Retornar Erro Sem horário
 
-08. Cancelar Horário.
+08 - Cancelar Horário.
 O cliente cancela horário e decide se deseja remarcar.
 
-09. Decisão: Deseja Remarcar:?
+09 - Decisão: Deseja Remarcar:?
 Se Sim → Procurar Barbearia.
 Se Não → Término
 
-10. Término
+10 - Término
 O processo se encerra.
 
 
