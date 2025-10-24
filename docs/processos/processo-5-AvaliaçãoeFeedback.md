@@ -16,3 +16,28 @@
 
 07 - Término: O processo é finalizado.
 
+
+
+#### Detalhamento das atividades
+**01 - Iniciar Avaliação**
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---            | ---               |
+| botãoAvaliar | Botão/Link  |   Obrigatório             |        -           |
+
+| **Comandos**         |  **Destino**                   | **Tipo** |
+| ---                  | ---                            | ---               |
+| Avaliar | Preencher dados da avaliação  | default |
+
+**02 - Preencher Dados da Avaliação**
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---            | ---               |
+| Nota | Rating (1 a 5 estrelas)  |   Obrigatório             |        -           |
+
+| **Comandos**         |  **Destino**                   | **Tipo** |
+| ---                  | ---                            | ---               |
+| Enviar | Verificar Dados Informados | default |
+| Cancelar | Término | cancel |
+
+
