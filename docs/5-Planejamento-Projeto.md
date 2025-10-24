@@ -96,7 +96,7 @@ Atualizado em: 24/10/2025
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Victoria Maia  | Planejamento Sprint 5  | 24/10/2025     | 31/10/2025  | ✔️    |   24/10/2025               |
-| Gustavo Ferreira  | Interface Processo 2  | 24/10/2025     | 31/10/2025  | 📝    |   31/10/2025               |
+| Gustavo Ferreira  | Interface Processo 2  | 24/10/2025     | 31/10/2025  | ✔️    |   31/10/2025               |
 | Bruno Primo  | Modelo de Dados Processo 2  | 24/10/2025     | 31/10/2025  | 📝   |   31/10/2025               |
 | João Gabriel  | Script SQL Processo 2  | 24/10/2025     | 31/10/2025  | 📝    |   31/10/2025               |
 
