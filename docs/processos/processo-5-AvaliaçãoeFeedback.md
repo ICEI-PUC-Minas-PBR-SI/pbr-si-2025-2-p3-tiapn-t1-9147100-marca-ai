@@ -41,3 +41,6 @@
 | Cancelar | Término | cancel |
 
 
+### Wireframe
+
+![Wireframe](../images/wireframe/Wireframe-05.jpg)
