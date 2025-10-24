@@ -1,10 +1,10 @@
 ### 3.3.5 Processo 5 – AVALIAÇÃO E FEEDBACK
 
-** Etapas do Processo **
+**Etapas do Processo**
 
 01 - Iniciar Avaliação: O cliente acessa a opção de avaliar o serviço concluído.
 
-02 - Preencher Dados da Avaliação: O cliente informa a nota e um comentário.
+02 - Preencher Dados da Avaliação: O cliente informa a nota.
 
 03 - Verificar Dados Informados: O sistema valida os dados.
 
