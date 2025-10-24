@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marca Aí - App</title>
+    
+    <style>
+        /* --- GERAL E CORES --- */
+        :root {
+            --cor-primaria: #3498db;    /* Azul principal */
+            --cor-secundaria: #ecf0f1;  /* Cinza claro (botões) */
+            --cor-fundo: #f8f9fa;       /* Cinza bem claro (fundo da página) */
+            --cor-texto: #34495e;     /* Azul/Cinza escuro (texto) */
+            --cor-texto-claro: #95a5a6; /* Cinza (placeholders) */
+            --cor-borda: #dfe6e9;       /* Cinza (bordas de input) */
+            --cor-branca: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: var(--cor-fundo);
+            color: var(--cor-texto);
+            padding: 20px 0; /* Espaço para rolagem em telas pequenas */
+        }
+
+        /* --- NOVO CONTAINER (Substitui o celular) --- */
+        .app-container {
+            width: 90%;
+            max-width: 500px; /* Limite de largura para desktop */
+            background: var(--cor-branca);
+            border-radius: 12px;
+            box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+            padding: 40px;
+            overflow: hidden;
+        }
+
+        /* --- TELA INICIAL (Home) --- */
+        #home-screen .home-content {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* --- Esconde/Mostra Telas --- */
+        /* Todas as telas começam escondidas, exceto a #home-screen */
+        #home-screen, #cadastro-screen, #login-screen {
+            display: none; 
+        }
+        #home-screen {
+            display: block; /* Tela inicial é a única visível */
+        }
+
+        /* --- ESTILOS COMUNS (Formulários, Botões) --- */
+        
+        .screen-title {
+            font-size: 2.2rem; /* 36px */
+            font-weight: 700;
+            color: var(--cor-texto);
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        #home-screen .screen-title {
+            font-size: 2.5rem; /* 40px */
+            margin-bottom: 50px;
+            color: var(--cor-primaria);
+        }
+        
+        .form {
+            width: 100%;
+        }
+
+        .form-group {
+            margin-bottom: 22px;
+        }
+
+        /* Inputs de formulário */
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="tel"],
+        .form-group input[type="password"] {
+            width: 100%;
+            height: 55px;
+            padding: 0 18px;
+            border: 1.5px solid var(--cor-borda);
+            border-radius: 8px;
+            font-size: 1rem;
+            background-color: var(--cor-fundo);
+            color: var(--cor-texto);
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .form-group input::placeholder {
+            color: var(--cor-texto-claro);
+            font-weight: 500;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--cor-primaria);
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.15);
+        }
+        
+        /* Grupo de Radio Buttons (Checklist) */
+        .radio-group {
+            border: 1.5px solid var(--cor-borda);
+            border-radius: 8px;
+            padding: 20px;
+            background-color: var(--cor-fundo);
+        }
+        .radio-group p { 
+            font-weight: 600; 
+            margin-bottom: 15px; 
+            color: var(--cor-texto);
+            font-size: 1rem;
+        }
+        .radio-group div { 
+            display: flex; 
+            align-items: center; 
+            margin-bottom: 12px; 
+        }
+        .radio-group div:last-child { 
+            margin-bottom: 0; 
+        }
+
+        .radio-group input[type="radio"] {
+            appearance: none; -webkit-appearance: none;
+            width: 22px; height: 22px;
+            border: 1.5px solid #bdc3c7; /* Cinza mais escuro para o radio */
+            border-radius: 50%;
+            margin-right: 12px; 
+            cursor: pointer; 
+            position: relative;
+            transition: border-color 0.2s;
+        }
+
+        .radio-group input[type="radio"]:checked {
+            border-color: var(--cor-primaria);
+        }
+
+        .radio-group input[type="radio"]:checked::after {
+            content: ''; 
+            display: block;
+            width: 12px; height: 12px;
+            background-color: var(--cor-primaria); 
+            border-radius: 50%;
+            position: absolute; 
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .radio-group label { 
+            font-size: 1rem; 
+            color: var(--cor-texto); 
+            cursor: pointer;
+            font-weight: 500;
+        }
+
+        /* Botões */
+        .btn {
+            width: 100%;
+            height: 55px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            transition: opacity 0.2s, transform 0.2s;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+            transform: translateY(-2px); /* Efeito sutil ao passar o mouse */
+        }
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .btn-primary { 
+            background-color: var(--cor-primaria); 
+            color: var(--cor-branca); 
+        }
+        .btn-secondary { 
+            background-color: var(--cor-secundaria); 
+            color: var(--cor-texto); 
+        }
+
+        /* --- AJUSTE DE RESPONSIVIDADE --- */
+        @media (max-width: 600px) {
+            body {
+                /* Remove o fundo cinza em telas pequenas */
+                background-color: var(--cor-branca);
+                padding: 0;
+            }
+            .app-container {
+                /* Expande para tela cheia */
+                width: 100%;
+                max-width: none;
+                height: 100%;
+                min-height: 100vh;
+                margin: 0;
+                border: none;
+                border-radius: 0;
+                box-shadow: none;
+                padding: 40px 25px; /* Menos padding lateral */
+            }
+
+            .screen-title {
+                font-size: 1.8rem; /* 30px */
+            }
+
+            #home-screen .screen-title {
+                font-size: 2.2rem; /* 36px */
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="app-container">
+
+        <div id="home-screen">
+            <div class="home-content">
+                <h1 class="screen-title">Marca aí</h1>
+                <button id="btn-iniciar" class="btn btn-primary">Iniciar</button>
+                <button id="btn-cadastro" class="btn btn-secondary">Cadastro</button>
+            </div>
+        </div>
+        
+        <div id="login-screen">
+            <h1 class="screen-title">Login</h1>
+            
+            <form id="form-login" class="form">
+                <div class="form-group">
+                    <input type="email" id="email-login" placeholder="E-mail:" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="senha-login" placeholder="Senha:" required>
+                </div>
+
+                <button type="submit" id="btn-entrar" class="btn btn-primary">Entrar</button>
+                <button type="button" id="btn-cancelar-login" class="btn btn-secondary">Cancelar</button>
+            </form>
+        </div>
+
+        <div id="cadastro-screen">
+            <h1 class="screen-title">Cadastro Usuário</h1>
+            
+            <form id="form-cadastro" class="form">
+                <div class="form-group">
+                    <input type="text" id="nome" placeholder="Nome:" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="E-mail:" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="telefone" placeholder="Telefone:" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="senha" placeholder="Senha:" required>
+                </div>
+
+                <div class="form-group radio-group">
+                    <p>Você é:</p>
+                    <div>
+                        <input type="radio" id="tipo-profissional" name="userType" value="profissional" required>
+                        <label for="tipo-profissional">Profissional</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="tipo-cliente" name="userType" value="cliente">
+                        <label for="tipo-cliente">Cliente</label>
+                    </div>
+                </div>
+
+                <button type="submit" id="btn-concluir" class="btn btn-primary">Concluir</button>
+                <button type="button" id="btn-cancelar" class="btn btn-secondary">Cancelar</button>
+            </form>
+        </div>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // --- Chave do nosso "banco de dados" local ---
+            const USERS_DB_KEY = 'marcaai_users';
+
+            // --- Seleção dos Elementos ---
+            const homeScreen = document.getElementById('home-screen');
+            const cadastroScreen = document.getElementById('cadastro-screen');
+            const loginScreen = document.getElementById('login-screen');
+
+            // Botões
+            const btnIniciar = document.getElementById('btn-iniciar');
+            const btnCadastro = document.getElementById('btn-cadastro');
+            const btnCancelar = document.getElementById('btn-cancelar');
+            const btnCancelarLogin = document.getElementById('btn-cancelar-login');
+
+            // Formulários
+            const formCadastro = document.getElementById('form-cadastro');
+            const formLogin = document.getElementById('form-login');
+
+            // --- FUNÇÕES DE NAVEGAÇÃO ---
+            function irParaHome() {
+                homeScreen.style.display = 'block';
+                cadastroScreen.style.display = 'none';
+                loginScreen.style.display = 'none';
+            }
+            function irParaCadastro() {
+                homeScreen.style.display = 'none';
+                cadastroScreen.style.display = 'block';
+                loginScreen.style.display = 'none';
+            }
+            function irParaLogin() {
+                homeScreen.style.display = 'none';
+                cadastroScreen.style.display = 'none';
+                loginScreen.style.display = 'block';
+            }
+            
+            // --- Funções do LocalStorage ---
+            function getUsers() {
+                const usersString = localStorage.getItem(USERS_DB_KEY);
+                if (!usersString) {
+                    return [];
+                }
+                try {
+                    return JSON.parse(usersString);
+                } catch (e) {
+                    console.error("Erro ao ler dados do localStorage:", e);
+                    return [];
+                }
+            }
+
+            function saveUsers(usersArray) {
+                try {
+                    const usersString = JSON.stringify(usersArray);
+                    localStorage.setItem(USERS_DB_KEY, usersString);
+                } catch (e) {
+                    console.error("Erro ao salvar dados no localStorage:", e);
+                }
+            }
+
+
+            // --- EVENT LISTENERS (Ouvintes de Ação) ---
+
+            // TELA HOME
+            btnIniciar.addEventListener('click', irParaLogin);
+            btnCadastro.addEventListener('click', irParaCadastro);
+
+            // TELA CADASTRO
+            btnCancelar.addEventListener('click', irParaHome);
+            
+            formCadastro.addEventListener('submit', (event) => {
+                event.preventDefault(); 
+                
+                const newUser = {
+                    nome: document.getElementById('nome').value,
+                    email: document.getElementById('email').value,
+                    telefone: document.getElementById('telefone').value,
+                    senha: document.getElementById('senha').value,
+                    tipo: document.querySelector('input[name="userType"]:checked').value
+                };
+
+                try {
+                    let users = getUsers();
+                    const userExists = users.find(user => user.email === newUser.email);
+                    
+                    if (userExists) {
+                        alert('Erro no cadastro: Este e-mail já está sendo utilizado.');
+                        return;
+                    }
+
+                    users.push(newUser);
+                    saveUsers(users);
+
+                    alert('Cadastro concluído com sucesso! Faça o login.');
+                    formCadastro.reset(); 
+                    irParaLogin();
+
+                } catch (error) {
+                    alert('Erro inesperado no cadastro. Tente novamente.');
+                    console.error('Erro no cadastro:', error);
+                }
+            });
+
+
+            // TELA LOGIN
+            btnCancelarLogin.addEventListener('click', irParaHome);
+
+            formLogin.addEventListener('submit', (event) => {
+                event.preventDefault();
+
+                const emailLogin = document.getElementById('email-login').value;
+                const senhaLogin = document.getElementById('senha-login').value;
+
+                try {
+                    const users = getUsers();
+                    const user = users.find(u => u.email === emailLogin);
+
+                    if (user && user.senha === senhaLogin) {
+                        alert(`Login bem-sucedido! Bem-vindo(a), ${user.nome}!`);
+                        formLogin.reset();
+                        irParaHome(); 
+                    } else {
+                        alert('Falha no login: E-mail ou senha incorretos.');
+                    }
+                } catch (error) {
+                    alert('Erro inesperado no login. Tente novamente.');
+                    console.error('Erro no login:', error);
+                }
+            });
+
+        });
+    </script>
+
+</body>
+</html>
