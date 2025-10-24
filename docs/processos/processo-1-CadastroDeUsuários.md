@@ -1,20 +1,26 @@
 ### 3.3.1 Processo 1 – CADASTRO DE USUÁRIOS
 
 **Etapas do Processo**
-01. Iniciar Cadastro na Plataforma
+
+01 - Iniciar Cadastro na Plataforma
 O cliente seleciona a opção de realizar um novo cadastro.
-02. Preencher Dados do Cadastro
+
+02 - Preencher Dados do Cadastro
 O cliente insere as informações solicitadas (nome, e-mail, senha, etc.).
-03. Verificar Dados Informados
+
+03 - Verificar Dados Informados
 O sistema valida os dados fornecidos.
 Decisão: Dados Corretos?
 Não → o sistema retorna mensagem de dados incorretos e o cliente deve corrigir as informações.
 Sim → o sistema retorna a confirmação de cadastro.
-04. Armazenar na Base de Dados
+
+04 - Armazenar na Base de Dados
 Os dados corretos são registrados no banco de dados.
-05. Retornar Confirmação de Cadastro
+
+05 - Retornar Confirmação de Cadastro
 O sistema envia a confirmação ao cliente.
-06. Término
+
+06 - Término
 O processo de cadastro é finalizado.
 
 <img width="1453" height="620" alt="image" src="https://github.com/user-attachments/assets/851ee06c-3dba-4bb2-b955-231f4c291426" />
