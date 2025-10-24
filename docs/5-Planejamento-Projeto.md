@@ -19,12 +19,12 @@
 - Documentação: Talisson Vilaça
 
 ### Sprint 4
-- _Scrum master_: João Gabriel
-- Documentação: Victoria Maia
+- _Scrum master_: Victoria Maia
+- Documentação: João Gabriel
 
 ### Sprint 5
-- _Scrum master_: Gustavo Ferreira
-- Documentação: Rhaniel Lucas 
+- _Scrum master_: Rhaniel Lucas 
+- Documentação: Gustavo Ferreira
 
 ## 5.1. Quadro de tarefas
 
