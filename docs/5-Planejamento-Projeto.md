@@ -18,6 +18,14 @@
 - _Scrum master_: Bruno Primo
 - Documentação: Talisson Vilaça
 
+### Sprint 4
+- _Scrum master_: João Gabriel
+- Documentação: Victoria Maia
+
+### Sprint 5
+- _Scrum master_: Gustavo Ferreira
+- Documentação: Rhaniel Lucas 
+
 ## 5.1. Quadro de tarefas
 
 > Divisão de tarefas entre os membros do grupo e o acompanhamento da execução.
@@ -49,7 +57,7 @@ Atualizado em: 12/09/2025
 
 ## Sprint 3
 
-Atualizado em: 17/10/2025
+Atualizado em: 03/10/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
@@ -63,7 +71,34 @@ Atualizado em: 17/10/2025
 | Bruno Primo | Wireframe Processo 3|  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
 | Talisson Vilaça | BPMN Processo 4 |  26/09/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
 | Bruno Primo | Wireframe Processo 4|  26/09/2025    | 03/10/2025 | ✔️      | 03/10/2025  |
-| Gustavo Ferreira | Detalhamento dos Processos |  10/10/2025    | 17/10/2025 | ✔️       | 17/10/2025  |
+| Gustavo Ferreira | Detalhamento dos Processos 1 a 4|  03/10/2025    | 03/10/2025 | ✔️       | 03/10/2025  |
+
+## Sprint 4
+
+Atualizado em: 17/10/2025
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Victoria Maia  | Planejamento Sprint 4  | 10/10/2025     | 17/10/2025  | ✔️    |   10/10/2025               |
+| Victoria Maia  | Etapas do Processo 5  | 10/10/2025     | 17/10/2025  | ✔️    |   17/10/2025               |
+| Talisson Vilaça  | BPMN Processo 5 | 10/10/2025     | 17/10/2025  | ✔️    |   17/10/2025               |
+| Victoria Maia | Detalhamento do Processo 5 | 10/10/2025     | 17/10/2025  | ✔️    |   17/10/2025               |
+| Bruno Primo | Wireframe Processo 5 | 10/10/2025     | 17/10/2025  | ✔️    |   17/10/2025               |
+| Rhaniel Lucas | Interface Processo 1 | 17/10/2025     | 24/10/2025  | ✔️    |   24/10/2025               |
+| Gustavo Ferreira | Interface Processo 1 | 17/10/2025     | 24/10/2025  | ✔️    |   24/10/2025               |
+| Bruno Primo | Modelo de Dados Processo 1 | 17/10/2025     | 24/10/2025  | ✔️    |   24/10/2025               |
+| João Gabriel | Script SQL Processo 1 | 17/10/2025     | 24/10/2025  | ✔️    |   24/10/2025               |
+
+## Sprint 5
+
+Atualizado em: 24/10/2025
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Victoria Maia  | Planejamento Sprint 5  | 24/10/2025     | 31/10/2025  | ✔️    |   24/10/2025               |
+| Gustavo Ferreira  | Interface Processo 2  | 24/10/2025     | 31/10/2025  | 📝    |   31/10/2025               |
+| Bruno Primo  | Modelo de Dados Processo 2  | 24/10/2025     | 31/10/2025  | 📝   |   31/10/2025               |
+| João Gabriel  | Script SQL Processo 2  | 24/10/2025     | 31/10/2025  | 📝    |   31/10/2025               |
 
 
 #### Legenda:
