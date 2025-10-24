@@ -27,4 +27,5 @@ Após fazer todas as escolhas, o cliente finaliza o processo e o sistema cuida d
 
 [PROCESSO 4 - Lembretes Automatizados](./processos/processo-4-LembretesAutomatizados.md)
 
+[PROCESSO 5 - Avaliação e Feedback](./processos/processo-5-AvaliaçãoeFeedback.md)
 
