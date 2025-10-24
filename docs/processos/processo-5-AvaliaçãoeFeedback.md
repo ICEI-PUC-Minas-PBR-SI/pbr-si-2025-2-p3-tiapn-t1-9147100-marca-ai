@@ -73,4 +73,5 @@
 
 ### Wireframe
 
-![Wireframe](../images/wireframe/Wireframe-05.jpg)
+![Wireframe](../images/wireframe/Wireframe-05.png)
+
