@@ -61,4 +61,13 @@
 | ---                  | ---                            | ---               |
 | Salvar | Retornar Confirmação | automático |
 
+**05 - Retornar Confirmação**
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---            | ---               |
+| Mensagem de Sucesso | Texto |   Exibição obrigatória        |        “Avaliação enviada com sucesso!”           |
+
+| **Comandos**         |  **Destino**                   | **Tipo** |
+| ---                  | ---                            | ---               |
+| Finalizar | Término | automático |
 
