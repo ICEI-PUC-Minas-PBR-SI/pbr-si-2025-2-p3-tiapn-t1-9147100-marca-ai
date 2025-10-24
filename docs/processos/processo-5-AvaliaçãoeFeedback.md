@@ -40,4 +40,25 @@
 | Enviar | Verificar Dados Informados | default |
 | Cancelar | Término | cancel |
 
+**03 - Verificar Dados Informados**
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---            | ---               |
+| Validação automática | Sistema  |   Verificar preenchimento obrigatório        |        -           |
+
+| **Comandos**         |  **Destino**                   | **Tipo** |
+| ---                  | ---                            | ---               |
+| Dados Incorretos | Preencher Dados da Avaliação | retorno |
+| Dados Corretos | Armazenar na Base de Dados | default |
+
+**04 - Armazenar na Base de Dados**
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---            | ---               |
+| Avaliação | Registro no Banco |   Obrigatório; vinculado ao serviço e usuário        |        -           |
+
+| **Comandos**         |  **Destino**                   | **Tipo** |
+| ---                  | ---                            | ---               |
+| Salvar | Retornar Confirmação | automático |
+
 
