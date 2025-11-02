@@ -40,8 +40,8 @@ Atualizado em: 05/09/2025
 | João Gabriel      | Contexto | 01/08/2025     | 08/08/2025 | ✔️    | 08/08/2005      |
 | Gustavo Ferreira       | Personas  | 05/09/2025  | 12/09/2025 | ✔️ | 05/09/2025 |            
 | Gustavo Ferreira       | História de Usuários  |    05/09/2025  | 12/09/2025 | ✔️ |05/09/2025  |       
-| Victoria Gabriella    | Requisitos Funcionais | 05/09/2025  | 12/09/2025 | ✔️ | 05/09/2025 |  
-| Victoria Gabriella    | Requisitos Não Funcionais | 05/09/2025  | 12/09/2025 | ✔️ | 05/09/2025 |  
+| Victoria Maia    | Requisitos Funcionais | 05/09/2025  | 12/09/2025 | ✔️ | 05/09/2025 |  
+| Victoria Maia    | Requisitos Não Funcionais | 05/09/2025  | 12/09/2025 | ✔️ | 05/09/2025 |  
 | Bruno Primo     | Restrições | 05/09/2025  | 12/09/2025 | ✔️  | 05/09/2025 |  
 
 ## Sprint 2
