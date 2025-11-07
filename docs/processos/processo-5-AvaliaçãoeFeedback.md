@@ -16,7 +16,7 @@
 
 07 - Término: O processo é finalizado.
 
-!(./images/Processo5.png)
+(/images/Processo5.png)
 
 #### Detalhamento das atividades
 **01 - Iniciar Avaliação**
