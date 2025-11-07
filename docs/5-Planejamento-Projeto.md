@@ -97,9 +97,24 @@ Atualizado em: 24/10/2025
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Victoria Maia  | Planejamento Sprint 5  | 24/10/2025     | 31/10/2025  | ✔️    |   24/10/2025               |
 | Gustavo Ferreira  | Interface Processo 2  | 24/10/2025     | 31/10/2025  | ✔️    |   31/10/2025               |
-| Bruno Primo  | Modelo de Dados Processo 2  | 24/10/2025     | 31/10/2025  | 📝   |   31/10/2025               |
-| João Gabriel  | Script SQL Processo 2  | 24/10/2025     | 31/10/2025  | 📝    |   31/10/2025               |
+| Bruno Primo  | Modelo de Dados Processo 2  | 24/10/2025     | 31/10/2025  | ✔️  |   31/10/2025               |
+| João Gabriel  | Script SQL Processo 2  | 24/10/2025     | 31/10/2025  | ✔️    |   31/10/2025               |
 
+## Sprint 6
+
+Atualizado em: 11/07/2025
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Rhaniel Lucas  | Planejamento Sprint 6  | 24/10/2025     | 14/11/2025  | ✔️    |   24/10/2025             |
+| Rhaniel Lucas  | Detalhamento Das Atividades  | 24/10/2025     | 14/11/2025  | ✔️    |   24/10/2025               |
+|  Bruno Primo | Modelo De Dados Processo 3  | 24/10/2025     | 31/10/2025  | 📝   |   -            |
+|  Bruno Primo | Modelo De Dados Processo 4  | 24/10/2025     | 31/10/2025  | 📝   |   -            |
+| João Gabriel  | Script SQL Processo 3  | 24/10/2025     | 31/10/2025  | 📝    |   -               |
+| João Gabriel  | Script SQL Processo 4  | 24/10/2025     | 31/10/2025  | 📝    |   -               |
+| Victoria Maia  | Telas de interface Processo 3  | 24/10/2025     | 31/10/2025  | 📝    |   -               |
+| Gustavo Ferreira  | Telas de interface Processo 4  | 24/10/2025     | 31/10/2025  | 📝    |   -               |
+| Talisson Vilaça  | Atualização do Projeto  | 24/10/2025     | 31/10/2025  | 📝    |   -               |
 
 #### Legenda:
 - ✔️: terminado
