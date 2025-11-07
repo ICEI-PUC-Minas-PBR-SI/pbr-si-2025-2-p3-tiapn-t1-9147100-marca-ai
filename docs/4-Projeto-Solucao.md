@@ -65,59 +65,89 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER�
 
 #### 4.3.2 Esquema Relacional
 
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
- 
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
-
 ![Modelo EER](images/bd/modelo_eer.png)
 
 #### 4.3.3 Modelo Físico
 
-Insira aqui o script de criação das tabelas do banco de dados.
-
-Veja um exemplo:
-
 <code>
+-- Criação da tabela Agenda
 
- -- Criação da tabela Médico
-CREATE TABLE Medico (
-    MedCodigo INTEGER PRIMARY KEY,
-    MedNome VARCHAR(100)
-);
+CREATE TABLE `agenda` (
+  `id_agenda` int NOT NULL AUTO_INCREMENT,
+  `data_agenda` date NOT NULL,
+  `hora` time NOT NULL,
+  `cnpj_barbearia` varchar(14) DEFAULT NULL,
+  `cpf_cliente` varchar(11) DEFAULT NULL,
+  `cpf_profissionall` varchar(11) DEFAULT NULL,
+  `id_servico` int DEFAULT NULL,
+  PRIMARY KEY (`id_agenda`)
+)
 
+-- Criação da tabela Barbearia
 
--- Criação da tabela Paciente
-CREATE TABLE Paciente (
-    PacCodigo INTEGER PRIMARY KEY,
-    PacNome VARCHAR(100)
-);
+CREATE TABLE `barbearia` (
+  `cnpj_barbearia` varchar(14) NOT NULL,
+  `nome` varchar(100) NOT NULL,
+  `email` varchar(150) NOT NULL,
+  `celular` varchar(17) NOT NULL,
+  `uf` char(2) NOT NULL,
+  `cidade` varchar(60) NOT NULL,
+  `cep` varchar(8) NOT NULL,
+  `bairro` varchar(60) NOT NULL,
+  `rua` varchar(60) NOT NULL,
+  `numero` varchar(5) NOT NULL,
+  PRIMARY KEY (`cnpj_barbearia`),
+  UNIQUE KEY `email` (`email`)
+)
 
--- Criação da tabela Consulta
-CREATE TABLE Consulta (
-    ConCodigo INTEGER PRIMARY KEY,
-    MedCodigo INTEGER,
-    PacCodigo INTEGER,
-    Data DATE,
-    FOREIGN KEY (MedCodigo) REFERENCES Medico(MedCodigo),
-    FOREIGN KEY (PacCodigo) REFERENCES Paciente(PacCodigo)
-);
+-- Criação da tabela Cadastro Barbearia
 
--- Criação da tabela Medicamento
-CREATE TABLE Medicamento (
-    MdcCodigo INTEGER PRIMARY KEY,
-    MdcNome VARCHAR(100)
-);
+CREATE TABLE `cadastro_barbearia` (
+  `id_barbearia` bigint unsigned NOT NULL AUTO_INCREMENT,
+  `nome` varchar(100) NOT NULL,
+  `email` varchar(150) NOT NULL,
+  `senha` varchar(255) NOT NULL,
+  `cnpj` varchar(14) NOT NULL,
+  PRIMARY KEY (`id_barbearia`),
+  UNIQUE KEY `id_barbearia` (`id_barbearia`),
+  UNIQUE KEY `nome` (`nome`),
+  UNIQUE KEY `email` (`email`)
+)
 
--- Criação da tabela Prescricao
-CREATE TABLE Prescricao (
-    ConCodigo INTEGER,
-    MdcCodigo INTEGER,
-    Posologia VARCHAR(200),
-    PRIMARY KEY (ConCodigo, MdcCodigo),
-    FOREIGN KEY (ConCodigo) REFERENCES Consulta(ConCodigo),
-    FOREIGN KEY (MdcCodigo) REFERENCES Medicamento(MdcCodigo)
-);
+-- Criação da tabela Cliente
 
+CREATE TABLE `cliente` (
+  `cpf_cliente` varchar(11) NOT NULL,
+  `nome` varchar(100) NOT NULL,
+  `senha` varchar(255) NOT NULL,
+  `email` varchar(150) NOT NULL,
+  `celular` varchar(20) NOT NULL,
+  `usuario` varchar(100) NOT NULL,
+  PRIMARY KEY (`cpf_cliente`),
+  UNIQUE KEY `email` (`email`)
+) 
+
+-- Criação da tabela Profissional
+
+CREATE TABLE `profissional` (
+  `cpf_profissional` varchar(11) NOT NULL,
+  `usuario` varchar(100) NOT NULL,
+  `nome` varchar(100) NOT NULL,
+  `senha` varchar(255) NOT NULL,
+  `email` varchar(150) NOT NULL,
+  `celular` varchar(17) NOT NULL,
+  PRIMARY KEY (`cpf_profissional`),
+  UNIQUE KEY `email` (`email`)
+) 
+
+-- Criação tabela Serviços
+
+CREATE TABLE `servicos` (
+  `id_servico` int NOT NULL,
+  `nome` varchar(100) NOT NULL,
+  `preco` decimal(4,2) NOT NULL,
+  PRIMARY KEY (`id_servico`)
+)  
 </code>
 
 Este script deverá ser incluído em um arquivo .sql na pasta src\bd.
