@@ -26,6 +26,10 @@
 - _Scrum master_: Rhaniel Lucas 
 - Documentação: Gustavo Ferreira
 
+### Sprint 6
+- _Scrum master_: Talisson Vilaça
+- Documentação: Bruno Primo
+
 ## 5.1. Quadro de tarefas
 
 > Divisão de tarefas entre os membros do grupo e o acompanhamento da execução.
