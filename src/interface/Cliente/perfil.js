@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     localStorage.setItem("perfilCliente", JSON.stringify(perfil));
     atualizarTela();
-    showToast(" Perfil atualizado com sucesso!");
+    showToast("Perfil atualizado com sucesso!");
     modal.style.display = "none";
   });
 
@@ -61,9 +61,13 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => (window.location.href = "../Home/home.html"), 1500);
   });
 
-  // ALTERAR AQUI AINDA!!!!
-  btnAvaliacoes.addEventListener("click", () => showToast("🔧 Página em desenvolvimento"));
-  btnNotificacoes.addEventListener("click", () => showToast("🔧 Página em desenvolvimento"));
+  btnAvaliacoes.addEventListener("click", () => {
+    window.location.href = "avaliacoes.html";
+  });
+
+  btnNotificacoes.addEventListener("click", () => {
+    window.location.href = "notificacoes.html";
+  });
 
   function showToast(msg) {
     const toast = document.createElement("div");
