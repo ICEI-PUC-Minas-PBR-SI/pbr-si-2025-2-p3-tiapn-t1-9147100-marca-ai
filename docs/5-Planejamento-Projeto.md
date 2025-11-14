@@ -105,7 +105,7 @@ Atualizado em: 24/10/2025
 
 ## Sprint 6
 
-Atualizado em: 11/07/2025
+Atualizado em: 14/07/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
@@ -117,6 +117,20 @@ Atualizado em: 11/07/2025
 | Bruno Primo  | Backend Processo 4  | 24/10/2025     | 14/11/2025  | 📝    |   -               |
 | João Gabriel  | Banco de Dados Processo 4 | 24/10/2025     | 14/11/2025  | ✔️   |   14/11/2025               |
 | Talisson Vilaça  | Atualização do Project  | 24/10/2025     | 14/11/2025  | 📝    |   -               |
+
+## Sprint 7
+
+Atualizado em: 21/10/2025
+
+| Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
+| :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+| Victoria Maia | Planejamento Sprint 7  | 14/11/2025     | 21/11/2025  | ✔️    |   14/10/2025             |
+| Victoria Maia | Descrição Diagrama da Solução  | 14/11/2025     | 21/11/2025  | ✔️    |   21/10/2025             |
+| Victoria Maia | Diagrama da Arquitetura  | 14/11/2025     | 21/11/2025  | ✔️    |   21/10/2025             |
+| Talisson Vilaça | Modelo de Entidade-Relacionamento | 14/11/2025     | 21/11/2025  | ✔️    |   21/10/2025             |
+| João Gabriel | Esquema Relacional | 14/11/2025     | 21/11/2025  | ✔️    |   21/10/2025             |
+| João Gabriel | Modelo Físico | 14/11/2025     | 21/11/2025  | ✔️    |   21/10/2025             |
+
 
 #### Legenda:
 - ✔️: terminado
