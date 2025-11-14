@@ -28,6 +28,7 @@ Fluxo Resumido
 4. O banco devolve os dados para o PHP, que responde ao navegador.
  
  **Diagrama da Arquitetura**:
+ 
  ![Arquitetura](./images/arquitetura/imagem.jpeg)
 
 ## 4.2. Protótipos de telas 
