@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notificações</title>
+  <link rel="stylesheet" href="notificacoes.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <header class="notificacoes-header">
+    <div class="header-left">
+      <button id="btnVoltar" class="voltar">
+        <i data-lucide="arrow-left"></i>
+      </button>
+      <h2>Notificações</h2>
+    </div>
+  </header>
+
+  <main class="notificacoes-container" id="notificacoesLista">
+  </main>
+
+  <!-- Modal de Confirmação de Exclusão -->
+  <div id="modalConfirmacao" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Excluir Notificação</h2>
+        <button id="btnFecharConfirmacao" class="btn-fechar"><i data-lucide="x"></i></button>
+      </div>
+
+      <p>Tem certeza que deseja excluir esta notificação? Esta ação não pode ser desfeita.</p>
+
+      <div class="modal-acoes">
+        <button id="btnCancelarExclusao" class="btn-cancelar">Cancelar</button>
+        <button id="btnConfirmarExclusao" class="btn-excluir-confirmacao">Excluir</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast-container"></div>
+
+  <script src="notificacoes.js"></script>
+</body>
+</html>
