@@ -2,9 +2,6 @@
 
 ## 4.1. Arquitetura da solução
  
- ![Arquitetura](./images/arquitetura/imagem.jpeg)
-
-
  **Diagrama da Solução - Descrição**:
 
 A solução é composta por três módulos principais: Frontend, Backend e Banco de Dados, conforme mostrado no diagrama.
@@ -31,6 +28,7 @@ Fluxo Resumido
 4. O banco devolve os dados para o PHP, que responde ao navegador.
  
  **Diagrama da Arquitetura**:
+ ![Arquitetura](./images/arquitetura/imagem.jpeg)
 
 ## 4.2. Protótipos de telas 
 
