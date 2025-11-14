@@ -88,10 +88,9 @@ Atualizado em: 17/10/2025
 | Talisson Vilaça  | BPMN Processo 5 | 10/10/2025     | 17/10/2025  | ✔️    |   17/10/2025               |
 | Victoria Maia | Detalhamento do Processo 5 | 10/10/2025     | 17/10/2025  | ✔️    |   17/10/2025               |
 | Bruno Primo | Wireframe Processo 5 | 10/10/2025     | 17/10/2025  | ✔️    |   17/10/2025               |
-| Rhaniel Lucas | Interface Processo 1 | 17/10/2025     | 24/10/2025  | ✔️    |   24/10/2025               |
-| Gustavo Ferreira | Interface Processo 1 | 17/10/2025     | 24/10/2025  | ✔️    |   24/10/2025               |
-| Bruno Primo | Modelo de Dados Processo 1 | 17/10/2025     | 24/10/2025  | ✔️    |   24/10/2025               |
-| João Gabriel | Script SQL Processo 1 | 17/10/2025     | 24/10/2025  | ✔️    |   24/10/2025               |
+| Victoria Maia | Frontend Processo 1 | 17/10/2025     | 24/10/2025  | ✔️    |   24/10/2025               |
+| Bruno Primo | Backend Processo 1 | 17/10/2025     | 24/10/2025  | ✔️    |   24/10/2025               |
+| João Gabriel | Banco de Dados Processo 1 | 17/10/2025     | 24/10/2025  | ✔️    |   24/10/2025               |
 
 ## Sprint 5
 
@@ -100,9 +99,9 @@ Atualizado em: 24/10/2025
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Victoria Maia  | Planejamento Sprint 5  | 24/10/2025     | 31/10/2025  | ✔️    |   24/10/2025               |
-| Gustavo Ferreira  | Interface Processo 2  | 24/10/2025     | 31/10/2025  | ✔️    |   31/10/2025               |
-| Bruno Primo  | Modelo de Dados Processo 2  | 24/10/2025     | 31/10/2025  | ✔️  |   31/10/2025               |
-| João Gabriel  | Script SQL Processo 2  | 24/10/2025     | 31/10/2025  | ✔️    |   31/10/2025               |
+| Victoria Maia | Frontend Processo 2  | 24/10/2025     | 31/10/2025  | ✔️    |   31/10/2025               |
+| Bruno Primo  | Backend Processo 2 | 24/10/2025     | 31/10/2025  | ✔️  |   31/10/2025               |
+| João Gabriel  | Banco de Dados Processo 2  | 24/10/2025     | 31/10/2025  | ✔️    |   31/10/2025               |
 
 ## Sprint 6
 
@@ -111,14 +110,13 @@ Atualizado em: 11/07/2025
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Rhaniel Lucas  | Planejamento Sprint 6  | 24/10/2025     | 14/11/2025  | ✔️    |   24/10/2025             |
-| Rhaniel Lucas  | Detalhamento Das Atividades  | 24/10/2025     | 14/11/2025  | ✔️    |   24/10/2025               |
-|  Bruno Primo | Modelo De Dados Processo 3  | 24/10/2025     | 31/10/2025  | 📝   |   -            |
-|  Bruno Primo | Modelo De Dados Processo 4  | 24/10/2025     | 31/10/2025  | 📝   |   -            |
-| João Gabriel  | Script SQL Processo 3  | 24/10/2025     | 31/10/2025  | 📝    |   -               |
-| João Gabriel  | Script SQL Processo 4  | 24/10/2025     | 31/10/2025  | 📝    |   -               |
-| Victoria Maia  | Telas de interface Processo 3  | 24/10/2025     | 31/10/2025  | 📝    |   -               |
-| Gustavo Ferreira  | Telas de interface Processo 4  | 24/10/2025     | 31/10/2025  | 📝    |   -               |
-| Talisson Vilaça  | Atualização do Projeto  | 24/10/2025     | 31/10/2025  | 📝    |   -               |
+| Victoria Maia  | Frontend Processo 3  | 24/10/2025     | 14/11/2025  | ✔️    |   14/11/2025               |
+| Bruno Primo | Backend Processo 3  | 24/10/2025     | 14/11/2025  | 📝   |   -            |
+| João Gabriel  | Banco de Dados Processo 3  | 24/10/2025     | 14/11/2025  | ✔️    |   14/11/2025               |
+| Victoria Maia | Frontend Processo 4  | 24/10/2025     | 14/11/2025  | ✔️   |   14/11/2025            |
+| Bruno Primo  | Backend Processo 4  | 24/10/2025     | 14/11/2025  | 📝    |   -               |
+| João Gabriel  | Banco de Dados Processo 4 | 24/10/2025     | 14/11/2025  | ✔️   |   14/11/2025               |
+| Talisson Vilaça  | Atualização do Project  | 24/10/2025     | 14/11/2025  | 📝    |   -               |
 
 #### Legenda:
 - ✔️: terminado
