@@ -9,6 +9,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const dataInput = document.getElementById("data");
   const toastContainer = document.getElementById("toast-container");
 
+  // Pega a barbearia selecionada da página anterior
+  const barbeariaSelecionada = JSON.parse(localStorage.getItem("barbeariaSelecionada")) || {
+    nome: "Barbearia Elite", 
+    endereco: "Endereço não informado"
+  };
+
   // Serviços disponíveis
   const servicos = [
     { nome: "Corte Simples", valor: "R$30,00", tempo: "30 min" },
@@ -16,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     { nome: "Sobrancelha", valor: "R$15,00", tempo: "15 min" },
     { nome: "Corte + Barba", valor: "R$50,00", tempo: "50 min" },
     { nome: "Corte + Barba + Sobrancelha", valor: "R$60,00", tempo: "60 min" },
-    { nome: "Tintura", valor: "R$70,00", tempo: "60 min" } // novo serviço
+    { nome: "Tintura", valor: "R$70,00", tempo: "60 min" }
   ];
 
   // Profissionais
@@ -24,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     { nome: "João", especialidade: "Cortes modernos e degradê" },
     { nome: "Pedro", especialidade: "Barbas e sobrancelhas" },
     { nome: "Marcos", especialidade: "Cortes clássicos e barba completa" },
-    { nome: "Lucas", especialidade: "Tintura e cortes estilizados" } // novo profissional
+    { nome: "Lucas", especialidade: "Tintura e cortes estilizados" }
   ];
 
   // Horários já ocupados
@@ -76,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const data = new Date(dataSelecionada);
     if (data.getDay() === 0) {
-      listaHorarios.innerHTML = "<p>❌ Barbearia fechada neste dia.</p>";
+      listaHorarios.innerHTML = "<p> Barbearia fechada neste dia.</p>";
       return;
     }
 
@@ -129,12 +135,32 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => toast.remove(), 3500);
   }
 
+  // Função para criar notificação de agendamento
+  function criarNotificacaoAgendamento(barbearia, servico, profissional, data, horario) {
+    let notificacoes = JSON.parse(localStorage.getItem("notificacoes")) || [];
+    
+    // Formatar a data para exibição (dd/mm/aaaa)
+    const dataFormatada = new Date(data + 'T00:00:00').toLocaleDateString('pt-BR');
+    
+    const novaNotificacao = {
+      id: Date.now(),
+      titulo: "Agendamento Confirmado",
+      mensagem: `Seu ${servico.toLowerCase()} com ${profissional} na ${barbearia} foi confirmado para ${dataFormatada} às ${horario}`,
+      data: new Date().toLocaleString("pt-BR"),
+      lida: false
+    };
+    
+    notificacoes.unshift(novaNotificacao);
+    localStorage.setItem("notificacoes", JSON.stringify(notificacoes));
+  }
+
   // Confirma agendamento e salva no localStorage
   btnConfirmar.addEventListener("click", () => {
     const precoSelecionado = document.querySelector(".card-item.ativo .card-preco")?.innerText || "R$ -";
 
+    // Usa a barbearia que foi selecionada na página anterior
     const novoAgendamento = {
-      barbearia: "Barbearia Elite",
+      barbearia: barbeariaSelecionada.nome, 
       servico: selecionado.servico,
       profissional: selecionado.profissional,
       data: selecionado.data,
@@ -146,6 +172,18 @@ document.addEventListener("DOMContentLoaded", () => {
     let agendamentos = JSON.parse(localStorage.getItem("agendamentos")) || [];
     agendamentos.push(novoAgendamento);
     localStorage.setItem("agendamentos", JSON.stringify(agendamentos));
+
+    // CRIA A NOTIFICAÇÃO AUTOMATICAMENTE
+    criarNotificacaoAgendamento(
+      novoAgendamento.barbearia,
+      novoAgendamento.servico,
+      novoAgendamento.profissional,
+      novoAgendamento.data,
+      novoAgendamento.horario
+    );
+
+    // Limpa a barbearia selecionada após o agendamento
+    localStorage.removeItem("barbeariaSelecionada");
 
     // Exibe mensagem e redireciona
     showToast("Agendamento confirmado!");
