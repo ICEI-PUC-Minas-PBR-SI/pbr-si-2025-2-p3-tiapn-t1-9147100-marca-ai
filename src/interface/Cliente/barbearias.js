@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", () => {
       totalAvaliacoes: 156,
       imagem: "img/barbearia4.jpg",
     },
-
     {
       nome: "Barbearia Reino Dos Cortes",
       endereco: "Rua Projetada, 999 - Centro",
@@ -38,23 +37,20 @@ document.addEventListener("DOMContentLoaded", () => {
       totalAvaliacoes: 42,
       imagem: "img/barbearia5.jpg",
     },
-
-        {
+    {
       nome: "Barbearia Vinicin",
       endereco: "Rua Dona Ana, 137 - Amazonas",
       avaliacao: 4.5,
       totalAvaliacoes: 29,
       imagem: "img/barbearia6.jpg",
     },
-
-        {
-      nome: "Barbearia Do Zé" ,
+    {
+      nome: "Barbearia Do Zé",
       endereco: "Rua Tupi, 34 - Industrial",
       avaliacao: 4.8,
       totalAvaliacoes: 33,
       imagem: "img/barbearia7.jpg",
     },
-
   ];
 
   const container = document.getElementById("barbeariasContainer");
@@ -92,12 +88,21 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     lucide.createIcons();
-    addEventListeners();
+    addEventListeners(lista); 
   }
 
-  function addEventListeners() {
-    document.querySelectorAll(".agendar-btn").forEach((btn) => {
+  function addEventListeners(listaBarbearias) {
+    document.querySelectorAll(".agendar-btn").forEach((btn, index) => {
       btn.addEventListener("click", () => {
+        // Salva a barbearia selecionada no localStorage
+        const barbeariaSelecionada = listaBarbearias[index];
+        localStorage.setItem("barbeariaSelecionada", JSON.stringify({
+          nome: barbeariaSelecionada.nome,
+          endereco: barbeariaSelecionada.endereco,
+          avaliacao: barbeariaSelecionada.avaliacao
+        }));
+        
+        // Redireciona para a página de agendamento
         window.location.href = "agendar.html";
       });
     });
