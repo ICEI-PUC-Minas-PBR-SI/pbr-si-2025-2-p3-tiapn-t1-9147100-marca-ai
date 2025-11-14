@@ -1,19 +1,33 @@
 ## 4. Projeto da Solução
 
-<span style="color:red">Pré-requisitos: <a href="03-Modelagem do Processo de Negocio.md"> Modelagem do Processo de Negocio</a></span>
-
 ## 4.1. Arquitetura da solução
 
+ **Diagrama de Solução - Descrição**:
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+A solução é composta por três módulos principais: Frontend, Backend e Banco de Dados, conforme mostrado no diagrama.
 
- Inclua um diagrama da solução e descreva os módulos e as tecnologias
- que fazem parte da solução. Discorra sobre o diagrama.
+1. Frontend (Apresentação)
+- Tecnologias: HTML5, CSS3 e JavaScript
+- Função: interface com o usuário, envio de requisições HTTP ao backend e exibição das respostas.
+- Hospedagem: Vercel
+
+2. Backend (Aplicação PHP)
+- Tecnologia: PHP
+- Função: processar requisições, aplicar regras de negócio e se comunicar com o banco de dados.
+- Conexão com MySQL: feita via PDO, que é o driver nativo do PHP para conexões seguras.
+
+3. Banco de Dados (MySQL)
+- Tecnologia: MySQL Server
+- Função: armazenamento e gerenciamento de dados da aplicação.
+- Acesso via PDO enviado pelo backend PHP.
+
+Fluxo Resumido
+1. O usuário acessa o site pelo navegador.
+2. O frontend envia requisições HTTP para o backend PHP.
+3. O PHP consulta ou atualiza o MySQL usando PDO.
+4. O banco devolve os dados para o PHP, que responde ao navegador.
  
- **Exemplo do diagrama de Arquitetura**:
- 
- ![Exemplo de Arquitetura](./images/arquitetura-exemplo.png)
- 
+ **Diagrama de Arquitetura**:
 
 ## 4.2. Protótipos de telas 
 
