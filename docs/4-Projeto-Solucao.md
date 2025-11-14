@@ -1,11 +1,9 @@
 ## 4. Projeto da Solução
 
 ## 4.1. Arquitetura da solução
-<<<<<<< HEAD
  
  ![Arquitetura](./images/arquitetura/imagem.jpeg)
- 
-=======
+
 
  **Diagrama da Solução - Descrição**:
 
@@ -31,7 +29,6 @@ Fluxo Resumido
 2. O frontend envia requisições HTTP para o backend PHP.
 3. O PHP consulta ou atualiza o MySQL usando PDO.
 4. O banco devolve os dados para o PHP, que responde ao navegador.
->>>>>>> c008695b480ecdebb42cc3452ea4faf5477a694d
  
  **Diagrama da Arquitetura**:
 
