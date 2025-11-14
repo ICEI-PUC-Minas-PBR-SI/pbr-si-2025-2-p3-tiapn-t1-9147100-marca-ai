@@ -3,16 +3,8 @@
 <span style="color:red">Pré-requisitos: <a href="03-Modelagem do Processo de Negocio.md"> Modelagem do Processo de Negocio</a></span>
 
 ## 4.1. Arquitetura da solução
-
-
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
-
- Inclua um diagrama da solução e descreva os módulos e as tecnologias
- que fazem parte da solução. Discorra sobre o diagrama.
  
- **Exemplo do diagrama de Arquitetura**:
- 
- ![Exemplo de Arquitetura](./images/arquitetura-exemplo.png)
+ ![Arquitetura](./images/arquitetura/imagem.jpeg)
  
 
 ## 4.2. Protótipos de telas 
@@ -64,9 +56,12 @@ Utilizando a notação do DER (Diagrama Entidade e Relacionamento), elaborem um 
 
 #### 4.3.3 Modelo Físico
 
-<code>
--- Criação da tabela Agenda
-
+CREATE TABLE `servicos` (
+  `id_servico` int NOT NULL,
+  `nome` varchar(100) NOT NULL,
+  `preco` decimal(4,2) NOT NULL,
+  PRIMARY KEY (`id_servico`)
+) 
 CREATE TABLE `agenda` (
   `id_agenda` int NOT NULL AUTO_INCREMENT,
   `data_agenda` date NOT NULL,
@@ -77,8 +72,6 @@ CREATE TABLE `agenda` (
   `id_servico` int DEFAULT NULL,
   PRIMARY KEY (`id_agenda`)
 )
-
--- Criação da tabela Barbearia
 
 CREATE TABLE `barbearia` (
   `cnpj_barbearia` varchar(14) NOT NULL,
@@ -93,10 +86,7 @@ CREATE TABLE `barbearia` (
   `numero` varchar(5) NOT NULL,
   PRIMARY KEY (`cnpj_barbearia`),
   UNIQUE KEY `email` (`email`)
-)
-
--- Criação da tabela Cadastro Barbearia
-
+) 
 CREATE TABLE `cadastro_barbearia` (
   `id_barbearia` bigint unsigned NOT NULL AUTO_INCREMENT,
   `nome` varchar(100) NOT NULL,
@@ -108,9 +98,6 @@ CREATE TABLE `cadastro_barbearia` (
   UNIQUE KEY `nome` (`nome`),
   UNIQUE KEY `email` (`email`)
 )
-
--- Criação da tabela Cliente
-
 CREATE TABLE `cliente` (
   `cpf_cliente` varchar(11) NOT NULL,
   `nome` varchar(100) NOT NULL,
@@ -121,9 +108,6 @@ CREATE TABLE `cliente` (
   PRIMARY KEY (`cpf_cliente`),
   UNIQUE KEY `email` (`email`)
 ) 
-
--- Criação da tabela Profissional
-
 CREATE TABLE `profissional` (
   `cpf_profissional` varchar(11) NOT NULL,
   `usuario` varchar(100) NOT NULL,
@@ -134,21 +118,12 @@ CREATE TABLE `profissional` (
   PRIMARY KEY (`cpf_profissional`),
   UNIQUE KEY `email` (`email`)
 ) 
-
--- Criação tabela Serviços
-
 CREATE TABLE `servicos` (
   `id_servico` int NOT NULL,
   `nome` varchar(100) NOT NULL,
   `preco` decimal(4,2) NOT NULL,
   PRIMARY KEY (`id_servico`)
-)  
-</code>
-
-Este script deverá ser incluído em um arquivo .sql na pasta src\bd.
-
-
-
+) 
 
 ### 4.4. Tecnologias
 
