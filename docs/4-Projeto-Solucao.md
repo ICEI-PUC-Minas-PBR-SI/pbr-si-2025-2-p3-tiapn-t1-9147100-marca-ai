@@ -28,7 +28,7 @@ Fluxo Resumido
 4. O banco devolve os dados para o PHP, que responde ao navegador.
  
  **Diagrama da Arquitetura**:
- 
+
  ![Arquitetura](./images/arquitetura/imagem.jpeg)
 
 ## 4.2. Protótipos de telas 
@@ -79,7 +79,7 @@ Utilizando a notação do DER (Diagrama Entidade e Relacionamento), elaborem um 
 ![Modelo EER](images/bd/modelo_eer.png)
 
 #### 4.3.3 Modelo Físico
-
+<code>
 CREATE TABLE `servicos` (
   `id_servico` int NOT NULL,
   `nome` varchar(100) NOT NULL,
@@ -148,6 +148,7 @@ CREATE TABLE `servicos` (
   `preco` decimal(4,2) NOT NULL,
   PRIMARY KEY (`id_servico`)
 ) 
+</code>
 
 ### 4.4. Tecnologias
 
