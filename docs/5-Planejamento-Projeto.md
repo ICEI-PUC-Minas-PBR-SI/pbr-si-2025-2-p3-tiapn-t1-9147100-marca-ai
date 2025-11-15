@@ -134,6 +134,7 @@ Atualizado em: 21/10/2025
 | Talisson Vilaça | Modelo de Entidade-Relacionamento | 14/11/2025     | 21/11/2025  | ✔️    |   21/10/2025             |
 | João Gabriel | Esquema Relacional | 14/11/2025     | 21/11/2025  | ✔️    |   21/10/2025             |
 | João Gabriel | Modelo Físico | 14/11/2025     | 21/11/2025  | ✔️    |   21/10/2025             |
+| Victoria Maia | Tecnologias Projeto Solução | 14/11/2025     | 21/11/2025  | ✔️    |   21/10/2025             |
 
 
 #### Legenda:
