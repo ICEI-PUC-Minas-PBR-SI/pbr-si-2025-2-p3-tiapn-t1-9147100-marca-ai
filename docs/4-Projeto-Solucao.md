@@ -149,15 +149,18 @@ CREATE TABLE `servicos` (
 
 ### 4.4. Tecnologias
 
-_Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas._
+O projeto foi desenvolvido utilizando HTML5, CSS3 e JavaScript no frontend, garantindo páginas responsivas, modais interativos, navegação dinâmica e integração com o backend por meio de requisições HTTP. Toda a interface foi construída seguindo um padrão visual consistente, com uso de ícones Lucide Icons e organização modular em arquivos HTML, CSS e JS.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+No backend, a aplicação utiliza PHP, responsável por processar as requisições enviadas pelo navegador, aplicar regras de negócio e se comunicar com o banco de dados. A conexão com o MySQL Server é feita utilizando PDO, permitindo operações seguras e estruturadas. O banco armazena dados de usuários, barbearias, agendamentos, avaliações, profissionais, serviços e notificações.
+
+O frontend é hospedado na Vercel, e todo o desenvolvimento é realizado em VS Code, com versionamento feito via GitHub. O fluxo completo funciona assim: o usuário interage com a interface → o frontend envia uma requisição HTTP → o backend PHP processa → o MySQL retorna dados → o navegador exibe o resultado ao usuário.
 
 
 | **Dimensão**   | **Tecnologia**  |
 | ---            | ---             |
-| SGBD           | MySQL           |
 | Front end      | HTML+CSS+JS     |
-| Back end       | Java SpringBoot |
-| Deploy         | Github Pages    |
+| Back end       | PHP |
+| SGBD           | MySQL           |
+| Deploy         | Vercel    |
+
 
