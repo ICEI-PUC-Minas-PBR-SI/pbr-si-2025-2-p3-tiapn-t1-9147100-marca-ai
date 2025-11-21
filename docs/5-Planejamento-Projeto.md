@@ -83,7 +83,7 @@ Atualizado em: 03/10/2025
 
 ## Sprint 4
 
-Atualizado em: 17/10/2025
+Atualizado em: 24/10/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
@@ -98,7 +98,7 @@ Atualizado em: 17/10/2025
 
 ## Sprint 5
 
-Atualizado em: 24/10/2025
+Atualizado em: 31/10/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
@@ -109,7 +109,7 @@ Atualizado em: 24/10/2025
 
 ## Sprint 6
 
-Atualizado em: 14/07/2025
+Atualizado em: 14/11/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
@@ -124,7 +124,7 @@ Atualizado em: 14/07/2025
 
 ## Sprint 7
 
-Atualizado em: 21/10/2025
+Atualizado em: 21/11/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
