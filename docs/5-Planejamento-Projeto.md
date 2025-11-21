@@ -120,7 +120,7 @@ Atualizado em: 14/07/2025
 | Victoria Maia | Frontend Processo 4  | 24/10/2025     | 14/11/2025  | ✔️   |   14/11/2025            |
 | Bruno Primo  | Backend Processo 4  | 24/10/2025     | 14/11/2025  | 📝    |   -               |
 | João Gabriel  | Banco de Dados Processo 4 | 24/10/2025     | 14/11/2025  | ✔️   |   14/11/2025               |
-| Talisson Vilaça  | Atualização do Project  | 24/10/2025     | 14/11/2025  | ✔️    |       14/11/2025          /
+| Talisson Vilaça  | Atualização do Project  | 24/10/2025     | 14/11/2025  | ✔️    |       14/11/2025 
 
 ## Sprint 7
 
