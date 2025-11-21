@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perfil</title>
+  <link rel="stylesheet" href="perfil.css" />
+  <link rel="stylesheet" href="nav.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <header class="perfil-header">
+    <div class="perfil-topo">
+      <div class="perfil-icone">
+        <i data-lucide="user"></i>
+      </div>
+      <div class="perfil-info">
+        <!-- AQUI RECEBE DO JS -->
+        <h2 id="perfilNome"></h2>
+        <p id="perfilDesde"></p>
+      </div>
+    </div>
+  </header>
+
+  <main class="perfil-container">
+    <!-- Dados pessoais -->
+    <section class="dados-pessoais">
+      <h3>DADOS PESSOAIS</h3>
+
+      <div class="campo-info">
+        <i data-lucide="mail"></i>
+        <div>
+          <label>E-mail</label>
+          <!-- AQUI RECEBE DO JS -->
+          <p id="perfilEmail"></p>
+        </div>
+      </div>
+
+      <div class="campo-info">
+        <i data-lucide="phone"></i>
+        <div>
+          <label>Telefone</label>
+          <!-- AQUI RECEBE DO JS -->
+          <p id="perfilTelefone"></p>
+        </div>
+      </div>
+
+      <button id="btnEditar" class="btn-editar">Editar Perfil</button>
+    </section>
+
+    <!-- Minhas Avaliações -->
+    <section class="opcao-btn" id="btnAvaliacoes">
+      <div class="item-opcao">
+        <div><i data-lucide="star"></i> Minhas Avaliações</div>
+        <i data-lucide="chevron-right"></i>
+      </div>
+    </section>
+
+    <!-- Notificações -->
+    <section class="opcao-btn" id="btnNotificacoes">
+      <div class="item-opcao">
+        <div><i data-lucide="bell"></i> Notificações</div>
+        <i data-lucide="chevron-right"></i>
+      </div>
+    </section>
+
+    <!-- Sair -->
+    <button id="btnSair" class="btn-sair">
+      <i data-lucide="log-out"></i> Sair da Conta
+    </button>
+  </main>
+
+  <!-- Modal Editar -->
+  <div id="modalEditar" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Editar Perfil</h2>
+        <button id="btnFecharModal" class="btn-fechar"><i data-lucide="x"></i></button>
+      </div>
+
+      <label>Nome</label>
+      <input type="text" id="inputNome" />
+
+      <label>E-mail</label>
+      <input type="email" id="inputEmail" />
+
+      <label>Telefone</label>
+      <input type="tel" id="inputTelefone" />
+
+      <div class="modal-acoes">
+        <button id="btnCancelar" class="btn-cancelar">Cancelar</button>
+        <button id="btnSalvar" class="btn-salvar">Salvar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast-container"></div>
+
+  <footer>
+    <nav class="bottom-nav"></nav>
+  </footer>
+
+  <script src="nav.js"></script>
+  <script src="perfil.js"></script>
+</body>
+</html>
