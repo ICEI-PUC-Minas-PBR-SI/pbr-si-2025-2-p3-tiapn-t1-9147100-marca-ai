@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
       endereco: "Rua Projetada, 999 - Centro",
       avaliacao: 4.5,
       totalAvaliacoes: 42,
-      imagem: "../img/barbearia5.jpg",
+      imagem: "../img/barbearia8.jpg",
     },
     {
       nome: "Barbearia Vinicin",
