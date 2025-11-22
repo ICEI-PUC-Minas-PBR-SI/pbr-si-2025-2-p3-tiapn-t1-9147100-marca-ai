@@ -14,11 +14,11 @@ _Descrição da tela principal do sistema._
 
 ## 6.2. Telas do processo 1
 
-_Descrição da tela relativa à atividade 1._
+Formulário de criação de conta para cliente, contendo campos para nome completo, e-mail, telefone, senha e confirmação de senha, além dos botões Cancelar e Cadastrar, e um botão de Voltar no topo que redireciona para a tela Tipo de Acesso 
 
 ![Tela da atividade 1](images/telas/CadastroUsuario.png)
 
-_Descrição da tela relativa à atividade 2._
+Formulário de criação de conta para barbearias, contendo campos para nome da barbearia, CNPJ, e-mail, telefone, endereço, senha e confirmação de senha, além dos botões Cancelar e Cadastrar, e um botão de Voltar no topo que redireciona para a tela Tipo de Acesso. 
 
 ![Tela da atividade 2](images/telas/CadastroBarbearia.png)
 
