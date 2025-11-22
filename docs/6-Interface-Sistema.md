@@ -9,7 +9,7 @@ _Visão geral da interação do usuário por meio das telas do sistema. Apresent
 
 _Descrição da tela principal do sistema._
 
-![Tela Principal]
+![Tela da atividade 1](images/telas/TelaPrincipal.png)
 
 
 ## 6.2. Telas do processo 1
