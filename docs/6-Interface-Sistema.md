@@ -66,9 +66,14 @@ A tela exibe todas as notificações de agendamentos confirmados do cliente, lis
 
 ## 6.6. Telas do processo 5
 
+Tela onde o usuário visualiza todas as avaliações que já fez, exibindo barbearia, profissional, nota em estrelas, comentário e data. É possível editar ou excluir cada avaliação individualmente, além de adicionar novas pelo botão “+”.
+
+
 ![Tela da atividade 1](images/telas/TelaAvalicacao.png)
 
-_Descrição da tela relativa à atividade 2._
+
+A tela mostra um modal para criar uma nova avaliação, contendo campos para inserir o nome da barbearia, profissional, nota através de estrelas clicáveis e um comentário. Há botões para Cancelar e Salvar a avaliação.
+
 
 ![Tela da atividade 2](images/telas/TelaNovaAvaliacao.png)
 
