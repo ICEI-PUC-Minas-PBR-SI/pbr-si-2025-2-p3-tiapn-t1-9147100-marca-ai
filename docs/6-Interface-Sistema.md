@@ -33,4 +33,12 @@ _Descrição da tela relativa à atividade 2._
 
 ![Tela da atividade 2](images/telas/TelaServicos.png)
 
+## 6.4. Telas do processo 3
 
+_Descrição da tela relativa à atividade 1._
+
+![Tela da atividade 1](images/telas/TelaAgendar.png)
+
+_Descrição da tela relativa à atividade 2._
+
+![Tela da atividade 2](images/telas/TelaAgendamentos.png)
