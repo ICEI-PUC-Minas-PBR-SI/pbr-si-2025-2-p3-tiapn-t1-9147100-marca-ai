@@ -57,6 +57,6 @@ _Descrição da tela relativa à atividade 1._
 
 _Descrição da tela relativa à atividade 1._
 
-![Tela da atividade 2](images/telas/TelaMinhaAvaliacao.png)
+![Tela da atividade 2](images/telas/TelaNovaAvaliacao.png)
 
 _Descrição da tela relativa à atividade 2._
