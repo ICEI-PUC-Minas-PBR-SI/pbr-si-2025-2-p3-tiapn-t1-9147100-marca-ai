@@ -33,7 +33,7 @@ Fluxo Resumido
 
 ## 4.2. Protótipos de telas 
 
-[PROCESSO 1 - Cadastro de Usuário](./imagens/wireframe/Wireframe-01.jpg)
+[PROCESSO 1 - Cadastro de Usuário](./images/wireframe/Wireframe-01.jpg)
 
 ## Diagrama de Classes
 
