@@ -33,14 +33,7 @@ Fluxo Resumido
 
 ## 4.2. Protótipos de telas 
 
-- **Tela inicial/login**: acesso às opções `Log in` e `Sign up`.  
-- **Lista de barbearias**: exibe barbearias cadastradas com barra de busca.  
-- **Página da barbearia**: organizada em abas:
-  - **Serviços** → lista serviços disponíveis com botão de **Agendar**.  
-  - **Informações** → dados gerais e horários de funcionamento.  
-  - **Profissionais** → lista barbeiros, com detalhes e opção de seleção.  
-  - **Avaliações** → feedback de clientes em formato de estrelas.  
-
+[PROCESSO 1 - Cadastro de Usuário](./imagens/wireframe/Wireframe-01.jpg)
 
 ## Diagrama de Classes
 
