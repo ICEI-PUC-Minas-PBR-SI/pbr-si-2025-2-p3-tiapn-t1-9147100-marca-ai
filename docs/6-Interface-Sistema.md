@@ -27,36 +27,54 @@ Formulário de criação de conta para barbearias, contendo campos para nome da 
 
 ## 6.3. Telas do processo 2
 
-_Descrição da tela relativa à atividade 1._
+
+Lista de profissionais cadastrados e, por cima, ao clicar no botão Adicionar, um modal aberto, para adicionar um novo profissional, com campos para nome completo, especialidade e telefone, além dos botões Cancelar e Adicionar.
+
 
 ![Tela da atividade 1](images/telas/TelaProfissionais.png)
 
-_Descrição da tela relativa à atividade 2._
+
+Lista de serviços cadastrados e, por cima, ao clicar no botão Adicionar, um modal aberto, para adicionar um novo serviço, com campos para nome do serviço, descrição, valor e duração, além dos botões Cancelar e Adicionar.
+
 
 ![Tela da atividade 2](images/telas/TelaServicos.png)
 
+
 ## 6.4. Telas do processo 3
 
-_Descrição da tela relativa à atividade 1._
+
+Tela onde o cliente escolhe o serviço, o profissional, a data e o horário para realizar um agendamento. Cada etapa apresenta opções em cartões clicáveis, e o horário é selecionado em uma lista horizontal. Ao final, há um botão para Confirmar Agendamento.
+
 
 ![Tela da atividade 1](images/telas/TelaAgendar.png)
 
-_Descrição da tela relativa à atividade 2._
+
+Tela onde o cliente visualiza todos os agendamentos realizados. Cada cartão exibe a barbearia, serviço escolhido, data, horário, profissional e valor. Também possui as opções Cancelar e Reagendar.
+
 
 ![Tela da atividade 2](images/telas/TelaAgendamentos.png)
 
+
 ## 6.5. Telas do processo 4
 
-_Descrição da tela relativa à atividade 1._
+
+A tela exibe todas as notificações de agendamentos confirmados do cliente, listadas em cartões amplos contendo título, descrição do agendamento e data/hora da confirmação. Cada notificação possui um ícone para excluir e um indicador visual de nova mensagem quando aplicável. Um botão de voltar no topo leva o usuário de volta ao perfil.
+
 
 ![Tela da atividade 1](images/telas/TelaNotificacao.png)
 
+
 ## 6.6. Telas do processo 5
 
-![Tela da atividade 1](images/telas/TelaAvalicacao.png)
 
 _Descrição da tela relativa à atividade 1._
 
-![Tela da atividade 2](images/telas/TelaMinhaAvaliacao.png)
+
+![Tela da atividade 1](images/telas/TelaAvalicacao.png)
+
 
 _Descrição da tela relativa à atividade 2._
+
+
+![Tela da atividade 2](images/telas/TelaMinhaAvaliacao.png)
+
