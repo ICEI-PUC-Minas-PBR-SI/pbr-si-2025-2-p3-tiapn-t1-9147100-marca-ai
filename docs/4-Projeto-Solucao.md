@@ -35,14 +35,19 @@ Fluxo Resumido
 
 [PROCESSO 1 - Cadastro de Usuário](./images/wireframe/Wireframe-01.jpg)
 
+[PROCESSO 2 - Cadastro de Barbearia, Profissionais e Serviços Disponíveis](./images/wireframe/Wireframe-02.jpg)
+
+[PROCESSO 3 - Agendamento e Cancelamento de Atendimentos](./images/wireframe/Wireframe-03.jpg)
+
+[PROCESSO 4 - Lembretes Automatizados](./images/wireframe/Wireframe-04.jpg)
+
+[PROCESSO 5 - Avaliação e Feedback](./images/wireframe/Wireframe-05.jpg)
+
+
 ## Diagrama de Classes
 
-O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
+Inserir aqui o diagrama de classe UML 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
-
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
 
 ## Modelo ER
 
