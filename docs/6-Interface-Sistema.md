@@ -27,10 +27,10 @@ Formulário de criação de conta para barbearias, contendo campos para nome da 
 
 _Descrição da tela relativa à atividade 1._
 
-[`Tela da atividade 1`](images/)
+![Tela da atividade 1](images/telas/TelaProfissionais.png)
 
 _Descrição da tela relativa à atividade 2._
 
-[`Tela da atividade 2`](images/)
+![Tela da atividade 2](images/telas/TelaServicos.png)
 
 
