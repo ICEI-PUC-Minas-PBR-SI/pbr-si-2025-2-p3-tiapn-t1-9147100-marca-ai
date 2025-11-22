@@ -7,18 +7,24 @@ _Visão geral da interação do usuário por meio das telas do sistema. Apresent
 
 ## 6.1. Tela principal do sistema
 
-_Descrição da tela principal do sistema._
+
+Listagem de barbearias disponíveis para agendamento, cada uma com imagem, nome, endereço, nota, quantidade de avaliações e um botão Agendar.
+Há também um campo de busca na parte superior e a barra de navegação inferior com os ícones de Barbearias, Agendamentos e Perfil.
+
 
 ![Tela da atividade 1](images/telas/TelaPrincipal.png)
 
 
 ## 6.2. Telas do processo 1
 
-Formulário de criação de conta para cliente, contendo campos para nome completo, e-mail, telefone, senha e confirmação de senha, além dos botões Cancelar e Cadastrar, e um botão de Voltar no topo que redireciona para a tela Tipo de Acesso 
+Formulário de criação de conta para cliente, contendo campos para nome completo, e-mail, telefone, senha e confirmação de senha, além dos botões Cancelar e Cadastrar, e um botão de Voltar no topo que redireciona para a tela Tipo de Acesso.
+
 
 ![Tela da atividade 1](images/telas/CadastroUsuario.png)
 
+
 Formulário de criação de conta para barbearias, contendo campos para nome da barbearia, CNPJ, e-mail, telefone, endereço, senha e confirmação de senha, além dos botões Cancelar e Cadastrar, e um botão de Voltar no topo que redireciona para a tela Tipo de Acesso. 
+
 
 ![Tela da atividade 2](images/telas/CadastroBarbearia.png)
 
