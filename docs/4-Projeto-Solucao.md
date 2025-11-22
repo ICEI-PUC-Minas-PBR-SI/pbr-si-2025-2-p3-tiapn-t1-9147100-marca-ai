@@ -29,7 +29,7 @@ Fluxo Resumido
  
  **Diagrama da Arquitetura**:
 
- ![Arquitetura](./images/arquitetura/imagem.jpeg)
+ ![Arquitetura](./images/arquitetura/arquitetura.jpeg)
 
 ## 4.2. Protótipos de telas 
 
