@@ -39,9 +39,9 @@ Fluxo Resumido
 
 [PROCESSO 3 - Agendamento e Cancelamento de Atendimentos](./images/wireframe/Wireframe-03.jpg)
 
-[PROCESSO 4 - Lembretes Automatizados](./images/wireframe/Wireframe-04.jpg)
+[PROCESSO 4 - Lembretes Automatizados](./images/wireframe/Wireframe-04.png)
 
-[PROCESSO 5 - Avaliação e Feedback](./images/wireframe/Wireframe-05.jpg)
+[PROCESSO 5 - Avaliação e Feedback](./images/wireframe/Wireframe-05.png)
 
 
 ## Diagrama de Classes
