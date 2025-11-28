@@ -1,4 +1,3 @@
-// Chave namespaced por barbearia (conforme login/cadastro):
 const BARBEARIA_KEY =
   localStorage.getItem("barbeariaId") ||
   localStorage.getItem("emailBarbearia") ||
@@ -12,16 +11,13 @@ let editandoIndex = null;
 
 const $ = (s, r = document) => r.querySelector(s);
 
-// Init
 document.addEventListener("DOMContentLoaded", () => {
-  // carrega lista (SEM DADOS FIXOS)
   try {
     const bruto = localStorage.getItem(STORAGE_KEY);
     profissionais = bruto ? JSON.parse(bruto) : [];
     if (!Array.isArray(profissionais)) profissionais = [];
   } catch { profissionais = []; }
 
-  // listeners
   $("#abrirModalAdicionar")?.addEventListener("click", () => abrirModal("novo"));
   $("#btnFecharModal")?.addEventListener("click", fecharModal);
   $("#btnCancelar")?.addEventListener("click", fecharModal);
@@ -51,10 +47,8 @@ document.addEventListener("DOMContentLoaded", () => {
   lucide?.createIcons?.();
 });
 
-// Persistência
 function save(){ localStorage.setItem(STORAGE_KEY, JSON.stringify(profissionais)); }
 
-// Render
 function render(){
   const lista = $("#listaProfissionais");
   lista.innerHTML = "";
@@ -86,7 +80,6 @@ function render(){
   lucide?.createIcons?.();
 }
 
-// Ações
 function editarProfissional(i){
   editandoIndex = i;
   const p = profissionais[i];
