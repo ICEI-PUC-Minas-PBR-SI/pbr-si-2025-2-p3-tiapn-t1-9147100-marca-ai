@@ -1,11 +1,8 @@
-// Barra de navegação inferior do Cliente
-
 document.addEventListener("DOMContentLoaded", () => {
   const navContainer = document.querySelector(".bottom-nav");
 
   if (!navContainer) return;
 
-  // Estrutura HTML da barra
   navContainer.innerHTML = `
     <div class="nav-item" id="nav-barbearias" onclick="window.location.href='barbearias.html'">
       <i data-lucide="scissors"></i>
@@ -23,11 +20,9 @@ document.addEventListener("DOMContentLoaded", () => {
     </div>
   `;
 
-  // Ícones
   lucide.createIcons();
 });
 
-// Ícone ativo (em amarelo) conforme a tela atual
 
 function setActiveNavIcon(pagina) {
   const itens = document.querySelectorAll(".nav-item");
