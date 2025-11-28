@@ -5,7 +5,6 @@ body {
   color: #fff;
 }
 
-/* Cabeçalho */
 .notificacoes-header {
   display: flex;
   align-items: center;
@@ -37,7 +36,6 @@ body {
   color: #ffc400;
 }
 
-/* Lista de notificações */
 .notificacoes-container {
   max-width: 950px;
   margin: 0 auto;
@@ -63,7 +61,6 @@ body {
   box-shadow: 0 0 8px rgba(255, 196, 0, 0.1);
 }
 
-/* Notificação não lida */
 .notificacao-card.nao-lida {
   background-color: rgba(255, 196, 0, 0.05);
   border-color: rgba(255, 196, 0, 0.3);
@@ -101,7 +98,6 @@ body {
   line-height: 1.4;
 }
 
-/* Botão excluir (X) */
 .btn-excluir-notificacao {
   position: absolute;
   top: 1rem;
@@ -125,7 +121,6 @@ body {
   background-color: rgba(255, 196, 0, 0.1);
 }
 
-/* Modal */
 .modal {
   position: fixed;
   inset: 0;
@@ -172,7 +167,6 @@ body {
   text-align: center;
 }
 
-/* Ações do modal */
 .modal-acoes {
   display: flex;
   justify-content: space-between;
@@ -210,7 +204,6 @@ body {
   background-color: #ffd633;
 }
 
-/* Toast */
 #toast-container {
   position: fixed;
   bottom: 20px;
@@ -234,7 +227,6 @@ body {
   100% { opacity: 0; transform: translateX(20px); }
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   .notificacoes-header {
     padding: 1rem;
