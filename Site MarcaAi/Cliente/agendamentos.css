@@ -5,7 +5,6 @@ body {
   color: #fff;
 }
 
-/* Header */
 .top-bar {
   padding: 1.5rem;
 }
@@ -16,7 +15,6 @@ body {
   color: #fff;
 }
 
-/* Container */
 .agendamentos-container {
   max-width: 900px;
   margin: 0 auto;
@@ -26,7 +24,6 @@ body {
   gap: 1.2rem;
 }
 
-/* Card de agendamento */
 .card-agendamento {
   background-color: #1a1a1a;
   border: 1px solid #2a2a2a;
@@ -40,7 +37,6 @@ body {
   border-color: #ffc400;
 }
 
-/* Cabeçalho */
 .card-header {
   display: flex;
   justify-content: space-between;
@@ -59,7 +55,6 @@ body {
   margin-top: 4px;
 }
 
-/* Detalhes */
 .card-detalhes {
   margin-top: 10px;
   color: #ccc;
@@ -73,7 +68,6 @@ body {
   margin-right: 6px;
 }
 
-/* Rodapé */
 .card-footer {
   margin-top: 10px;
   border-top: 1px solid #2a2a2a;
@@ -130,7 +124,6 @@ body {
   background: #ffd633;
 }
 
-/* Toast */
 #toast-container {
   position: fixed;
   bottom: 20px;
