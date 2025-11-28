@@ -26,7 +26,7 @@ if ($result->num_rows > 0) {
             'nome' => $perfil['nome'],
             'email' => $perfil['email'],
             'telefone' => $perfil['telefone'],
-            'desde' => null   // sem data por enquanto
+            'desde' => null 
         ]
     ]);
 
