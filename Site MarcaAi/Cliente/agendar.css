@@ -5,7 +5,6 @@ body {
   color: #fff;
 }
 
-/* Header */
 .top-bar {
   display: flex;
   align-items: center;
@@ -36,7 +35,6 @@ body {
   transform: translateY(-1px);
 }
 
-/* Conteúdo */
 .agendar-container {
   max-width: 900px;
   margin: 0 auto;
@@ -56,7 +54,6 @@ body {
   margin-bottom: 0.8rem;
 }
 
-/* Cards */
 .lista-cards {
   display: flex;
   flex-wrap: wrap;
@@ -104,7 +101,6 @@ body {
   width: 90px;
 }
 
-/* Datas e horários */
 .campo-data {
   background: #1a1a1a;
   border: 1px solid #2a2a2a;
@@ -183,7 +179,6 @@ body {
   cursor: not-allowed;
 }
 
-/* Toast */
 #toast-container {
   position: fixed;
   bottom: 20px;
