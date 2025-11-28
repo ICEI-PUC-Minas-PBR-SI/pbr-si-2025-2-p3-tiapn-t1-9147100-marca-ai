@@ -1,4 +1,3 @@
-// Toasts
 function showToast(mensagem, tipo = "info") {
   const container = document.getElementById("toast-container");
   const toast = document.createElement("div");
@@ -17,7 +16,6 @@ function showToast(mensagem, tipo = "info") {
   }, 3000);
 }
 
-// Lógica de login
 const form = document.getElementById("loginForm");
 
 form.addEventListener("submit", async (e) => {
@@ -43,14 +41,12 @@ form.addEventListener("submit", async (e) => {
     if (data.success) {
       showToast("Login realizado com sucesso!", "sucesso");
       
-      // Salva o ID da barbearia no localStorage
-      localStorage.setItem("barbeariaId", data.user.id);  // Salva o ID da barbearia
-      localStorage.setItem("nomeBarbearia", data.user.nome);  // Opcional, se precisar de nome
-      localStorage.setItem("tipoAcesso", data.user.tipo);  // Opcional, se necessário
+      localStorage.setItem("barbeariaId", data.user.id);
+      localStorage.setItem("nomeBarbearia", data.user.nome);
+      localStorage.setItem("tipoAcesso", data.user.tipo);
 
-      // Redireciona para o painel da barbearia
       setTimeout(() => {
-        window.location.href = "painel.html";  // Página do painel da barbearia
+        window.location.href = "painel.html"; 
       }, 2000);
     } else {
       showToast(data.message, "erro");
