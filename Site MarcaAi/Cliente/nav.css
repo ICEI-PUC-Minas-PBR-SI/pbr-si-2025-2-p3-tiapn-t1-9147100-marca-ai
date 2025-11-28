@@ -41,7 +41,6 @@
   color: #ffc400;
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   .bottom-nav {
     height: 60px;
