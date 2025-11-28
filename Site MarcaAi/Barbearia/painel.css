@@ -41,7 +41,6 @@ header p {
   color: #fff;
 }
 
-/* CARDS */
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -82,7 +81,6 @@ header p {
   height: 34px;
 }
 
-/* Ícones coloridos */
 .icon-yellow {
   color: #ffcc00;
 }
@@ -93,7 +91,6 @@ header p {
   color: #29d98c;
 }
 
-/* OPÇÕES */
 .options {
   padding: 0 30px 50px;
   display: flex;
