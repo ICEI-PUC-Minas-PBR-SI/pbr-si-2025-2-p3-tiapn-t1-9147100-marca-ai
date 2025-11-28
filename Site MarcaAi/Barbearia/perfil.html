@@ -5,10 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Perfil da Barbearia | Marca Aí</title>
 
-  <!-- CSS -->
   <link rel="stylesheet" href="perfil.css" />
 
-  <!-- Ícones -->
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
@@ -49,7 +47,6 @@
       </div>
     </section>
 
-    <!-- Informações -->
     <section class="card">
       <h2 class="sec-titulo">
         <i data-lucide="info"></i> Informações
@@ -88,7 +85,6 @@
       </div>
     </section>
 
-    <!-- Horários -->
     <section class="card">
       <h2 class="sec-titulo">
         <i data-lucide="clock-3"></i> Horários de Funcionamento
@@ -97,16 +93,13 @@
       <div id="diasContainer" class="dias"></div>
     </section>
 
-    <!-- Ação -->
     <section class="rodape-acoes">
       <button id="salvarBtn" class="btn-salvar">Salvar Alterações</button>
     </section>
   </main>
 
-  <!-- SCRIPTS: Sempre no final para garantir que o botão funcione -->
   <script src="perfil.js"></script>
   <script>
-    // Recria os ícones depois que tudo carregar
     document.addEventListener("DOMContentLoaded", () => {
       lucide.createIcons();
     });
