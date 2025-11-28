@@ -94,7 +94,6 @@ document.addEventListener("DOMContentLoaded", () => {
   function addEventListeners(listaBarbearias) {
     document.querySelectorAll(".agendar-btn").forEach((btn, index) => {
       btn.addEventListener("click", () => {
-        // Salva a barbearia selecionada no localStorage
         const barbeariaSelecionada = listaBarbearias[index];
         localStorage.setItem("barbeariaSelecionada", JSON.stringify({
           nome: barbeariaSelecionada.nome,
@@ -102,7 +101,6 @@ document.addEventListener("DOMContentLoaded", () => {
           avaliacao: barbeariaSelecionada.avaliacao
         }));
         
-        // Redireciona para a página de agendamento
         window.location.href = "agendar.html";
       });
     });
