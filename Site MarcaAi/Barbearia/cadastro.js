@@ -1,4 +1,3 @@
-// Toasts
 function showToast(mensagem, tipo = "info") {
   const container = document.getElementById("toast-container");
   const toast = document.createElement("div");
@@ -17,7 +16,6 @@ function showToast(mensagem, tipo = "info") {
   }, 3000);
 }
 
-// Lógica do formulário
 const form = document.getElementById("cadastroForm");
 
 form.addEventListener("submit", async (e) => {
@@ -64,7 +62,6 @@ form.addEventListener("submit", async (e) => {
   }
 });
 
-// Botão Cancelar
 document.getElementById("btnCancelar").addEventListener("click", () => {
   window.location.href = "../Tipo_Acesso/acesso.html?acao=cadastro";
 });
