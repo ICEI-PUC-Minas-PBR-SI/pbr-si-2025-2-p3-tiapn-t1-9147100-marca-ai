@@ -1,20 +1,12 @@
-// -------------------------------------------------------------
-//  Atalho para document.querySelector
-// -------------------------------------------------------------
+
 const $ = (sel) => document.querySelector(sel);
 
-// -------------------------------------------------------------
-// OBJETO PRINCIPAL DO PERFIL
-// -------------------------------------------------------------
 let perfil = {
   info: {},
   horarios: {},
   logo: null
 };
 
-// -------------------------------------------------------------
-//  CARREGAR PERFIL DA API (perfil.php)
-// -------------------------------------------------------------
 async function carregarPerfilAPI(barbeariaId) {
   try {
     const response = await fetch(`perfil.php?id=${barbeariaId}`);
@@ -36,9 +28,6 @@ async function carregarPerfilAPI(barbeariaId) {
   }
 }
 
-// -------------------------------------------------------------
-//  PREENCHER OS CAMPOS COM OS DADOS RECEBIDOS
-// -------------------------------------------------------------
 function renderizarPerfil() {
   const i = perfil.info;
 
@@ -53,9 +42,6 @@ function renderizarPerfil() {
   setupLogo?.();
 }
 
-// -------------------------------------------------------------
-//  FUNÇÃO SALVAR TUDO (ENVIA PARA O BACKEND)
-// -------------------------------------------------------------
 async function salvarTudo() {
   console.log("FUNÇÃO salvarTudo() FOI CHAMADA!");
 
@@ -78,7 +64,6 @@ async function salvarTudo() {
     console.error("Erro ao enviar para o backend:", erro);
   }
 
-  // FEEDBACK VISUAL
   const btn = $("#salvarBtn");
   btn.disabled = true;
   const original = btn.textContent;
@@ -88,16 +73,10 @@ async function salvarTudo() {
     btn.disabled = false;
   }, 1200);
 
-  // REDIRECIONAMENTO (opcional)
-  // window.location.href = "painel.html";
 }
 
-// -------------------------------------------------------------
-//  INICIALIZAÇÃO DA PÁGINA
-// -------------------------------------------------------------
 document.addEventListener("DOMContentLoaded", () => {
 
-  // PEGA O ID DO LOCALSTORAGE
   let barbeariaId = localStorage.getItem("barbeariaId");
 
   if (!barbeariaId) {
@@ -105,12 +84,9 @@ document.addEventListener("DOMContentLoaded", () => {
     barbeariaId = 1;
   }
 
-  // CARREGA PERFIL
   carregarPerfilAPI(barbeariaId);
 
-  // ATRELA O BOTÃO "SALVAR"
   $("#salvarBtn").addEventListener("click", salvarTudo);
 
-  // ÍCONES
   lucide?.createIcons?.();
 });
