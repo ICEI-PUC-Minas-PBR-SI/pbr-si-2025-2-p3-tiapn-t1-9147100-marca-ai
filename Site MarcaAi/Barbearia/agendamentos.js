@@ -1,10 +1,7 @@
 
 
-// Função que futuramente vai buscar da API:
 async function carregarAgendamentos() {
 
-  // Exemplo temporário (mock): APENAS VISUAL
-  // ALTERAR AQUI TAMBÉMMMMM - backend tem que substituir isso por uma chamada real
   const agendamentosHoje = [
     {
       cliente: "João Henrique",
