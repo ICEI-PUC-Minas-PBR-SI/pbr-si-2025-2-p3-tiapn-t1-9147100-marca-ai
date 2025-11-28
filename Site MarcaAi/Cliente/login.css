@@ -1,4 +1,3 @@
-/* Fundo geral */
 body {
   margin: 0;
   height: 100vh;
@@ -10,7 +9,6 @@ body {
   justify-content: center;
 }
 
-/* Botão Voltar */
 .btn-voltar {
   position: absolute;
   top: 25px;
@@ -37,7 +35,6 @@ body {
   color: #000;
 }
 
-/* Conteúdo central */
 .container {
   text-align: center;
 }
@@ -53,7 +50,6 @@ h1 {
   margin-bottom: 2rem;
 }
 
-/* Caixa de login */
 .login-box {
   background-color: #1a1a1a;
   border: 1px solid #2a2a2a;
@@ -86,7 +82,6 @@ input::placeholder {
   color: #777;
 }
 
-/* Botão Entrar */
 .btn-entrar {
   width: 100%;
   background: #ffc400;
@@ -106,7 +101,6 @@ input::placeholder {
   box-shadow: 0 6px 25px rgba(255, 196, 0, 0.6);
 }
 
-/* Notificações (Toasts) */
 #toast-container {
   position: fixed;
   bottom: 25px;
@@ -138,7 +132,6 @@ input::placeholder {
   color: #ffc400;
 }
 
-/* Animações */
 @keyframes toastIn {
   from { opacity: 0; transform: translateY(15px); }
   to { opacity: 1; transform: translateY(0); }
