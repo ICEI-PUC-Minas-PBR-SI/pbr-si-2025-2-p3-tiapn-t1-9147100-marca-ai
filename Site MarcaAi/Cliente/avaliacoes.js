@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", () => {
   let avaliacaoEditando = null;
   let avaliacaoExcluir = null;
 
-  // Inicializar estrelas no modal
   criarEstrelasModal();
 
   renderAvaliacoes();
@@ -103,8 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
     renderAvaliacoes();
     fecharModal();
   });
-
-  // Estrelas 
+ 
   function criarEstrelasModal() {
     estrelasContainer.innerHTML = '';
     for (let i = 0; i < 5; i++) {
@@ -114,7 +112,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     lucide.createIcons();
     
-    // Evento de clique (estrelas)
     estrelasContainer.addEventListener("click", (e) => {
       const clicked = e.target.closest("svg");
       if (!clicked) return;
