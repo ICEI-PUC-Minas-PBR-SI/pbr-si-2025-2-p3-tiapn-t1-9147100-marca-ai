@@ -5,7 +5,6 @@ body {
   color: #fff;
 }
 
-/* Cabeçalho */
 .avaliacoes-header {
   display: flex;
   align-items: center;
@@ -37,7 +36,6 @@ body {
   color: #ffc400;
 }
 
-/* Botão adicionar */
 .btn-add {
   background-color: #ffc400;
   border: none;
@@ -56,7 +54,6 @@ body {
   background-color: #ffd633;
 }
 
-/* Lista de avaliações */
 .avaliacoes-container {
   max-width: 950px;
   margin: 0 auto;
@@ -118,7 +115,6 @@ body {
   line-height: 1.4;
 }
 
-/* Botão editar */
 .btn-editar {
   margin-top: 12px;
   background: #0a0a0a;
@@ -137,7 +133,6 @@ body {
   color: #ffc400;
 }
 
-/* Botão excluir */
 .btn-excluir {
   margin-top: 12px;
   background: #0a0a0a;
@@ -155,7 +150,6 @@ body {
   background-color: rgba(255, 196, 0, 0.1);
 }
 
-/* Modal */
 .modal {
   position: fixed;
   inset: 0;
@@ -231,7 +225,6 @@ textarea {
   resize: none;
 }
 
-/* Estrelas no Modal */
 .estrelas {
   display: flex;
   gap: 8px;
@@ -257,7 +250,6 @@ textarea {
   color: #ffc400;
 }
 
-/* Ações do modal */
 .modal-acoes {
   display: flex;
   justify-content: space-between;
@@ -303,7 +295,6 @@ textarea {
   background-color: #c82333;
 }
 
-/* Texto do modal de confirmação */
 .modal-content p {
   color: #ccc;
   line-height: 1.5;
@@ -311,7 +302,6 @@ textarea {
   text-align: center;
 }
 
-/* Toast */
 #toast-container {
   position: fixed;
   bottom: 20px;
@@ -335,7 +325,6 @@ textarea {
   100% { opacity: 0; transform: translateX(20px); }
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   .avaliacoes-header {
     padding: 1rem;
