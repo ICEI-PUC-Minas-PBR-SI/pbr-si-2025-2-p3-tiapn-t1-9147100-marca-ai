@@ -11,10 +11,8 @@ let editando = null;
 
 const $ = (s, r=document) => r.querySelector(s);
 
-/* INIT */
 document.addEventListener("DOMContentLoaded", () => {
 
-  // Carregar serviços
   try{
     const raw = localStorage.getItem(STORAGE_KEY);
     servicos = raw ? JSON.parse(raw) : [];
@@ -23,7 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
     servicos = [];
   }
 
-  /* Eventos */
   $("#abrirModalAdicionar")?.addEventListener("click", () => abrirModal("novo"));
   $("#btnFecharModal")?.addEventListener("click", fecharModal);
   $("#btnCancelar")?.addEventListener("click", fecharModal);
@@ -42,12 +39,10 @@ document.addEventListener("DOMContentLoaded", () => {
   lucide?.createIcons?.();
 });
 
-/* Salvar */
 function save(){
   localStorage.setItem(STORAGE_KEY, JSON.stringify(servicos));
 }
 
-/* Renderizar lista */
 function render(){
   const lista = $("#listaServicos");
   lista.innerHTML = "";
@@ -87,7 +82,6 @@ function render(){
   lucide?.createIcons?.();
 }
 
-/* Abrir modal */
 function abrirModal(modo, index=null){
   editando = (modo === "editar") ? index : null;
 
@@ -112,14 +106,12 @@ function abrirModal(modo, index=null){
   lucide?.createIcons?.();
 }
 
-/* Fechar modal */
 function fecharModal(reset=false){
   $("#modalOverlay").classList.remove("aberta");
   $("#modalOverlay").setAttribute("aria-hidden","true");
   if(reset) $("#formServico").reset();
 }
 
-/* Editar / Remover */
 function editarServico(i){
   abrirModal("editar", i);
 }
@@ -129,7 +121,6 @@ function removerServico(i){
   render();
 }
 
-/* Salvar formulário */
 function salvarFormulario(e){
   e.preventDefault();
 
@@ -158,7 +149,6 @@ function salvarFormulario(e){
   fecharModal(true);
 }
 
-/* Sanitização */
 function escapeHTML(str){
   return String(str)
     .replaceAll("&","&amp;")
