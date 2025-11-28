@@ -60,15 +60,12 @@ document.addEventListener("DOMContentLoaded", () => {
         <p>${notificacao.mensagem}</p>
       `;
       
-      // Evento para marcar como lida ao clicar na notificação
       div.addEventListener("click", (e) => {
-        // Não marcar como lida se clicou no botão de excluir
         if (!e.target.closest('.btn-excluir-notificacao')) {
           marcarComoLida(notificacao.id);
         }
       });
       
-      // Evento para excluir notificação
       div.querySelector(".btn-excluir-notificacao").addEventListener("click", (e) => {
         e.stopPropagation(); 
         abrirModalConfirmacao(notificacao);
