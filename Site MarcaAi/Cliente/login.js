@@ -1,4 +1,3 @@
-// Função para exibir mensagens flutuantes (toasts)
 function showToast(mensagem, tipo = "info") {
   const container = document.getElementById("toast-container");
   const toast = document.createElement("div");
@@ -41,11 +40,9 @@ form.addEventListener("submit", async (e) => {
 
     if (data.success) {
 
-      // 🔥 ADIÇÃO QUE PEDIU
       console.log("DATA DO LOGIN:", data);
       console.log("ID RECEBIDO:", data.user.id);
 
-      // SALVA O ID
       localStorage.setItem("usuarioId", data.user.id);
 
       showToast("Login realizado com sucesso!", "sucesso");
