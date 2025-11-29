@@ -131,7 +131,7 @@ Atualizado em: 21/11/2025
 | Victoria Maia | Planejamento Sprint 7  | 14/11/2025     | 21/11/2025  | ✔️    |   14/11/2025             |
 | Victoria Maia | Descrição Diagrama da Solução  | 14/11/2025     | 21/11/2025  | ✔️    |   21/11/2025             |
 | Victoria Maia | Diagrama da Arquitetura  | 14/11/2025     | 21/11/2025  | ✔️    |   21/11/2025             |
-|  | Diagrama de Classes  | 14/11/2025     | 21/11/2025  | 📝    |   21/11/2025             |
+| Victoria Maia | Diagrama de Classe  | 14/11/2025     | 21/11/2025  | ✔️   |   21/11/2025             |
 | Talisson Vilaça | Modelo de Entidade-Relacionamento | 14/11/2025     | 21/11/2025  | ✔️    |   21/11/2025             |
 | João Gabriel | Esquema Relacional | 14/11/2025     | 21/11/2025  | ✔️    |   21/11/2025             |
 | João Gabriel | Modelo Físico | 14/11/2025     | 21/11/2025  | ✔️    |   21/11/2025             |
