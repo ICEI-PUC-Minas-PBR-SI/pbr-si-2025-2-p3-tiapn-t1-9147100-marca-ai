@@ -36,9 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
   lucide?.createIcons?.();
 });
 
-/* ===============================
-   CARREGAR SERVIÇOS (BANCO)
-================================ */
+
 async function carregarServicos() {
   const res = await fetch(`api/servicos.php?action=listar&id_barbearia=${idBarbearia}`);
   servicos = await res.json();
@@ -46,9 +44,7 @@ async function carregarServicos() {
   render();
 }
 
-/* ===============================
-   RENDERIZAR LISTA
-================================ */
+
 function render() {
   const lista = $("#listaServicos");
   lista.innerHTML = "";
@@ -93,9 +89,6 @@ function render() {
   lucide?.createIcons?.();
 }
 
-/* ===============================
-   ABRIR MODAL
-================================ */
 function abrirModal(modo, index=null){
   editando = (modo === "editar") ? index : null;
 
@@ -121,25 +114,19 @@ function abrirModal(modo, index=null){
   setTimeout(() => $("#nomeServico").focus(), 10);
 }
 
-/* ===============================
-   FECHAR MODAL
-================================ */
+
 function fecharModal(reset=false){
   $("#modalOverlay").classList.remove("aberta");
   $("#modalOverlay").setAttribute("aria-hidden","true");
   if(reset) $("#formServico").reset();
 }
 
-/* ===============================
-   EDITAR
-================================ */
+
 function editarServico(i){
   abrirModal("editar", i);
 }
 
-/* ===============================
-   REMOVER (BANCO)
-================================ */
+
 async function removerServico(i){
   const s = servicos[i];
 
@@ -150,9 +137,7 @@ async function removerServico(i){
   carregarServicos();
 }
 
-/* ===============================
-   SALVAR (ADICIONAR / EDITAR)
-================================ */
+
 async function salvarFormulario(e){
   e.preventDefault();
 
@@ -197,9 +182,7 @@ async function salvarFormulario(e){
   carregarServicos();
 }
 
-/* ===============================
-   ESCAPAR HTML
-================================ */
+
 function escapeHTML(str){
   return String(str)
     .replaceAll("&","&amp;")

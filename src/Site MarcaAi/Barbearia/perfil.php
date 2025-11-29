@@ -1,20 +1,16 @@
 <?php
 header("Content-Type: application/json; charset=UTF-8");
 
-// -----------------------------------------------------------
-// 1. Conexão com o banco
-// -----------------------------------------------------------
+
 require_once "../Tipo_Acesso/conexao.php"; 
-// Ajustei para voltar 1 nível (Barbearia → Tipo_Acesso)
+
 
 if ($conn->connect_error) {
     echo json_encode(["error" => "Erro na conexão: " . $conn->connect_error]);
     exit;
 }
 
-// -----------------------------------------------------------
-// 2. Se for GET → Buscar dados da barbearia e retornar JSON
-// -----------------------------------------------------------
+
 if ($_SERVER["REQUEST_METHOD"] === "GET") {
 
     if (!isset($_GET["id"])) {
@@ -24,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] === "GET") {
 
     $id = intval($_GET["id"]);
 
-    // Buscar informações básicas
+
     $sql = "SELECT nome, cnpj, email, telefone, endereco, descricao, logo 
             FROM barbearias 
             WHERE id = $id";
@@ -38,7 +34,6 @@ if ($_SERVER["REQUEST_METHOD"] === "GET") {
 
     $info = $result->fetch_assoc();
 
-    // Buscar horários
     $sqlH = "SELECT dia, abre, fecha, status FROM horarios WHERE barbearia_id = $id";
     $resH = $conn->query($sqlH);
 
@@ -57,15 +52,13 @@ if ($_SERVER["REQUEST_METHOD"] === "GET") {
     echo json_encode([
         "info" => $info,
         "horarios" => $horarios,
-        "logo" => $info["logo"] // ou separado se quiser
+        "logo" => $info["logo"] 
     ]);
 
     exit;
 }
 
-// -----------------------------------------------------------
-// 3. Se for POST → Atualizar dados
-// -----------------------------------------------------------
+
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     $json = file_get_contents("php://input");
@@ -79,7 +72,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $id = intval($data["id"]);
     $i  = $data["info"];
 
-    // Atualizar dados principais
+ 
     $sql = "UPDATE barbearias SET
                 nome      = '".$conn->real_escape_string($i["nome"])."',
                 cnpj      = '".$conn->real_escape_string($i["cnpj"])."',
@@ -91,7 +84,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     $ok1 = $conn->query($sql);
 
-    // Atualizar horários
     $hor = $data["horarios"];
 
     foreach ($hor as $dia => $h) {

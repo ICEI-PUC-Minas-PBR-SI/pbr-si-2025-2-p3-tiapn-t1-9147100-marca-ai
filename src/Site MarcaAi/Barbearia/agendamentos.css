@@ -10,7 +10,6 @@
   --brand-ink:#000;
 }
 
-/* Base */
 body{
   margin:0;
   background:linear-gradient(to bottom, var(--bg-0), var(--bg-1));
@@ -18,7 +17,6 @@ body{
   font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Topo */
 .topo{
   display:grid;
   grid-template-columns:56px 1fr 56px;
@@ -43,7 +41,6 @@ body{
   color:var(--muted);
 }
 
-/* Botão voltar */
 .btn-voltar{
   width:44px;
   height:44px;

@@ -4,9 +4,7 @@ header("Content-Type: application/json");
 
 $action = $_GET['action'] ?? null;
 
-// ===========================
-// LISTAR PROFISSIONAIS
-// ===========================
+
 if ($action === "listar") {
     $idBarbearia = $_GET['id'];
 
@@ -19,9 +17,7 @@ if ($action === "listar") {
     exit;
 }
 
-// ===========================
-// BUSCAR UM
-// ===========================
+
 if ($action === "buscar") {
     $id = $_GET['id'];
 
@@ -34,9 +30,7 @@ if ($action === "buscar") {
     exit;
 }
 
-// ===========================
-// CADASTRAR
-// ===========================
+
 if ($action === "cadastrar") {
 
     $idBarbearia = $_POST['id_barbearia'];
@@ -54,9 +48,7 @@ if ($action === "cadastrar") {
     exit;
 }
 
-// ===========================
-// EDITAR
-// ===========================
+
 if ($action === "editar") {
 
     $id = $_POST['id'];
@@ -75,9 +67,7 @@ if ($action === "editar") {
     exit;
 }
 
-// ===========================
-// EXCLUIR
-// ===========================
+
 if ($action === "excluir") {
 
     $id = $_GET['id'];

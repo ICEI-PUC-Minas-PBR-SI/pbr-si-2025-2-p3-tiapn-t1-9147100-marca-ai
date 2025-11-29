@@ -3,28 +3,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
   carregarProfissionais();
 
-  // Abrir modal para adicionar
   document.getElementById("abrirModalAdicionar").addEventListener("click", () => {
     abrirModalAdicionar();
   });
 
-  // Botão fechar modal
   document.getElementById("btnFecharModal").addEventListener("click", fecharModal);
   document.getElementById("btnCancelar").addEventListener("click", fecharModal);
 
-  // Clique fora fecha modal
   document.getElementById("modalOverlay").addEventListener("click", (e) => {
     if (e.target.id === "modalOverlay") fecharModal();
   });
 
-  // Submit do form
   document.getElementById("formProfissional").addEventListener("submit", salvarProfissional);
 });
 
 
-// =========================
-// LISTAR PROFISSIONAIS
-// =========================
+
 async function carregarProfissionais() {
   const lista = document.getElementById("listaProfissionais");
   const idBarbearia = localStorage.getItem("idBarbearia");
@@ -66,9 +60,7 @@ async function carregarProfissionais() {
 }
 
 
-// =========================
-// ABRIR MODAL PARA ADICIONAR
-// =========================
+
 function abrirModalAdicionar() {
   document.getElementById("modalTitulo").innerText = "Novo Profissional";
   document.getElementById("btnSalvar").innerText = "Adicionar";
@@ -80,9 +72,7 @@ function abrirModalAdicionar() {
 }
 
 
-// =========================
-// ABRIR MODAL PARA EDITAR
-// =========================
+
 async function abrirModalEditar(id) {
   const res = await fetch(`profissionais.php?action=buscar&id=${id}`);
   const p = await res.json();
@@ -99,9 +89,7 @@ async function abrirModalEditar(id) {
 }
 
 
-// =========================
-// SALVAR (ADICIONAR OU EDITAR)
-// =========================
+
 async function salvarProfissional(e) {
   e.preventDefault();
 
@@ -133,9 +121,7 @@ async function salvarProfissional(e) {
 }
 
 
-// =========================
-// EXCLUIR
-// =========================
+
 async function excluirProfissional(id) {
   if (!confirm("Deseja realmente excluir este profissional?")) return;
 
@@ -147,9 +133,7 @@ async function excluirProfissional(id) {
 }
 
 
-// =========================
-// FUNÇÕES VISUAIS DO MODAL
-// =========================
+
 function abrirModal() {
   const overlay = document.getElementById("modalOverlay");
   overlay.classList.add("aberta");

@@ -4,7 +4,6 @@ require_once "../../Tipo_Acesso/conexao.php";
 
 $action = $_GET['action'] ?? null;
 
-/* LISTAR OS SERVIÇOS DA BARBEARIA */
 if ($action === "listar") {
     $idb = $_GET['id_barbearia'];
 
@@ -27,7 +26,7 @@ if ($action === "listar") {
     exit;
 }
 
-/* CADASTRAR SERVIÇO */
+
 if ($action === "cadastrar") {
 
     $idb      = $_POST['id_barbearia'];
@@ -36,7 +35,6 @@ if ($action === "cadastrar") {
     $duracao  = $_POST['duracao'];
     $preco    = $_POST['preco'];
 
-    // 1. Adiciona no catálogo de serviços
     $sql = "INSERT INTO servicos (nome, descricao, duracao)
             VALUES (?, ?, ?)";
     $stmt = $conn->prepare($sql);
@@ -45,7 +43,6 @@ if ($action === "cadastrar") {
 
     $id_servico = $conn->insert_id;
 
-    // 2. Relaciona à barbearia
     $sql2 = "INSERT INTO barbearia_servicos (id_barbearia, id_servico, preco)
              VALUES (?, ?, ?)";
     $stmt2 = $conn->prepare($sql2);
@@ -56,7 +53,6 @@ if ($action === "cadastrar") {
     exit;
 }
 
-/* EDITAR SERVIÇO */
 if ($action === "editar") {
 
     $id_relacao = $_POST['id_relacao'];
@@ -66,7 +62,6 @@ if ($action === "editar") {
     $duracao    = $_POST['duracao'];
     $preco      = $_POST['preco'];
 
-    // 1. Edita o catálogo
     $sql = "UPDATE servicos 
             SET nome = ?, descricao = ?, duracao = ?
             WHERE id = ?";
@@ -74,7 +69,6 @@ if ($action === "editar") {
     $stmt->bind_param("ssii", $nome, $desc, $duracao, $id_servico);
     $stmt->execute();
 
-    // 2. Edita a tabela da barbearia
     $sql2 = "UPDATE barbearia_servicos
              SET preco = ?
              WHERE id = ?";
@@ -86,19 +80,17 @@ if ($action === "editar") {
     exit;
 }
 
-/* EXCLUIR SERVIÇO */
+
 if ($action === "excluir") {
 
     $id_relacao = $_GET['id_relacao'];
     $id_servico = $_GET['id_servico'];
 
-    // 1. Remove relacionamento
     $sql = "DELETE FROM barbearia_servicos WHERE id = ?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("i", $id_relacao);
     $stmt->execute();
 
-    // 2. Remove serviço do catálogo
     $sql2 = "DELETE FROM servicos WHERE id = ?";
     $stmt2 = $conn->prepare($sql2);
     $stmt2->bind_param("i", $id_servico);

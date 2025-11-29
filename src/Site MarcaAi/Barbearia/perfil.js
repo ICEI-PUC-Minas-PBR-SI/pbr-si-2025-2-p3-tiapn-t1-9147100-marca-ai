@@ -1,20 +1,14 @@
-// -------------------------------------------------------------
-//  Atalho para document.querySelector
-// -------------------------------------------------------------
+
 const $ = (sel) => document.querySelector(sel);
 
-// -------------------------------------------------------------
-// OBJETO PRINCIPAL DO PERFIL
-// -------------------------------------------------------------
+
 let perfil = {
   info: {},
   horarios: {},
   logo: null
 };
 
-// -------------------------------------------------------------
-//  CARREGAR PERFIL DA API (perfil.php)
-// -------------------------------------------------------------
+
 async function carregarPerfilAPI(barbeariaId) {
   try {
     const response = await fetch(`perfil.php?id=${barbeariaId}`);
@@ -36,9 +30,7 @@ async function carregarPerfilAPI(barbeariaId) {
   }
 }
 
-// -------------------------------------------------------------
-//  PREENCHER OS CAMPOS COM OS DADOS RECEBIDOS
-// -------------------------------------------------------------
+
 function renderizarPerfil() {
   const i = perfil.info;
 
@@ -53,9 +45,7 @@ function renderizarPerfil() {
   setupLogo();
 }
 
-// -------------------------------------------------------------
-//  DESIGN DOS HORÁRIOS (RESTAURADO DO ARQUIVO ANTIGO)
-// -------------------------------------------------------------
+
 function montarDias() {
   const wrap = $("#diasContainer");
   wrap.innerHTML = "";
@@ -115,7 +105,6 @@ function montarDias() {
     wrap.appendChild(card);
   });
 
-  // Listener do switch
   document.querySelectorAll(".switch").forEach((btn) => {
     btn.addEventListener("click", () => {
       const dia = btn.dataset.dia;
@@ -131,7 +120,6 @@ function montarDias() {
     });
   });
 
-  // Inputs de hora
   document.querySelectorAll(".dia-conteudo input").forEach((inp) => {
     inp.addEventListener("change", () => {
       const dia = inp.dataset.dia;
@@ -141,9 +129,7 @@ function montarDias() {
   });
 }
 
-// -------------------------------------------------------------
-//  LOGO (continua igual ao seu)
-// -------------------------------------------------------------
+
 function setupLogo() {
   const preview = $("#logoPreview");
 
@@ -155,9 +141,7 @@ function setupLogo() {
   }
 }
 
-// -------------------------------------------------------------
-//  FUNÇÃO SALVAR TUDO (ENVIA PARA O BACKEND)
-// -------------------------------------------------------------
+
 async function salvarTudo() {
   console.log("FUNÇÃO salvarTudo() FOI CHAMADA!");
 
@@ -190,9 +174,7 @@ async function salvarTudo() {
   }, 1200);
 }
 
-// -------------------------------------------------------------
-//  INICIALIZAÇÃO DA PÁGINA
-// -------------------------------------------------------------
+
 document.addEventListener("DOMContentLoaded", () => {
 
   let barbeariaId = localStorage.getItem("barbeariaId");
