@@ -9,6 +9,7 @@ exports.criarUsuario = async (req, res) => {
   }
 };
 
+
 exports.listarUsuarios = async (req, res) => {
   try {
     const usuarios = await Usuario.findAll(); // READ (SELECT *) no MySQL
