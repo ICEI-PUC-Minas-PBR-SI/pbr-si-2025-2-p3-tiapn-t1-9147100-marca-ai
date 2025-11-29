@@ -1,0 +1,14 @@
+USE marcaai_db;
+
+CREATE TABLE barbearias (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(100) NOT NULL,
+  cnpj VARCHAR(18) UNIQUE NOT NULL,
+  email VARCHAR(100) UNIQUE NOT NULL,
+  telefone VARCHAR(20),
+  endereco VARCHAR(255),
+  senha VARCHAR(255) NOT NULL,
+  data_cadastro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+SELECT * FROM barbearias;
