@@ -3,7 +3,7 @@ USE marcaai_db;
 CREATE TABLE horarios (
   id INT AUTO_INCREMENT PRIMARY KEY,
   id_profissional INT NOT NULL,
-  dia_semana TINYINT NOT NULL,  -- 0=Dom, 1=Seg, 2=Ter... 6=Sab
+  dia_semana TINYINT NOT NULL,  
   hora_inicio TIME NOT NULL,
   hora_fim TIME NOT NULL,
   FOREIGN KEY (id_profissional) REFERENCES profissional(id)
