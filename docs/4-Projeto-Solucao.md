@@ -46,8 +46,7 @@ Fluxo Resumido
 
 ## Diagrama de Classes
 
-Inserir aqui o diagrama de classe UML 
-
+![Diagrama de Classes ](images/diagrama/diagrama_de_classe.png)
 
 ## Modelo ER
 
