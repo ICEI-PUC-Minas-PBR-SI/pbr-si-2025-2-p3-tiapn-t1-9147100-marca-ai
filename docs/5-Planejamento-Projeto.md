@@ -115,10 +115,10 @@ Atualizado em: 14/11/2025
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Rhaniel Lucas  | Planejamento Sprint 6  | 24/10/2025     | 14/11/2025  | ✔️    |   24/10/2025             |
 | Victoria Maia  | Frontend Processo 3  | 24/10/2025     | 14/11/2025  | ✔️    |   14/11/2025               |
-| Bruno Primo | Backend Processo 3  | 24/10/2025     | 14/11/2025  | ✔️   |   -            |
+| Bruno Primo | Backend Processo 3  | 24/10/2025     | 14/11/2025  | ✔️   |   14/11/2025            |
 | João Gabriel  | Banco de Dados Processo 3  | 24/10/2025     | 14/11/2025  | ✔️    |   14/11/2025               |
 | Victoria Maia | Frontend Processo 4  | 24/10/2025     | 14/11/2025  | ✔️   |   14/11/2025            |
-| Bruno Primo  | Backend Processo 4  | 24/10/2025     | 14/11/2025  | ✔️    |   -               |
+| Bruno Primo  | Backend Processo 4  | 24/10/2025     | 14/11/2025  | ✔️    |   14/11/2025               |
 | João Gabriel  | Banco de Dados Processo 4 | 24/10/2025     | 14/11/2025  | ✔️   |   14/11/2025               |
 | Talisson Vilaça  | Atualização do Project  | 24/10/2025     | 14/11/2025  | ✔️    |       14/11/2025 
 
