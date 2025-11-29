@@ -1,4 +1,3 @@
-// Função para exibir toasts
 function showToast(mensagem, tipo = "info") {
   const container = document.getElementById("toast-container");
   const toast = document.createElement("div");
@@ -11,14 +10,12 @@ function showToast(mensagem, tipo = "info") {
   toast.innerHTML = `<i class="fa-solid ${icone}"></i> ${mensagem}`;
   container.appendChild(toast);
 
-  // Remove após 3 segundos
   setTimeout(() => {
     toast.style.animation = "toastOut 0.4s ease forwards";
     setTimeout(() => toast.remove(), 400);
   }, 3000);
 }
 
-// Lógica do formulário
 const form = document.getElementById("cadastroForm");
 
 form.addEventListener("submit", (e) => {
@@ -30,7 +27,6 @@ form.addEventListener("submit", (e) => {
   const senha = document.getElementById("senha").value.trim();
   const confirmar = document.getElementById("confirmar").value.trim();
 
-  // Validações básicas
   if (!nome || !email || !telefone || !senha || !confirmar) {
     showToast("Preencha todos os campos", "erro");
     return;
@@ -41,7 +37,6 @@ form.addEventListener("submit", (e) => {
     return;
   }
 
-  // Envia os dados para o servidor (cadastro.php)
   fetch("cadastro.php", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -52,7 +47,6 @@ form.addEventListener("submit", (e) => {
       if (data.success) {
         showToast(data.message, "sucesso");
 
-        // Redireciona após sucesso
         setTimeout(() => {
           window.location.href = "../Cliente/login.html";
         }, 2000);
@@ -65,7 +59,6 @@ form.addEventListener("submit", (e) => {
     });
 });
 
-// Botão Cancelar
 document.getElementById("btnCancelar").addEventListener("click", () => {
   window.location.href = "../Tipo_Acesso/acesso.html?acao=cadastro";
 });

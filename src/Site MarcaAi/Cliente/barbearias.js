@@ -53,7 +53,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       btn.addEventListener("click", () => {
         const barbeariaId = btn.getAttribute("data-id");
 
-        // AGORA SIM: salvando o ID certo
         localStorage.setItem("barbearia_id", barbeariaId);
 
         console.log("ID SALVO:", barbeariaId);

@@ -33,9 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let perfil = { nome: "", email: "", telefone: "", desde: "" };
 
-  // ===============================
-  //   PUXAR PERFIL DO BANCO
-  // ===============================
+ 
   async function carregarPerfil() {
     try {
       const resp = await fetch("../Cliente/perfil.php?id=" + usuarioId);
@@ -58,15 +56,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   carregarPerfil();
 
-  // ===============================
-  //   ATUALIZAR O HTML
-  // ===============================
+
   function atualizarTela() {
     nomeEl.textContent = perfil.nome;
     emailEl.textContent = perfil.email;
     telEl.textContent = perfil.telefone;
 
-    // formatação básica da data
     if (perfil.desde) {
       const data = new Date(perfil.desde);
       desdeEl.textContent = `Cliente desde ${data.toLocaleDateString("pt-BR")}`;
@@ -75,9 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // ===============================
-  //   EDITAR PERFIL
-  // ===============================
+ 
   btnEditar.addEventListener("click", () => {
     inputNome.value = perfil.nome;
     inputEmail.value = perfil.email;
@@ -118,18 +111,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // ===============================
-  //   BOTÃO SAIR
-  // ===============================
+ 
   btnSair.addEventListener("click", () => {
     localStorage.clear();
     showToast("👋 Sessão encerrada");
     setTimeout(() => (window.location.href = "../Home/home.html"), 1500);
   });
 
-  // ===============================
-  //   NAVEGAÇÃO
-  // ===============================
+
   btnAvaliacoes.addEventListener("click", () => {
     window.location.href = "avaliacoes.html";
   });
@@ -138,9 +127,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.location.href = "notificacoes.html";
   });
 
-  // ===============================
-  //   TOAST
-  // ===============================
+
   function showToast(msg) {
     const toast = document.createElement("div");
     toast.className = "toast";

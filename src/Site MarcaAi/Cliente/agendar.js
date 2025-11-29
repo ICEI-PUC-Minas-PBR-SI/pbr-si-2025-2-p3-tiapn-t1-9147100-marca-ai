@@ -1,12 +1,9 @@
-// ===============================
-// DEFINIR ID DA BARBEARIA
-// ===============================
+
 let idBarbearia = localStorage.getItem("barbearia_id");
 
-// Se vier null, tenta o nome correto usado no painel
 if (!idBarbearia) idBarbearia = localStorage.getItem("id_barbearia");
 
-// Se ainda assim não tiver nada → erro
+
 console.log("ID da barbearia carregado:", idBarbearia);
 
 if (!idBarbearia) {
@@ -16,9 +13,7 @@ if (!idBarbearia) {
 
 
 
-// ===============================
-// INICIO DO SCRIPT PRINCIPAL
-// ===============================
+
 document.addEventListener("DOMContentLoaded", async () => {
   lucide.createIcons();
 
@@ -35,9 +30,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 
 
-  // ============================
-  // 1) CARREGAR SERVIÇOS
-  // ============================
+  
   async function carregarServicos() {
     try {
       const res = await fetch(`api/getServicos.php?action=listar&id=${idBarbearia}`);

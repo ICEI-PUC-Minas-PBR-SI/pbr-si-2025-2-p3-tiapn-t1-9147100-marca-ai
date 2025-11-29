@@ -10,10 +10,9 @@ if (!$idProf || !$data) {
     exit;
 }
 
-// Descobre o dia da semana: 0=Dom, 1=Seg, ..., 6=Sab
+
 $diaSemana = date('w', strtotime($data));
 
-// 1️⃣ Buscar horário de trabalho
 $sql = "SELECT hora_inicio, hora_fim 
         FROM horarios 
         WHERE id_profissional = ? AND dia_semana = ?";
@@ -23,7 +22,7 @@ $stmt->execute();
 $res = $stmt->get_result();
 
 if ($res->num_rows == 0) {
-    echo json_encode([]); // profissional não trabalha neste dia
+    echo json_encode([]);
     exit;
 }
 
@@ -31,13 +30,13 @@ $horario = $res->fetch_assoc();
 $inicio = strtotime($horario['hora_inicio']);
 $fim = strtotime($horario['hora_fim']);
 
-// 2️⃣ Gerar intervalos de 30 minutos
+
 $intervalos = [];
 for ($t = $inicio; $t < $fim; $t += 30 * 60) {
     $intervalos[] = date('H:i', $t);
 }
 
-// 3️⃣ Remover horários já agendados
+
 $sql2 = "SELECT hora 
          FROM agenda 
          WHERE id_profissional = ? AND data_agenda = ?";

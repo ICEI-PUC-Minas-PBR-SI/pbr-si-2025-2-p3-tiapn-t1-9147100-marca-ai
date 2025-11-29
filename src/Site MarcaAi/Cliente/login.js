@@ -1,4 +1,3 @@
-// Função para exibir mensagens flutuantes (toasts)
 function showToast(mensagem, tipo = "info") {
   const container = document.getElementById("toast-container");
   const toast = document.createElement("div");

@@ -2,7 +2,6 @@
 header("Content-Type: application/json; charset=UTF-8");
 header("Access-Control-Allow-Origin: *");
 
-// Ajuste o caminho para o seu conexao.php se necessário
 include("../Tipo_Acesso/conexao.php");
 
 $data = json_decode(file_get_contents("php://input"), true);
@@ -18,7 +17,6 @@ if ($nome === "" || $email === "" || $telefone === "" || $senha === "") {
     exit;
 }
 
-// Verifica se e-mail já existe
 $stmt = $conn->prepare("SELECT id FROM usuarios WHERE email = ?");
 if (!$stmt) {
     echo json_encode(["success" => false, "message" => "Erro na consulta."]);
@@ -36,7 +34,6 @@ if ($result->num_rows > 0) {
 }
 $stmt->close();
 
-// Insere no banco (senha em texto puro)
 $stmt = $conn->prepare("INSERT INTO usuarios (nome, email, telefone, senha, tipo) VALUES (?, ?, ?, ?, ?)");
 if (!$stmt) {
     echo json_encode(["success" => false, "message" => "Erro ao preparar inserção."]);

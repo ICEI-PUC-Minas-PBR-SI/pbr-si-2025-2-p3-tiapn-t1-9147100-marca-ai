@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("agendamentosContainer");
   const toastContainer = document.getElementById("toast-container");
 
-  // Recupera agendamentos do localStorage (vindos da tela Agendar)
   let agendamentos = JSON.parse(localStorage.getItem("agendamentos")) || [];
 
   function renderAgendamentos() {
@@ -42,7 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
       `;
 
-      // Cancelar
       card.querySelector(".btn-cancelar").addEventListener("click", () => {
         agendamentos.splice(index, 1);
         localStorage.setItem("agendamentos", JSON.stringify(agendamentos));
@@ -50,7 +48,6 @@ document.addEventListener("DOMContentLoaded", () => {
         setTimeout(() => (window.location.href = "barbearias.html"), 1200);
       });
 
-      // Reagendar
       card.querySelector(".btn-reagendar").addEventListener("click", () => {
         agendamentos.splice(index, 1);
         localStorage.setItem("agendamentos", JSON.stringify(agendamentos));
