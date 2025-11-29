@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barbearias</title>
+  <link rel="stylesheet" href="barbearias.css" />
+  <link rel="stylesheet" href="nav.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <header class="top-bar">
+    <h1>Barbearias</h1>
+    <div class="search-bar">
+      <i data-lucide="search"></i>
+      <input type="text" id="searchInput" placeholder="Buscar barbearias..." />
+    </div>
+  </header>
+
+  <main id="barbeariasContainer" class="barbearias-container"></main>
+  <p id="noResults" class="no-results" style="display: none;">Nenhuma barbearia encontrada.</p>
+
+  <footer>
+    <nav class="bottom-nav"></nav>
+  </footer>
+
+  <script src="nav.js"></script>
+  <script src="barbearias.js"></script>
+</body>
+</html>

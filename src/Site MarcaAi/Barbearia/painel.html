@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel da Barbearia</title>
+  <link rel="stylesheet" href="painel.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <h1>Painel da Barbearia</h1>
+      <p id="nomeBarbearia"></p>
+    </div>
+    <button id="btnLogout" title="Sair">
+      <i data-lucide="log-out"></i>
+    </button>
+  </header>
+
+  <main>
+    <div class="cards">
+      <div class="card">
+        <div class="info">
+          <p>Agendamentos Hoje</p>
+          <h2 id="numAgendamentos">0</h2>
+        </div>
+        <i data-lucide="calendar" class="icon-yellow"></i>
+      </div>
+
+      <div class="card">
+        <div class="info">
+          <p>Profissionais</p>
+          <h2 id="numProfissionais">0</h2>
+        </div>
+        <i data-lucide="users" class="icon-blue"></i>
+      </div>
+
+      <div class="card">
+        <div class="info">
+          <p>Serviços Ativos</p>
+          <h2 id="numServicos">0</h2>
+        </div>
+        <i data-lucide="scissors" class="icon-green"></i>
+      </div>
+    </div>
+
+    <div class="options">
+      <div class="option" id="gerenciarProfissionais">
+        <i data-lucide="users"></i>
+        <div>
+          <h3>Gerenciar Profissionais</h3>
+          <p>Adicionar, editar e remover barbeiros</p>
+        </div>
+      </div>
+
+      <div class="option" id="gerenciarServicos">
+        <i data-lucide="scissors"></i>
+        <div>
+          <h3>Gerenciar Serviços</h3>
+          <p>Configurar serviços e valores</p>
+        </div>
+      </div>
+
+      <div class="option" id="perfilBarbearia">
+        <i data-lucide="settings"></i>
+        <div>
+          <h3>Perfil da Barbearia</h3>
+          <p>Editar dados e horários</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="painel.js"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>

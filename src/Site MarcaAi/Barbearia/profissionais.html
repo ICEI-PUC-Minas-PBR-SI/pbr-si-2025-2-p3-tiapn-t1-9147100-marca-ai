@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profissionais | Marca Aí</title>
+  <link rel="stylesheet" href="profissionais.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <header class="topo">
+    <!-- Voltar para o painel da Barbearia -->
+    <a href="painel.html" class="btn-voltar" aria-label="Voltar para o Painel">
+      <i data-lucide="arrow-left"></i>
+    </a>
+
+    <div class="titulo">
+      <h1>Profissionais</h1>
+      <p>Gerencie sua equipe</p>
+    </div>
+
+    <button id="abrirModalAdicionar" class="btn-primario">
+      <i data-lucide="plus"></i> Adicionar
+    </button>
+  </header>
+
+  <main id="listaProfissionais" class="lista" aria-live="polite"></main>
+
+  <!-- Modal -->
+  <div id="modalOverlay" class="modal-overlay" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitulo">
+      <button class="fechar" id="btnFecharModal" aria-label="Fechar">
+        <i data-lucide="x"></i>
+      </button>
+
+      <h2 id="modalTitulo">Novo Profissional</h2>
+
+      <form id="formProfissional" novalidate>
+
+        <!-- ⚠ NECESSÁRIO PARA EDITAR -->
+        <input type="hidden" id="idProfissional">
+
+        <label for="nome">Nome Completo</label>
+        <input id="nome" type="text" placeholder="Ex: João Silva" autocomplete="name" />
+
+        <label for="especialidade">Especialidade</label>
+        <input id="especialidade" type="text" placeholder="Ex: Corte e Barba" />
+
+        <label for="telefone">Telefone</label>
+        <input id="telefone" type="tel" placeholder="(00) 00000-0000" autocomplete="tel" />
+
+        <div class="acoes-form">
+          <button type="button" class="btn-secundario" id="btnCancelar">Cancelar</button>
+          <button type="submit" class="btn-primario" id="btnSalvar">Adicionar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="profissionais.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>
