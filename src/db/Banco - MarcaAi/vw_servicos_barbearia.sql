@@ -1,14 +1,19 @@
 USE marcaai_db;
 
-CREATE OR REPLACE VIEW vw_servicos_barbearia AS
-SELECT 
-    bs.id AS id_relacao,
-    b.id AS id_barbearia,
-    s.id AS id_servico,
-    s.nome AS nome_servico,
-    s.descricao,
-    s.duracao,
-    bs.preco AS preco_venda
-FROM barbearia_servicos bs
-INNER JOIN barbearias b ON b.id = bs.id_barbearia
-INNER JOIN servicos s ON s.id = bs.id_servico;
+DROP VIEW IF EXISTS vw_servicos_barbearia;
+
+CREATE VIEW vw_servicos_barbearia AS
+SELECT
+    id_servico,
+    id_barbearia,
+    nome AS nome_servico,
+    descricao,
+    preco,
+    duracao
+FROM servicos;
+
+SELECT * FROM vw_servicos_barbearia;
+
+SELECT * FROM vw_servicos_barbearia WHERE id_barbearia = 1;
+
+
