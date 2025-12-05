@@ -1,29 +1,34 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: Marca Aí
+
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: dos Santos Primo
+    given-names: Bruno Rodrigues
+  - family-names: Ferreira
+    given-names: Gustavo Henrique
+  - family-names: Moutinho dos Santos
+    given-names: João Gabriel 
+  - family-names: Pinto
+    given-names: Rhaniel Lucas
+  - family-names: Silva
+    given-names: Talisson Vilaça
+  - family-names: Maia Silva
+    given-names: Victoria Gabriella 
 
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
-    keywords:
-    - 
-repository-code: 
+    family-names: Gomes Amaral
+    given-names: Cleia Marcia
+
+keywords:
+  - Barbearia
+  - Gestão de Clientes 
+  - Gestão de Serviços
+  - PUC Minas
+  - Sistemas de Informação
+
+repository-code: https://github.com/ICEI-PUC-Minas-PBR-SI/pbr-si-2025-2-p3-tiapn-t1-9147100-marca-ai
 license: CC-BY-4.0
 version: 1.0.0
-date-released:
+date-released: 2025-12-05
